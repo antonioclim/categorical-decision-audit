@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Wine post-outcome exploratory sensitivity only",
+  "plan_sha256": "07e1114322f57be40c7f5da397dd4a6d54324ac072080b840c5d17265e9b7d11",
+  "retained_result_reproduced_byte_identically": true,
+  "candidate_classifications_compared": 144,
+  "block_rankings_compared": 72,
+  "group_count_score_payloads_compared": 432,
+  "third_party_dependencies": false,
+  "raw_sources_unchanged": true,
+  "original_kernel_rerun": false,
+  "human_or_organisational_evidence": false
+}

@@ -1,0 +1,2053 @@
+{
+  "action_or_verdict_disagreements": 0,
+  "checked_cases": 128,
+  "evidence": [
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "doors=3__buying-lug_boot__adequate-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|lug_boot=big"
+        ],
+        "good_or_better": [
+          "doors=2|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=med__doors-lug_boot__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "safety=low__maint-persons__adequate-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "buying=high__maint-doors__adequate-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4"
+        ],
+        "ordinal": [
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4"
+        ]
+      },
+      "case_id": "maint=med__doors-persons__adequate-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "buying=vhigh__doors-persons__good_or_better-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "buying=low__maint-lug_boot__adequate-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|doors=2",
+          "buying=vhigh|doors=3",
+          "buying=vhigh|doors=4",
+          "buying=vhigh|doors=5more"
+        ],
+        "good_or_better": [
+          "buying=vhigh|doors=2",
+          "buying=vhigh|doors=3",
+          "buying=vhigh|doors=4",
+          "buying=vhigh|doors=5more"
+        ]
+      },
+      "case_id": "persons=2__buying-doors__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "persons=2__maint-lug_boot__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "good_or_better": []
+      },
+      "case_id": "buying=low__lug_boot-safety__adequate-good_or_better__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=vhigh|doors=2"
+        ],
+        "ordinal": [
+          "maint=vhigh|doors=2"
+        ]
+      },
+      "case_id": "safety=low__maint-doors__adequate-ordinal__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|maint=med"
+        ],
+        "good_or_better": [
+          "buying=med|maint=low"
+        ]
+      },
+      "case_id": "safety=high__buying-maint__adequate-good_or_better__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=vhigh|lug_boot=small",
+          "maint=vhigh|lug_boot=med"
+        ],
+        "ordinal": [
+          "maint=vhigh|lug_boot=small",
+          "maint=vhigh|lug_boot=med"
+        ]
+      },
+      "case_id": "persons=2__maint-lug_boot__adequate-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=med",
+          "doors=3|safety=high",
+          "doors=4|safety=med",
+          "doors=4|safety=high",
+          "doors=5more|safety=med",
+          "doors=5more|safety=high"
+        ],
+        "good_or_better": []
+      },
+      "case_id": "maint=low__doors-safety__adequate-good_or_better__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|safety=high"
+        ],
+        "good_or_better": [
+          "buying=low|safety=high"
+        ]
+      },
+      "case_id": "lug_boot=small__buying-safety__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|lug_boot=big"
+        ],
+        "ordinal": [
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=med__maint-lug_boot__adequate-ordinal__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=vhigh|safety=high",
+          "maint=high|safety=high"
+        ],
+        "ordinal": [
+          "maint=low|safety=high",
+          "maint=med|safety=high"
+        ]
+      },
+      "case_id": "buying=med__maint-safety__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "safety=med__buying-persons__good_or_better-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=big"
+        ]
+      },
+      "case_id": "maint=vhigh__buying-lug_boot__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|safety=high"
+        ],
+        "ordinal": [
+          "doors=3|safety=high"
+        ]
+      },
+      "case_id": "buying=high__doors-safety__adequate-ordinal__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|safety=high",
+          "buying=high|safety=high",
+          "buying=med|safety=med",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=low|safety=high"
+        ],
+        "good_or_better": [
+          "buying=low|safety=high"
+        ]
+      },
+      "case_id": "maint=med__buying-safety__adequate-good_or_better__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "doors=2|lug_boot=big"
+        ],
+        "ordinal": [
+          "doors=2|lug_boot=big"
+        ]
+      },
+      "case_id": "buying=low__doors-lug_boot__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "persons=more__maint-lug_boot__good_or_better-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=med|lug_boot=med",
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=small",
+          "buying=low|lug_boot=med",
+          "buying=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "buying=med|lug_boot=med",
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=small",
+          "buying=low|lug_boot=med",
+          "buying=low|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=high__buying-lug_boot__good_or_better-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|persons=4"
+        ],
+        "good_or_better": [
+          "buying=med|persons=4"
+        ]
+      },
+      "case_id": "maint=low__buying-persons__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=med|maint=med",
+          "buying=med|maint=low",
+          "buying=low|maint=med",
+          "buying=low|maint=low"
+        ],
+        "ordinal": [
+          "buying=med|maint=med",
+          "buying=med|maint=low",
+          "buying=low|maint=med",
+          "buying=low|maint=low"
+        ]
+      },
+      "case_id": "persons=more__buying-maint__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=med",
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ],
+        "ordinal": [
+          "persons=4|safety=med",
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ]
+      },
+      "case_id": "doors=4__persons-safety__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|safety=high",
+          "buying=high|safety=high",
+          "buying=med|safety=med",
+          "buying=med|safety=high"
+        ],
+        "ordinal": [
+          "buying=med|safety=med",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=low|safety=high"
+        ]
+      },
+      "case_id": "maint=low__buying-safety__adequate-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "doors=3__maint-persons__good_or_better-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=low|persons=more",
+          "buying=med|persons=more"
+        ],
+        "good_or_better": [
+          "buying=low|persons=more",
+          "buying=low|persons=4"
+        ]
+      },
+      "case_id": "doors=3__buying-persons__adequate-good_or_better__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|safety=high",
+          "maint=low|safety=high",
+          "maint=high|safety=high",
+          "maint=med|safety=med"
+        ],
+        "good_or_better": [
+          "maint=low|safety=high",
+          "maint=med|safety=high",
+          "maint=low|safety=med",
+          "maint=high|safety=high"
+        ]
+      },
+      "case_id": "doors=3__maint-safety__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|persons=4",
+          "buying=low|persons=4"
+        ],
+        "ordinal": [
+          "buying=med|persons=4",
+          "buying=low|persons=4"
+        ]
+      },
+      "case_id": "maint=low__buying-persons__adequate-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=low|persons=more",
+          "buying=low|persons=4"
+        ],
+        "ordinal": [
+          "buying=low|persons=more",
+          "buying=low|persons=4"
+        ]
+      },
+      "case_id": "doors=3__buying-persons__good_or_better-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=big"
+        ],
+        "good_or_better": [
+          "persons=2|lug_boot=small"
+        ]
+      },
+      "case_id": "buying=high__persons-lug_boot__adequate-good_or_better__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ],
+        "good_or_better": [
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ]
+      },
+      "case_id": "buying=low__doors-persons__adequate-good_or_better__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|safety=high",
+          "maint=low|safety=high"
+        ],
+        "ordinal": [
+          "maint=low|safety=high",
+          "maint=med|safety=high"
+        ]
+      },
+      "case_id": "lug_boot=med__maint-safety__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big"
+        ],
+        "good_or_better": [
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "persons=more__maint-lug_boot__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=med"
+        ],
+        "good_or_better": [
+          "persons=4|lug_boot=med"
+        ]
+      },
+      "case_id": "doors=4__persons-lug_boot__adequate-good_or_better__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=low|doors=3"
+        ],
+        "ordinal": [
+          "maint=low|doors=3"
+        ]
+      },
+      "case_id": "lug_boot=small__maint-doors__good_or_better-ordinal__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=high",
+          "persons=more|safety=high"
+        ],
+        "ordinal": [
+          "persons=4|safety=high",
+          "persons=more|safety=high"
+        ]
+      },
+      "case_id": "maint=high__persons-safety__adequate-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "lug_boot=small|safety=high",
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=med",
+          "lug_boot=big|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=small|safety=high",
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=med",
+          "lug_boot=big|safety=high"
+        ]
+      },
+      "case_id": "doors=2__lug_boot-safety__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=high"
+        ],
+        "good_or_better": [
+          "persons=4|safety=high"
+        ]
+      },
+      "case_id": "maint=med__persons-safety__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|lug_boot=small",
+          "buying=vhigh|lug_boot=med",
+          "buying=vhigh|lug_boot=big",
+          "buying=high|lug_boot=small"
+        ],
+        "good_or_better": [
+          "buying=vhigh|lug_boot=small",
+          "buying=vhigh|lug_boot=med",
+          "buying=vhigh|lug_boot=big",
+          "buying=high|lug_boot=small"
+        ]
+      },
+      "case_id": "safety=low__buying-lug_boot__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "lug_boot=med__persons-safety__good_or_better-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|safety=high",
+          "doors=4|safety=high"
+        ],
+        "good_or_better": [
+          "doors=3|safety=high",
+          "doors=4|safety=high"
+        ]
+      },
+      "case_id": "persons=more__doors-safety__adequate-good_or_better__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=low|doors=3",
+          "maint=low|doors=4"
+        ],
+        "ordinal": [
+          "maint=low|doors=3",
+          "maint=low|doors=4"
+        ]
+      },
+      "case_id": "persons=more__maint-doors__good_or_better-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=high",
+          "doors=5more|safety=high"
+        ],
+        "ordinal": []
+      },
+      "case_id": "buying=vhigh__doors-safety__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "maint=low__persons-lug_boot__good_or_better-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=med",
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ],
+        "good_or_better": [
+          "persons=4|safety=med",
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ]
+      },
+      "case_id": "doors=2__persons-safety__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|lug_boot=big"
+        ],
+        "good_or_better": [
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=med__maint-lug_boot__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "persons=2|safety=low"
+        ],
+        "ordinal": [
+          "persons=4|safety=high"
+        ]
+      },
+      "case_id": "maint=vhigh__persons-safety__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "safety=low__maint-persons__good_or_better-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=low|persons=more"
+        ],
+        "ordinal": [
+          "buying=low|persons=more"
+        ]
+      },
+      "case_id": "lug_boot=med__buying-persons__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "buying=high__lug_boot-safety__adequate-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|lug_boot=med",
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=med",
+          "buying=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "buying=med|lug_boot=med",
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=med",
+          "buying=low|lug_boot=big"
+        ]
+      },
+      "case_id": "doors=5more__buying-lug_boot__adequate-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|persons=4",
+          "doors=3|persons=4",
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ],
+        "good_or_better": [
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4"
+        ]
+      },
+      "case_id": "safety=high__doors-persons__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=low|persons=4",
+          "buying=low|persons=more"
+        ],
+        "ordinal": [
+          "buying=low|persons=4",
+          "buying=low|persons=more"
+        ]
+      },
+      "case_id": "maint=high__buying-persons__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "lug_boot=big|safety=high",
+          "lug_boot=med|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=big|safety=high",
+          "lug_boot=med|safety=high"
+        ]
+      },
+      "case_id": "persons=4__lug_boot-safety__good_or_better-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "doors=2|lug_boot=small",
+          "doors=2|lug_boot=med"
+        ],
+        "ordinal": [
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=big"
+        ]
+      },
+      "case_id": "buying=vhigh__doors-lug_boot__good_or_better-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "lug_boot=med|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=big|safety=high"
+        ]
+      },
+      "case_id": "maint=low__lug_boot-safety__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "lug_boot=small|safety=high",
+          "lug_boot=med|safety=med",
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=med",
+          "lug_boot=big|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=high"
+        ]
+      },
+      "case_id": "doors=4__lug_boot-safety__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=med",
+          "doors=4|safety=high"
+        ],
+        "ordinal": [
+          "doors=4|safety=high",
+          "doors=5more|safety=high",
+          "doors=3|safety=high",
+          "doors=2|safety=high"
+        ]
+      },
+      "case_id": "lug_boot=med__doors-safety__adequate-ordinal__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|persons=more",
+          "buying=high|persons=4",
+          "buying=high|persons=more",
+          "buying=med|persons=4",
+          "buying=med|persons=more",
+          "buying=low|persons=4",
+          "buying=low|persons=more"
+        ],
+        "ordinal": [
+          "buying=med|persons=4",
+          "buying=med|persons=more",
+          "buying=low|persons=4",
+          "buying=low|persons=more"
+        ]
+      },
+      "case_id": "doors=3__buying-persons__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=med|persons=4",
+          "maint=med|persons=more",
+          "maint=low|persons=4",
+          "maint=low|persons=more"
+        ],
+        "ordinal": [
+          "maint=med|persons=4",
+          "maint=med|persons=more",
+          "maint=low|persons=4",
+          "maint=low|persons=more"
+        ]
+      },
+      "case_id": "doors=5more__maint-persons__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=small",
+          "persons=4|lug_boot=med",
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=small",
+          "persons=more|lug_boot=med",
+          "persons=more|lug_boot=big"
+        ],
+        "ordinal": [
+          "persons=4|lug_boot=small",
+          "persons=4|lug_boot=med",
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=small",
+          "persons=more|lug_boot=med",
+          "persons=more|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=high__persons-lug_boot__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=high|persons=4",
+          "buying=high|persons=more",
+          "buying=med|persons=4",
+          "buying=med|persons=more",
+          "buying=low|persons=4",
+          "buying=low|persons=more"
+        ],
+        "good_or_better": []
+      },
+      "case_id": "lug_boot=big__buying-persons__adequate-good_or_better__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=high",
+          "doors=5more|safety=high"
+        ],
+        "good_or_better": [
+          "doors=2|safety=low",
+          "doors=2|safety=med",
+          "doors=2|safety=high",
+          "doors=3|safety=low"
+        ]
+      },
+      "case_id": "buying=vhigh__doors-safety__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "persons=2__doors-safety__good_or_better-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|safety=high"
+        ],
+        "good_or_better": [
+          "maint=low|safety=high"
+        ]
+      },
+      "case_id": "lug_boot=small__maint-safety__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=med",
+          "doors=4|safety=high",
+          "doors=5more|safety=med",
+          "doors=5more|safety=high"
+        ],
+        "ordinal": []
+      },
+      "case_id": "persons=4__doors-safety__adequate-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "maint=high__buying-doors__good_or_better-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=high"
+        ],
+        "good_or_better": [
+          "persons=2|safety=low"
+        ]
+      },
+      "case_id": "maint=vhigh__persons-safety__adequate-good_or_better__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|safety=med",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=low|safety=high"
+        ],
+        "good_or_better": [
+          "buying=low|safety=high",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=med|safety=med"
+        ]
+      },
+      "case_id": "lug_boot=big__buying-safety__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4"
+        ],
+        "good_or_better": [
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4"
+        ]
+      },
+      "case_id": "maint=low__doors-persons__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|doors=3"
+        ],
+        "ordinal": [
+          "maint=low|doors=3"
+        ]
+      },
+      "case_id": "lug_boot=small__maint-doors__adequate-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=vhigh|lug_boot=big",
+          "maint=high|lug_boot=big"
+        ],
+        "good_or_better": [
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "buying=med__maint-lug_boot__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "safety=med__doors-lug_boot__adequate-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|doors=2",
+          "buying=vhigh|doors=3"
+        ],
+        "ordinal": [
+          "buying=vhigh|doors=2",
+          "buying=vhigh|doors=3"
+        ]
+      },
+      "case_id": "persons=2__buying-doors__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "doors=2|safety=low",
+          "doors=2|safety=med"
+        ],
+        "ordinal": [
+          "doors=2|safety=low",
+          "doors=2|safety=med"
+        ]
+      },
+      "case_id": "persons=2__doors-safety__good_or_better-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|safety=high",
+          "maint=low|safety=high"
+        ],
+        "ordinal": [
+          "maint=low|safety=high",
+          "maint=med|safety=high"
+        ]
+      },
+      "case_id": "persons=more__maint-safety__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|safety=high"
+        ],
+        "good_or_better": [
+          "maint=low|safety=high"
+        ]
+      },
+      "case_id": "doors=4__maint-safety__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=low|persons=4",
+          "buying=low|persons=more",
+          "buying=med|persons=4",
+          "buying=med|persons=more"
+        ],
+        "good_or_better": [
+          "buying=low|persons=more",
+          "buying=low|persons=4",
+          "buying=med|persons=more",
+          "buying=med|persons=4"
+        ]
+      },
+      "case_id": "safety=med__buying-persons__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|safety=high",
+          "buying=low|safety=high",
+          "buying=low|safety=med",
+          "buying=med|safety=med"
+        ],
+        "good_or_better": [
+          "buying=low|safety=high",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=med|safety=med"
+        ]
+      },
+      "case_id": "doors=5more__buying-safety__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|lug_boot=small",
+          "doors=2|lug_boot=med",
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=small",
+          "doors=3|lug_boot=med",
+          "doors=3|lug_boot=big",
+          "doors=4|lug_boot=small",
+          "doors=4|lug_boot=med",
+          "doors=4|lug_boot=big",
+          "doors=5more|lug_boot=small",
+          "doors=5more|lug_boot=med",
+          "doors=5more|lug_boot=big"
+        ],
+        "ordinal": [
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=med",
+          "doors=3|lug_boot=big",
+          "doors=4|lug_boot=med",
+          "doors=4|lug_boot=big",
+          "doors=5more|lug_boot=med",
+          "doors=5more|lug_boot=big"
+        ]
+      },
+      "case_id": "safety=high__doors-lug_boot__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=big",
+          "doors=4|lug_boot=med",
+          "doors=4|lug_boot=big"
+        ],
+        "ordinal": [
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=big",
+          "doors=4|lug_boot=med",
+          "doors=4|lug_boot=big"
+        ]
+      },
+      "case_id": "buying=vhigh__doors-lug_boot__adequate-ordinal__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|lug_boot=big"
+        ],
+        "good_or_better": [
+          "maint=vhigh|lug_boot=small"
+        ]
+      },
+      "case_id": "buying=vhigh__maint-lug_boot__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=vhigh|doors=2"
+        ],
+        "ordinal": [
+          "buying=med|doors=4"
+        ]
+      },
+      "case_id": "maint=vhigh__buying-doors__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=high",
+          "persons=more|safety=high"
+        ],
+        "good_or_better": [
+          "persons=4|safety=high",
+          "persons=more|safety=high"
+        ]
+      },
+      "case_id": "doors=4__persons-safety__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=vhigh|lug_boot=big",
+          "maint=high|lug_boot=med"
+        ],
+        "good_or_better": [
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "buying=low__maint-lug_boot__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=med|safety=high",
+          "buying=low|safety=high"
+        ],
+        "ordinal": [
+          "buying=med|safety=high",
+          "buying=low|safety=high"
+        ]
+      },
+      "case_id": "maint=med__buying-safety__good_or_better-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|safety=med",
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ],
+        "ordinal": [
+          "persons=4|safety=high",
+          "persons=more|safety=med",
+          "persons=more|safety=high"
+        ]
+      },
+      "case_id": "lug_boot=med__persons-safety__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big",
+          "maint=med|lug_boot=med",
+          "maint=low|lug_boot=med"
+        ],
+        "ordinal": [
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big",
+          "maint=med|lug_boot=med",
+          "maint=low|lug_boot=med"
+        ]
+      },
+      "case_id": "buying=low__maint-lug_boot__good_or_better-ordinal__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ],
+        "good_or_better": [
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ]
+      },
+      "case_id": "maint=low__doors-persons__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=3|safety=high"
+        ],
+        "good_or_better": [
+          "doors=3|safety=high"
+        ]
+      },
+      "case_id": "maint=low__doors-safety__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=big"
+        ],
+        "ordinal": [
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=big"
+        ]
+      },
+      "case_id": "maint=med__persons-lug_boot__adequate-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=low|doors=4",
+          "buying=low|doors=5more",
+          "buying=low|doors=3",
+          "buying=med|doors=4"
+        ],
+        "ordinal": [
+          "buying=low|doors=4",
+          "buying=low|doors=5more",
+          "buying=low|doors=3",
+          "buying=med|doors=4"
+        ]
+      },
+      "case_id": "safety=med__buying-doors__good_or_better-ordinal__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=big"
+        ],
+        "good_or_better": [
+          "persons=4|lug_boot=big"
+        ]
+      },
+      "case_id": "doors=3__persons-lug_boot__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "lug_boot=small__persons-safety__good_or_better-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=high|doors=4",
+          "maint=high|doors=5more"
+        ],
+        "good_or_better": [
+          "maint=vhigh|doors=2",
+          "maint=vhigh|doors=3"
+        ]
+      },
+      "case_id": "buying=high__maint-doors__adequate-good_or_better__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "persons=more__buying-safety__good_or_better-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "lug_boot=small|safety=high",
+          "lug_boot=med|safety=med",
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=small|safety=high",
+          "lug_boot=med|safety=med",
+          "lug_boot=med|safety=high",
+          "lug_boot=big|safety=high"
+        ]
+      },
+      "case_id": "doors=4__lug_boot-safety__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|lug_boot=big",
+          "doors=3|lug_boot=med",
+          "doors=3|lug_boot=big",
+          "doors=4|lug_boot=med",
+          "doors=4|lug_boot=big",
+          "doors=5more|lug_boot=med",
+          "doors=5more|lug_boot=big"
+        ],
+        "ordinal": []
+      },
+      "case_id": "buying=high__doors-lug_boot__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|maint=med",
+          "buying=med|maint=low"
+        ],
+        "ordinal": [
+          "buying=med|maint=low",
+          "buying=low|maint=med"
+        ]
+      },
+      "case_id": "lug_boot=small__buying-maint__adequate-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=high",
+          "doors=5more|safety=high"
+        ],
+        "ordinal": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=high",
+          "doors=5more|safety=high"
+        ]
+      },
+      "case_id": "buying=med__doors-safety__adequate-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=high",
+          "doors=5more|safety=high"
+        ],
+        "good_or_better": [
+          "doors=4|safety=high",
+          "doors=5more|safety=high",
+          "doors=2|safety=high",
+          "doors=3|safety=high"
+        ]
+      },
+      "case_id": "persons=4__doors-safety__adequate-good_or_better__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=med|maint=low"
+        ],
+        "ordinal": [
+          "buying=med|maint=low"
+        ]
+      },
+      "case_id": "doors=4__buying-maint__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "good_or_better": []
+      },
+      "case_id": "buying=med__maint-doors__adequate-good_or_better__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "doors=2|persons=2",
+          "doors=2|persons=4"
+        ],
+        "ordinal": [
+          "doors=3|persons=more",
+          "doors=4|persons=4"
+        ]
+      },
+      "case_id": "maint=vhigh__doors-persons__good_or_better-ordinal__k2-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "lug_boot=small|safety=high"
+        ],
+        "ordinal": [
+          "lug_boot=med|safety=high"
+        ]
+      },
+      "case_id": "doors=4__lug_boot-safety__adequate-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "good_or_better": []
+      },
+      "case_id": "maint=low__buying-doors__adequate-good_or_better__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|persons=4"
+        ],
+        "good_or_better": [
+          "doors=2|persons=4"
+        ]
+      },
+      "case_id": "lug_boot=big__doors-persons__adequate-good_or_better__k1-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=med|doors=3",
+          "maint=low|doors=3",
+          "maint=low|doors=4",
+          "maint=low|doors=5more"
+        ],
+        "ordinal": [
+          "maint=med|doors=3",
+          "maint=low|doors=3",
+          "maint=low|doors=4",
+          "maint=low|doors=5more"
+        ]
+      },
+      "case_id": "lug_boot=small__maint-doors__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|safety=high",
+          "doors=3|safety=high",
+          "doors=4|safety=med",
+          "doors=4|safety=high",
+          "doors=5more|safety=med",
+          "doors=5more|safety=high"
+        ],
+        "good_or_better": []
+      },
+      "case_id": "persons=4__doors-safety__adequate-good_or_better__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=small",
+          "persons=4|lug_boot=med",
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=small",
+          "persons=more|lug_boot=med",
+          "persons=more|lug_boot=big"
+        ],
+        "ordinal": [
+          "persons=4|lug_boot=med",
+          "persons=4|lug_boot=big",
+          "persons=more|lug_boot=med",
+          "persons=more|lug_boot=big"
+        ]
+      },
+      "case_id": "maint=med__persons-lug_boot__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|doors=2",
+          "maint=med|doors=3"
+        ],
+        "good_or_better": [
+          "maint=low|doors=2",
+          "maint=low|doors=3"
+        ]
+      },
+      "case_id": "lug_boot=big__maint-doors__adequate-good_or_better__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [],
+        "ordinal": []
+      },
+      "case_id": "buying=low__maint-doors__adequate-ordinal__ge3_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "doors=2|safety=low"
+        ],
+        "ordinal": [
+          "doors=2|safety=low"
+        ]
+      },
+      "case_id": "persons=2__doors-safety__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|lug_boot=small"
+        ],
+        "good_or_better": [
+          "buying=vhigh|lug_boot=small"
+        ]
+      },
+      "case_id": "persons=2__buying-lug_boot__adequate-good_or_better__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=med|lug_boot=med",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ],
+        "good_or_better": [
+          "maint=med|lug_boot=med",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "doors=5more__maint-lug_boot__adequate-good_or_better__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "persons=4|lug_boot=big"
+        ],
+        "ordinal": [
+          "persons=4|lug_boot=big"
+        ]
+      },
+      "case_id": "maint=high__persons-lug_boot__adequate-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [],
+        "ordinal": []
+      },
+      "case_id": "buying=low__doors-lug_boot__good_or_better-ordinal__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "maint=med|lug_boot=med",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "maint=med|lug_boot=med",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "persons=4__maint-lug_boot__good_or_better-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=low|safety=high",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=med|safety=med"
+        ],
+        "ordinal": [
+          "buying=low|safety=high",
+          "buying=med|safety=high",
+          "buying=low|safety=med",
+          "buying=med|safety=med"
+        ]
+      },
+      "case_id": "doors=3__buying-safety__good_or_better-ordinal__k4-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "maint=high|lug_boot=big",
+          "maint=med|lug_boot=med",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "maint=high|lug_boot=big",
+          "maint=med|lug_boot=big",
+          "maint=low|lug_boot=med",
+          "maint=low|lug_boot=big"
+        ]
+      },
+      "case_id": "doors=2__maint-lug_boot__adequate-ordinal__k4-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "good_or_better": [
+          "buying=low|persons=4"
+        ],
+        "ordinal": [
+          "buying=low|persons=4"
+        ]
+      },
+      "case_id": "safety=high__buying-persons__good_or_better-ordinal__k1-ordered_prefix",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "doors=2|persons=4",
+          "doors=2|persons=more",
+          "doors=3|persons=4",
+          "doors=3|persons=more",
+          "doors=4|persons=4",
+          "doors=4|persons=more",
+          "doors=5more|persons=4",
+          "doors=5more|persons=more"
+        ],
+        "good_or_better": []
+      },
+      "case_id": "lug_boot=big__doors-persons__adequate-good_or_better__ge1_2",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    },
+    {
+      "action_status": "ACTION_EQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=big"
+        ],
+        "ordinal": [
+          "buying=med|lug_boot=big",
+          "buying=low|lug_boot=big"
+        ]
+      },
+      "case_id": "doors=2__buying-lug_boot__adequate-ordinal__k2-selected_set",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "DO_NOT_COLLAPSE_ESTIMANDS"
+    },
+    {
+      "action_status": "ACTION_NONEQUIVALENT",
+      "actions": {
+        "adequate": [
+          "buying=vhigh|maint=med",
+          "buying=vhigh|maint=low",
+          "buying=high|maint=high",
+          "buying=high|maint=med",
+          "buying=high|maint=low",
+          "buying=med|maint=vhigh",
+          "buying=med|maint=high",
+          "buying=med|maint=med",
+          "buying=med|maint=low",
+          "buying=low|maint=vhigh",
+          "buying=low|maint=high",
+          "buying=low|maint=med",
+          "buying=low|maint=low"
+        ],
+        "ordinal": [
+          "buying=med|maint=med",
+          "buying=med|maint=low",
+          "buying=low|maint=high",
+          "buying=low|maint=med",
+          "buying=low|maint=low"
+        ]
+      },
+      "case_id": "persons=more__buying-maint__adequate-ordinal__ge1_4",
+      "estimand_status": "ESTIMAND_NOT_COMPARABLE",
+      "stopping_decision": "CONTINUE_DIAGNOSTIC_FOR_ACTION_OBJECTIVE"
+    }
+  ],
+  "scope": "unchanged aggregate engine core; not the full DSS interface or uncertain-pool path",
+  "source_integrity": "PASS",
+  "source_version": "0.6.1rc1"
+}

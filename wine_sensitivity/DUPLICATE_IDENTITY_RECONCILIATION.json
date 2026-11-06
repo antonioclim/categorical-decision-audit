@@ -1,0 +1,54 @@
+{
+  "legacy_identity": "full parsed CSV row strings, no colour in duplicate key",
+  "new_identity": "colour plus full parsed CSV row strings",
+  "legacy_counts": {
+    "unique_contents": 5318,
+    "duplicate_groups": 993,
+    "cross_block_duplicate_groups": 952,
+    "rows_in_cross_block_duplicates": 2090
+  },
+  "new_counts": {
+    "unique_contents": 5320,
+    "duplicate_groups": 992,
+    "cross_block_duplicate_groups": 951,
+    "rows_in_cross_block_duplicates": 2087
+  },
+  "cross_colour_content_groups": [
+    {
+      "legacy_row_content_sha256": "b6881519cf2fabef4b779f4a109c475df120739fa56df651bf5ee45b081b2019",
+      "records": [
+        {
+          "record_id": "red:837",
+          "colour": "red",
+          "block": 11
+        },
+        {
+          "record_id": "red:838",
+          "colour": "red",
+          "block": 16
+        },
+        {
+          "record_id": "white:2632",
+          "colour": "white",
+          "block": 4
+        }
+      ]
+    },
+    {
+      "legacy_row_content_sha256": "ee289773c8904201fcc84ed0923b1aac5d6a7d30274ae2a1163efed464f397c5",
+      "records": [
+        {
+          "record_id": "red:1132",
+          "colour": "red",
+          "block": 13
+        },
+        {
+          "record_id": "white:3375",
+          "colour": "white",
+          "block": 8
+        }
+      ]
+    }
+  ],
+  "interpretation": "M12 counts are reproduced under their own content-only identity. Sensitivity counts differ because colour is part of the new frozen identity; no raw rows or baseline ranking outcomes changed. Neither identity establishes physical sample identity."
+}

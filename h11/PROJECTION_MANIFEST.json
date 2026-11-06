@@ -1,0 +1,76 @@
+{
+  "adaptations": [
+    "root path points to the review projection",
+    "reports go to an automatically removed temporary directory",
+    "verify available frozen files and enumerate all excluded frozen files",
+    "print complete scope/result receipt",
+    "original frozen prose documents replaced by separately hash-bound Markdown reader editions",
+    "reader document revisions do not alter historical freeze or acquisition records"
+  ],
+  "adapted_review_validator_sha256": "be528de92d34b375e174ecbf0a48d14c6d07a390976194e5ee0e61b8b7395260",
+  "excluded_frozen_files": [
+    "src/acquire_heldout.py",
+    "src/contract_verifier.py",
+    "src/engine_bridge.py",
+    "src/experiment.py",
+    "src/freeze.py",
+    "src/replay_verifier.py",
+    "src/run_h2.py",
+    "study/IMPLEMENTATION_SPEC.txt",
+    "study/PROTOCOL_EN.txt",
+    "tests/test_contract.py",
+    "tests/test_replay.py",
+    "tests/test_transport_adversarial.py",
+    "vendor/LICENSE_INTERNAL.txt",
+    "vendor/odsa_method/__init__.py",
+    "vendor/odsa_method/aggregate.py",
+    "vendor/odsa_method/benchmark/__init__.py",
+    "vendor/odsa_method/benchmark/assess.py",
+    "vendor/odsa_method/benchmark/generators.py",
+    "vendor/odsa_method/benchmark/oracle.py",
+    "vendor/odsa_method/benchmark/serialization.py",
+    "vendor/odsa_method/cases_legacy.py",
+    "vendor/odsa_method/certificates.py",
+    "vendor/odsa_method/cli.py",
+    "vendor/odsa_method/comparators.py",
+    "vendor/odsa_method/controls_m4.py",
+    "vendor/odsa_method/exact_numeric.py",
+    "vendor/odsa_method/feasible.py",
+    "vendor/odsa_method/legacy.py",
+    "vendor/odsa_method/milp_exact.py",
+    "vendor/odsa_method/models.py",
+    "vendor/odsa_method/optimise.py",
+    "vendor/odsa_method/partial_order.py",
+    "vendor/odsa_method/r2_vendor/__init__.py",
+    "vendor/odsa_method/r2_vendor/dgp.py",
+    "vendor/odsa_method/r2_vendor/protocol.py",
+    "vendor/odsa_method/r3_bridge.py"
+  ],
+  "included_frozen_files": [
+    "study/BASELINE_IDENTITY.json",
+    "study/CASE_SELECTION.json",
+    "study/REMEDIATION_FINAL.json",
+    "study/SOURCE_EXCLUSION_CHECK.json",
+    "study/VENDORED_SOURCE.json"
+  ],
+  "original_H2_validator_sha256": "817de77cb6cb83b963ef326b704928c37a45a55bc92aff6f39ad5686bcfaf783",
+  "original_engine_report_scope": "retained_engine_check.json is a retained H2 result, not a rerun of the excluded F2 kernel",
+  "verification_scope": "Reconstruct raw UCI tables/actions/claim truth and reconcile all retained observations/endpoint identities; the original engine, verifiers and tests are not re-executed.",
+  "version": "M13-repository-r1",
+  "document_replacements": [
+    {
+      "frozen_path": "study/IMPLEMENTATION_SPEC.txt",
+      "frozen_sha256": "d64997f08af5526b81b2594473133e184de854347ac196153931cb3b708d715d",
+      "current_path": "study/IMPLEMENTATION_SPEC.md",
+      "current_sha256": "604f2194ac4ebb0b0ab0a3fd103e11b33601a48f8c382aa950bd2cfc396843df",
+      "scope": "Presentation revision; original frozen bytes are not included or byte-verified in this distribution."
+    },
+    {
+      "frozen_path": "study/PROTOCOL_EN.txt",
+      "frozen_sha256": "fb88f4c4069f49205e7864907df3f71408c3bef88dad12a5939d5d300f6c0e02",
+      "current_path": "study/PROTOCOL.md",
+      "current_sha256": "a0611c461614775d6fe806e7a89973d40c8c2256c673701c31fcb4b386ae72c0",
+      "scope": "Presentation revision; original frozen bytes are not included or byte-verified in this distribution."
+    }
+  ]
+}

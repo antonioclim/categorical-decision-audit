@@ -1,0 +1,33 @@
+{
+  "0145 extract": {
+    "members_used": {},
+    "name": "TRACE_0145_EXTRACT.json",
+    "sha256": "927fc8aff68e6487bd1405d956341a339f1be5f78292a3d490d30f3c07f81cdb"
+  },
+  "F2": {
+    "members_used": {
+      "F2/evaluation/CASE_REGISTRY.json": "5cb5a8425bf99f68cab026a5b8f971bba56a0a281fb13c62cf07eca474676e4a",
+      "F2/evaluation/PROTOCOL_B1.json": "346ff260fe9b0c847161da32874bc54d16b5c72fdbcda80db707767dc06f5164",
+      "F2/evaluation/runs/full_01/MEMORY_INSTRUMENT_VALIDATION.json": "84be92099f3161590b7cade3212152bba3f906f1a3b6b0c23664642d286da104",
+      "F2/evaluation/runs/full_01/RAW_RUNS.jsonl": "a2c2282592a43b9fb9e1378dc865d45a33de0d5e28212e77f8a699b8722c3c80",
+      "F2/release/replay/attempt02/ordered_prefix/OBJECTIVE_SWEEP.csv": "dc97fa8e918fc2229dc28086bc09de4f5ae682bd27ffc36da1bffc35724cdd44",
+      "F2/release/replay/attempt02/selected_set/OBJECTIVE_SWEEP.csv": "d65e18a42439bd6efa310403791e4f3fff6d0a18c1a44e870cad2308654955bc",
+      "F2/release/replay/attempt02/selected_set/ORDER_ONLY_TRACE_RECONCILIATION.csv": "e1273c93c5a7e2475c5b83a408f3744c07a0bc3bbe2f32a63514862f9e9240d4",
+      "F2/release/replay/attempt02/selected_set/RULE_STATUS_DIFFERENCES.csv": "f9a9deff3fb810c9e41e2895ba6779e2633dba59ef1b819c3c37a95e6eebfa92",
+      "F2/science/epa_case/PROTOCOL_C1.json": "1a4a66865f558184e05ff2cf493a25425fb6a6ebc4ecc8fb4340211b29bfdea3",
+      "F2/science/epa_case/outputs/RESULTS_C1.json": "ecb4922f0f27da391d2ffac9a00c8bbad72d48a73ff895f9d99b3e60aeea2a6a"
+    },
+    "name": "PaperM_F2_CONSOLIDARE_20261102.zip",
+    "sha256": "2f9d44aabfd2b9efd4a6f61525fa4343bf5d01c838c860052d6d9800cd0767ce"
+  },
+  "M4 EPSS replay": {
+    "members_used": {
+      "EPSS_Reviewer_Replay/data/SOURCES.json": "4b0141a955c8a042bbcd4b4a22e324b467f8f046b4a510a7c2018d87c4c2eb09",
+      "EPSS_Reviewer_Replay/data/revisions/SOURCES.json": "08e0ce362b77095234a4f6293b825bfc2a610bd260714073adecbe0da5b0a9d4",
+      "EPSS_Reviewer_Replay/results/evaluations.json": "8e47ed02f014bf4f8c0cd40c964127651f732adf79472218f27f40cf7d939211",
+      "EPSS_Reviewer_Replay/results/revisions.json": "b4d89b1e28d73ae4e8735887037d01c7964a93bfa5e5c7b5940f6325f4cd9b76"
+    },
+    "name": "PaperM_M4_EPSS_Reviewer_Replay.zip",
+    "sha256": "32ef6ac260283ac29e6f92acca67e7c917db8c8db2826a6c4dfd703e7e63c9ab"
+  }
+}

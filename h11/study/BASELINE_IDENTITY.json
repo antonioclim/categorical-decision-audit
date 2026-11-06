@@ -1,0 +1,23 @@
+{
+  "baseline_files": {
+    "Manuscript.md": {
+      "bytes": 52268,
+      "sha256": "a69bcb18283640080f54ef679557eafff6257fc9b04ee5a4d3a4e9cc32edc833"
+    },
+    "PaperM_Manuscript_Blind.docx": {
+      "bytes": 1690915,
+      "sha256": "823a049bd4142b81c6d2d19bbb60986f9651361ce49f8f94931e207faf6d863e"
+    },
+    "PaperM_PACHET_UPLOAD_ZENODO_DSS_20261105.zip": {
+      "bytes": 5094888,
+      "sha256": "1d9cbf490774545fed1e210be2355f6a839df990b4e4fb52c8420f414e8110fc"
+    }
+  },
+  "external_actions": [],
+  "manuscript_omml_expressions": 160,
+  "mathematical_proofs_modified": false,
+  "new_manuscript_results_inserted": false,
+  "project": "Paper M / DSS",
+  "status": "M10 retained unchanged, H11 separate private evaluation",
+  "title": "Different Definitions, Same Decision? An Executable Audit for Categorical Decision Support"
+}

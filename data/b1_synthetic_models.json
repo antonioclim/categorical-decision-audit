@@ -1,0 +1,6386 @@
+[
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_00",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 999999999,
+        "b": 1000000001
+      },
+      "G1": {
+        "a": 1000000000,
+        "b": 1000000000
+      },
+      "G2": {
+        "a": 1000000001,
+        "b": 999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_01",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 9999999999,
+        "b": 10000000001
+      },
+      "G1": {
+        "a": 10000000000,
+        "b": 10000000000
+      },
+      "G2": {
+        "a": 10000000001,
+        "b": 9999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_02",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 99999999999,
+        "b": 100000000001
+      },
+      "G1": {
+        "a": 100000000000,
+        "b": 100000000000
+      },
+      "G2": {
+        "a": 100000000001,
+        "b": 99999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_03",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 999999999,
+        "b": 1000000001
+      },
+      "G1": {
+        "a": 1000000000,
+        "b": 1000000000
+      },
+      "G2": {
+        "a": 1000000001,
+        "b": 999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_04",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 9999999999,
+        "b": 10000000001
+      },
+      "G1": {
+        "a": 10000000000,
+        "b": 10000000000
+      },
+      "G2": {
+        "a": 10000000001,
+        "b": 9999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F01_RATIONAL_BOUNDARY_05",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F01_RATIONAL_BOUNDARY",
+    "fixed_counts": {
+      "G0": {
+        "a": 99999999999,
+        "b": 100000000001
+      },
+      "G1": {
+        "a": 100000000000,
+        "b": 100000000000
+      },
+      "G2": {
+        "a": 100000000001,
+        "b": 99999999999
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_00",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/3",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "1",
+          "b": "4/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "9/11"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 2
+      },
+      "G1": {
+        "a": 2,
+        "b": 2
+      },
+      "G2": {
+        "a": 1,
+        "b": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_01",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "5/7",
+          "b": "1/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "4/11",
+          "b": "5/11"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "813280/1000003",
+          "b": "297839/1000003"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 0,
+        "b": 1
+      },
+      "G1": {
+        "a": 2,
+        "b": 1
+      },
+      "G2": {
+        "a": 0,
+        "b": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_02",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "3/11"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "328559/1000003",
+          "b": "228622/1000003"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/3",
+          "b": "0"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 2
+      },
+      "G1": {
+        "a": 2,
+        "b": 2
+      },
+      "G2": {
+        "a": 1,
+        "b": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_03",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "435093/1000003",
+          "b": "585546/1000003"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "4/7",
+          "b": "1/7"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 2
+      },
+      "G1": {
+        "a": 2,
+        "b": 2
+      },
+      "G2": {
+        "a": 0,
+        "b": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_04",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/3",
+          "b": "2/3"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "6/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "2/11"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 0,
+        "b": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2
+      },
+      "G2": {
+        "a": 2,
+        "b": 0
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F02_RANDOM_MULTIDEFINITION_05",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "5/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "7/11"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "930669/1000003",
+          "b": "164425/1000003"
+        }
+      }
+    ],
+    "family": "F02_RANDOM_MULTIDEFINITION",
+    "fixed_counts": {
+      "G0": {
+        "a": 2,
+        "b": 0
+      },
+      "G1": {
+        "a": 2,
+        "b": 1
+      },
+      "G2": {
+        "a": 0,
+        "b": 0
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_00",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 2,
+        "b": 0,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_01",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_02",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 2,
+        "b": 0,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_03",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_04",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 2,
+        "b": 0,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F03_TIES_AND_ORDER_05",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1",
+          "c": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "0",
+          "b": "0",
+          "c": "1"
+        }
+      }
+    ],
+    "family": "F03_TIES_AND_ORDER",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "G1": {
+        "a": 0,
+        "b": 2,
+        "c": 0
+      },
+      "G2": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": []
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_00",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/3",
+          "b": "2/3"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_01",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/7",
+          "b": "6/7"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_02",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/11",
+          "b": "10/11"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_03",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/13",
+          "b": "12/13"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_04",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/17",
+          "b": "16/17"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F04_COMMON_CONSTRAINT_05",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1",
+          "P1::a": "1",
+          "P2::a": "1"
+        },
+        "name": "shared_total",
+        "rhs": "3",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/19",
+          "b": "18/19"
+        }
+      }
+    ],
+    "family": "F04_COMMON_CONSTRAINT",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 2,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 2,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_00",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "mass_impossibility",
+        "rhs": "3",
+        "sense": ">="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_01",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fractional_impossibility",
+        "rhs": "20000000001/20000000000",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_02",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "mass_impossibility",
+        "rhs": "3",
+        "sense": ">="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_03",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fractional_impossibility",
+        "rhs": "20000000001/20000000000",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_04",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "mass_impossibility",
+        "rhs": "3",
+        "sense": ">="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F05_EMPTY_DOMAIN_05",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fractional_impossibility",
+        "rhs": "20000000001/20000000000",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F05_EMPTY_DOMAIN",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": null,
+    "rank_direction": "highest",
+    "reference_mode": "complete_small_enumeration",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 2,
+        "name": "P0"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_00",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "49",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "50",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "51",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 49,
+        "b": 51
+      },
+      "P1": {
+        "a": 50,
+        "b": 50
+      },
+      "P2": {
+        "a": 51,
+        "b": 49
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 100,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 100,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 100,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_01",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "54",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "55",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "56",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 54,
+        "b": 56
+      },
+      "P1": {
+        "a": 55,
+        "b": 55
+      },
+      "P2": {
+        "a": 56,
+        "b": 54
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 110,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 110,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 110,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_02",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "59",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "60",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "61",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 59,
+        "b": 61
+      },
+      "P1": {
+        "a": 60,
+        "b": 60
+      },
+      "P2": {
+        "a": 61,
+        "b": 59
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 120,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 120,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 120,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_03",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "64",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "65",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "66",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 64,
+        "b": 66
+      },
+      "P1": {
+        "a": 65,
+        "b": 65
+      },
+      "P2": {
+        "a": 66,
+        "b": 64
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 130,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 130,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 130,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_04",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "69",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "70",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "71",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 69,
+        "b": 71
+      },
+      "P1": {
+        "a": 70,
+        "b": 70
+      },
+      "P2": {
+        "a": 71,
+        "b": 69
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 140,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 140,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 140,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F06_LARGE_UNIQUE_WORLD_05",
+    "constraints": [
+      {
+        "coefficients": {
+          "P0::a": "1"
+        },
+        "name": "fix_0",
+        "rhs": "74",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P1::a": "1"
+        },
+        "name": "fix_1",
+        "rhs": "75",
+        "sense": "="
+      },
+      {
+        "coefficients": {
+          "P2::a": "1"
+        },
+        "name": "fix_2",
+        "rhs": "76",
+        "sense": "="
+      }
+    ],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F06_LARGE_UNIQUE_WORLD",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 74,
+        "b": 76
+      },
+      "P1": {
+        "a": 75,
+        "b": 75
+      },
+      "P2": {
+        "a": 76,
+        "b": 74
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "unique_world_from_independent_equalities",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 150,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 150,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 150,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_00",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 100
+      },
+      "P1": {
+        "a": 0,
+        "b": 100
+      },
+      "P2": {
+        "a": 0,
+        "b": 100
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 100,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 100,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 100,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_01",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 110
+      },
+      "P1": {
+        "a": 0,
+        "b": 110
+      },
+      "P2": {
+        "a": 0,
+        "b": 110
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 110,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 110,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 110,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_02",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 120
+      },
+      "P1": {
+        "a": 0,
+        "b": 120
+      },
+      "P2": {
+        "a": 0,
+        "b": 120
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 120,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 120,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 120,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_03",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 130
+      },
+      "P1": {
+        "a": 0,
+        "b": 130
+      },
+      "P2": {
+        "a": 0,
+        "b": 130
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 130,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 130,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 130,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_04",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 140
+      },
+      "P1": {
+        "a": 0,
+        "b": 140
+      },
+      "P2": {
+        "a": 0,
+        "b": 140
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 140,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 140,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 140,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F07_LARGE_IDENTICAL_05",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "2/7",
+          "b": "5/7"
+        }
+      }
+    ],
+    "family": "F07_LARGE_IDENTICAL",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 0,
+        "b": 150
+      },
+      "P1": {
+        "a": 0,
+        "b": 150
+      },
+      "P2": {
+        "a": 0,
+        "b": 150
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "identity_plus_nonempty_witness",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 150,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 150,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 150,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_00",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 100,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 100
+      },
+      "P2": {
+        "a": 50,
+        "b": 50
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 0,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601102,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 100,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 100,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 100,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_01",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 110,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 110
+      },
+      "P2": {
+        "a": 55,
+        "b": 55
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 1,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601103,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 110,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 110,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 110,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_02",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 120,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 120
+      },
+      "P2": {
+        "a": 60,
+        "b": 60
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 2,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601104,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 120,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 120,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 120,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_03",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 130,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 130
+      },
+      "P2": {
+        "a": 65,
+        "b": 65
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 3,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601105,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 130,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 130,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 130,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_04",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 140,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 140
+      },
+      "P2": {
+        "a": 70,
+        "b": 70
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 4,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601106,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 140,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 140,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 140,
+        "name": "P2"
+      }
+    ]
+  },
+  {
+    "case_id": "F08_LARGE_WITNESS_05",
+    "constraints": [],
+    "definitions": [
+      {
+        "name": "D0",
+        "weights": {
+          "a": "1",
+          "b": "0"
+        }
+      },
+      {
+        "name": "D1",
+        "weights": {
+          "a": "0",
+          "b": "1"
+        }
+      },
+      {
+        "name": "D2",
+        "weights": {
+          "a": "1/2",
+          "b": "1/2"
+        }
+      }
+    ],
+    "family": "F08_LARGE_WITNESS",
+    "fixed_counts": {
+      "G0": {
+        "a": 1,
+        "b": 1
+      },
+      "G1": {
+        "a": 1,
+        "b": 1
+      },
+      "G2": {
+        "a": 1,
+        "b": 1
+      }
+    },
+    "known_world": {
+      "P0": {
+        "a": 150,
+        "b": 0
+      },
+      "P1": {
+        "a": 0,
+        "b": 150
+      },
+      "P2": {
+        "a": 75,
+        "b": 75
+      }
+    },
+    "rank_direction": "highest",
+    "reference_mode": "independent_existential_witness",
+    "replicate": 5,
+    "rules": [
+      {
+        "direction": "above_or_equal",
+        "kind": "threshold",
+        "name": "threshold_ge_half",
+        "threshold": "1/2"
+      },
+      {
+        "direction": "below",
+        "kind": "threshold",
+        "name": "threshold_lt_half",
+        "threshold": "1/2"
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 1,
+        "kind": "top_k",
+        "name": "top_1",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 2,
+        "kind": "top_k",
+        "name": "top_2",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      },
+      {
+        "action_semantics": "selected_set",
+        "direction": "highest",
+        "k": 3,
+        "kind": "top_k",
+        "name": "top_3",
+        "tie_break": [
+          "G0",
+          "G1",
+          "G2"
+        ]
+      }
+    ],
+    "seed": 2601107,
+    "tie_break": [
+      "G0",
+      "G1",
+      "G2"
+    ],
+    "unresolved_pools": [
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G0",
+        "mass": 150,
+        "name": "P0"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G1",
+        "mass": 150,
+        "name": "P1"
+      },
+      {
+        "allowed_states": [
+          "a",
+          "b"
+        ],
+        "group": "G2",
+        "mass": 150,
+        "name": "P2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5555 @@
+{
+  "cases": [
+    {
+      "case_id": "R2-W01-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B01"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 76,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 5,
+            "quality_le_5": 41
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/76",
+          "old_score": "35/76"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 0,
+            "quality_le_5": 41
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "0",
+          "old_score": "27/68"
+        },
+        {
+          "count_total": 56,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 22
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/7",
+          "old_score": "17/28"
+        },
+        {
+          "count_total": 52,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 7,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/52",
+          "old_score": "35/52"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 19,
+            "quality_le_5": 8
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "19/49",
+          "old_score": "41/49"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 20,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "1/3",
+          "old_score": "13/15"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-01-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W01-K2"
+    },
+    {
+      "case_id": "R2-W01-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B01"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 76,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 5,
+            "quality_le_5": 41
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/76",
+          "old_score": "35/76"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 0,
+            "quality_le_5": 41
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "0",
+          "old_score": "27/68"
+        },
+        {
+          "count_total": 56,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 22
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/7",
+          "old_score": "17/28"
+        },
+        {
+          "count_total": 52,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 7,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/52",
+          "old_score": "35/52"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 19,
+            "quality_le_5": 8
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "19/49",
+          "old_score": "41/49"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 20,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "1/3",
+          "old_score": "13/15"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-01-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W01-K3"
+    },
+    {
+      "case_id": "R2-W02-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B02"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 79,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 6,
+            "quality_le_5": 43
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "6/79",
+          "old_score": "36/79"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 2,
+            "quality_le_5": 35
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/63",
+          "old_score": "4/9"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 14,
+            "quality_ge_7": 10,
+            "quality_le_5": 11
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "24/35"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 7,
+            "quality_le_5": 29
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/60",
+          "old_score": "31/60"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 14,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "6/7"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 24,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "4/11",
+          "old_score": "29/33"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-02-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. A score tie also crosses at least one selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W02-K2"
+    },
+    {
+      "case_id": "R2-W02-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B02"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 79,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 6,
+            "quality_le_5": 43
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "6/79",
+          "old_score": "36/79"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 2,
+            "quality_le_5": 35
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/63",
+          "old_score": "4/9"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 14,
+            "quality_ge_7": 10,
+            "quality_le_5": 11
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "24/35"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 7,
+            "quality_le_5": 29
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/60",
+          "old_score": "31/60"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 14,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "6/7"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 24,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "4/11",
+          "old_score": "29/33"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G03",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-02-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "Selected-score ties occur under at least one coding. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W02-K3"
+    },
+    {
+      "case_id": "R2-W03-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B03"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 91,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 7,
+            "quality_le_5": 54
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/13",
+          "old_score": "37/91"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 18,
+            "quality_ge_7": 4,
+            "quality_le_5": 28
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/25",
+          "old_score": "11/25"
+        },
+        {
+          "count_total": 43,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 7,
+            "quality_le_5": 17
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "7/43",
+          "old_score": "26/43"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 9,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "9/58",
+          "old_score": "20/29"
+        },
+        {
+          "count_total": 61,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 24,
+            "quality_le_5": 5
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "24/61",
+          "old_score": "56/61"
+        },
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 40,
+            "quality_ge_7": 36,
+            "quality_le_5": 13
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "36/89",
+          "old_score": "76/89"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-03-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W03-K2"
+    },
+    {
+      "case_id": "R2-W03-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B03"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 91,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 7,
+            "quality_le_5": 54
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/13",
+          "old_score": "37/91"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 18,
+            "quality_ge_7": 4,
+            "quality_le_5": 28
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/25",
+          "old_score": "11/25"
+        },
+        {
+          "count_total": 43,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 7,
+            "quality_le_5": 17
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "7/43",
+          "old_score": "26/43"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 9,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "9/58",
+          "old_score": "20/29"
+        },
+        {
+          "count_total": 61,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 24,
+            "quality_le_5": 5
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "24/61",
+          "old_score": "56/61"
+        },
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 40,
+            "quality_ge_7": 36,
+            "quality_le_5": 13
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "36/89",
+          "old_score": "76/89"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-03-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W03-K3"
+    },
+    {
+      "case_id": "R2-W04-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B04"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 74,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 7,
+            "quality_le_5": 43
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "7/74",
+          "old_score": "31/74"
+        },
+        {
+          "count_total": 76,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 1,
+            "quality_le_5": 45
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/76",
+          "old_score": "31/76"
+        },
+        {
+          "count_total": 34,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 6,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/17",
+          "old_score": "11/17"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 8,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "4/21",
+          "old_score": "4/7"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 21,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "21/46",
+          "old_score": "20/23"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 24,
+            "quality_le_5": 12
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "4/11",
+          "old_score": "9/11"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-04-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W04-K2"
+    },
+    {
+      "case_id": "R2-W04-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B04"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 74,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 7,
+            "quality_le_5": 43
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "7/74",
+          "old_score": "31/74"
+        },
+        {
+          "count_total": 76,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 1,
+            "quality_le_5": 45
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/76",
+          "old_score": "31/76"
+        },
+        {
+          "count_total": 34,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 6,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/17",
+          "old_score": "11/17"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 8,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "4/21",
+          "old_score": "4/7"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 21,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "21/46",
+          "old_score": "20/23"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 24,
+            "quality_le_5": 12
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "4/11",
+          "old_score": "9/11"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G03"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-04-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W04-K3"
+    },
+    {
+      "case_id": "R2-W05-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B05"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 80,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/10",
+          "old_score": "17/40"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 39
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/16",
+          "old_score": "25/64"
+        },
+        {
+          "count_total": 31,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 5,
+            "quality_le_5": 9
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/31",
+          "old_score": "22/31"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 11,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "11/63",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 22,
+            "quality_le_5": 10
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "22/53",
+          "old_score": "43/53"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 29,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "29/65",
+          "old_score": "58/65"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-05-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W05-K2"
+    },
+    {
+      "case_id": "R2-W05-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B05"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 80,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/10",
+          "old_score": "17/40"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 39
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/16",
+          "old_score": "25/64"
+        },
+        {
+          "count_total": 31,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 5,
+            "quality_le_5": 9
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/31",
+          "old_score": "22/31"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 11,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "11/63",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 22,
+            "quality_le_5": 10
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "22/53",
+          "old_score": "43/53"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 29,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "29/65",
+          "old_score": "58/65"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-05-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W05-K3"
+    },
+    {
+      "case_id": "R2-W06-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B06"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 75,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 6,
+            "quality_le_5": 41
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "2/25",
+          "old_score": "34/75"
+        },
+        {
+          "count_total": 71,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 4,
+            "quality_le_5": 39
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "4/71",
+          "old_score": "32/71"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 6,
+            "quality_le_5": 17
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/7",
+          "old_score": "25/42"
+        },
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 12,
+            "quality_le_5": 26
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/6",
+          "old_score": "23/36"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 30,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "6/13",
+          "old_score": "59/65"
+        },
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 45,
+            "quality_ge_7": 31,
+            "quality_le_5": 13
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "31/89",
+          "old_score": "76/89"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-06-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W06-K2"
+    },
+    {
+      "case_id": "R2-W06-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B06"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 75,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 6,
+            "quality_le_5": 41
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "2/25",
+          "old_score": "34/75"
+        },
+        {
+          "count_total": 71,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 4,
+            "quality_le_5": 39
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "4/71",
+          "old_score": "32/71"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 6,
+            "quality_le_5": 17
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/7",
+          "old_score": "25/42"
+        },
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 12,
+            "quality_le_5": 26
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/6",
+          "old_score": "23/36"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 30,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "6/13",
+          "old_score": "59/65"
+        },
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 45,
+            "quality_ge_7": 31,
+            "quality_le_5": 13
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "31/89",
+          "old_score": "76/89"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-06-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W06-K3"
+    },
+    {
+      "case_id": "R2-W07-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B07"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 73,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 4,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "4/73",
+          "old_score": "27/73"
+        },
+        {
+          "count_total": 77,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 2,
+            "quality_le_5": 47
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/77",
+          "old_score": "30/77"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 2,
+            "quality_le_5": 13
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "2/35",
+          "old_score": "22/35"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 37,
+            "quality_ge_7": 8,
+            "quality_le_5": 20
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "8/65",
+          "old_score": "9/13"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 13,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "13/45",
+          "old_score": "38/45"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 33,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "33/68",
+          "old_score": "15/17"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-07-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W07-K2"
+    },
+    {
+      "case_id": "R2-W07-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B07"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 73,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 4,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "4/73",
+          "old_score": "27/73"
+        },
+        {
+          "count_total": 77,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 2,
+            "quality_le_5": 47
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/77",
+          "old_score": "30/77"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 2,
+            "quality_le_5": 13
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "2/35",
+          "old_score": "22/35"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 37,
+            "quality_ge_7": 8,
+            "quality_le_5": 20
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "8/65",
+          "old_score": "9/13"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 13,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "13/45",
+          "old_score": "38/45"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 33,
+            "quality_le_5": 8
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "33/68",
+          "old_score": "15/17"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-07-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W07-K3"
+    },
+    {
+      "case_id": "R2-W08-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B08"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 3,
+            "quality_le_5": 31
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "3/55",
+          "old_score": "24/55"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 2,
+            "quality_le_5": 36
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/32",
+          "old_score": "7/16"
+        },
+        {
+          "count_total": 28,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 3,
+            "quality_le_5": 8
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/28",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 6,
+            "quality_le_5": 19
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "3/29",
+          "old_score": "39/58"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 14,
+            "quality_le_5": 5
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "44/49"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 32,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "32/69",
+          "old_score": "65/69"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-08-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W08-K2"
+    },
+    {
+      "case_id": "R2-W08-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B08"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 3,
+            "quality_le_5": 31
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "3/55",
+          "old_score": "24/55"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 2,
+            "quality_le_5": 36
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/32",
+          "old_score": "7/16"
+        },
+        {
+          "count_total": 28,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 3,
+            "quality_le_5": 8
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/28",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 6,
+            "quality_le_5": 19
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "3/29",
+          "old_score": "39/58"
+        },
+        {
+          "count_total": 49,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 14,
+            "quality_le_5": 5
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "2/7",
+          "old_score": "44/49"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 32,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "32/69",
+          "old_score": "65/69"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-08-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W08-K3"
+    },
+    {
+      "case_id": "R2-W09-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B09"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 88,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 5,
+            "quality_le_5": 53
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/88",
+          "old_score": "35/88"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 4,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "4/63",
+          "old_score": "26/63"
+        },
+        {
+          "count_total": 37,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "4/37",
+          "old_score": "25/37"
+        },
+        {
+          "count_total": 48,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 6,
+            "quality_le_5": 13
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/8",
+          "old_score": "35/48"
+        },
+        {
+          "count_total": 54,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 21,
+            "quality_le_5": 12
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "7/18",
+          "old_score": "7/9"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 32,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "32/69",
+          "old_score": "65/69"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-09-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W09-K2"
+    },
+    {
+      "case_id": "R2-W09-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B09"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 88,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 5,
+            "quality_le_5": 53
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/88",
+          "old_score": "35/88"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 4,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "4/63",
+          "old_score": "26/63"
+        },
+        {
+          "count_total": 37,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "4/37",
+          "old_score": "25/37"
+        },
+        {
+          "count_total": 48,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 6,
+            "quality_le_5": 13
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/8",
+          "old_score": "35/48"
+        },
+        {
+          "count_total": 54,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 21,
+            "quality_le_5": 12
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "7/18",
+          "old_score": "7/9"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 32,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "32/69",
+          "old_score": "65/69"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-09-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W09-K3"
+    },
+    {
+      "case_id": "R2-W10-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B10"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 87,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 10,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "10/87",
+          "old_score": "41/87"
+        },
+        {
+          "count_total": 74,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 5,
+            "quality_le_5": 43
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "5/74",
+          "old_score": "31/74"
+        },
+        {
+          "count_total": 40,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 6,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/20",
+          "old_score": "13/20"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 4,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "2/23",
+          "old_score": "29/46"
+        },
+        {
+          "count_total": 57,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 16,
+            "quality_le_5": 10
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "16/57",
+          "old_score": "47/57"
+        },
+        {
+          "count_total": 61,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 28,
+            "quality_le_5": 6
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "28/61",
+          "old_score": "55/61"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-10-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W10-K2"
+    },
+    {
+      "case_id": "R2-W10-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B10"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 87,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 10,
+            "quality_le_5": 46
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "10/87",
+          "old_score": "41/87"
+        },
+        {
+          "count_total": 74,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 5,
+            "quality_le_5": 43
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "5/74",
+          "old_score": "31/74"
+        },
+        {
+          "count_total": 40,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 6,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/20",
+          "old_score": "13/20"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 4,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "2/23",
+          "old_score": "29/46"
+        },
+        {
+          "count_total": 57,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 16,
+            "quality_le_5": 10
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "16/57",
+          "old_score": "47/57"
+        },
+        {
+          "count_total": 61,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 28,
+            "quality_le_5": 6
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "28/61",
+          "old_score": "55/61"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-10-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W10-K3"
+    },
+    {
+      "case_id": "R2-W11-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B11"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/9",
+          "old_score": "17/36"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 1,
+            "quality_le_5": 38
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/58",
+          "old_score": "10/29"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 5,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/42",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 14,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/30",
+          "old_score": "43/60"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 17,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "17/50",
+          "old_score": "22/25"
+        },
+        {
+          "count_total": 75,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 38,
+            "quality_le_5": 11
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "38/75",
+          "old_score": "64/75"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-11-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W11-K2"
+    },
+    {
+      "case_id": "R2-W11-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B11"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 8,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/9",
+          "old_score": "17/36"
+        },
+        {
+          "count_total": 58,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 1,
+            "quality_le_5": 38
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/58",
+          "old_score": "10/29"
+        },
+        {
+          "count_total": 42,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 5,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/42",
+          "old_score": "5/7"
+        },
+        {
+          "count_total": 60,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 14,
+            "quality_le_5": 17
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/30",
+          "old_score": "43/60"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 27,
+            "quality_ge_7": 17,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "17/50",
+          "old_score": "22/25"
+        },
+        {
+          "count_total": 75,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 38,
+            "quality_le_5": 11
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "38/75",
+          "old_score": "64/75"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-11-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W11-K3"
+    },
+    {
+      "case_id": "R2-W12-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B12"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 93,
+          "counts": {
+            "quality_eq_6": 39,
+            "quality_ge_7": 6,
+            "quality_le_5": 48
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "2/31",
+          "old_score": "15/31"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 2,
+            "quality_le_5": 42
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/63",
+          "old_score": "1/3"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 9,
+            "quality_ge_7": 6,
+            "quality_le_5": 20
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "6/35",
+          "old_score": "3/7"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 9,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "9/50",
+          "old_score": "16/25"
+        },
+        {
+          "count_total": 39,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 16,
+            "quality_le_5": 3
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "16/39",
+          "old_score": "12/13"
+        },
+        {
+          "count_total": 62,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 23,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "23/62",
+          "old_score": "55/62"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-12-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W12-K2"
+    },
+    {
+      "case_id": "R2-W12-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B12"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 93,
+          "counts": {
+            "quality_eq_6": 39,
+            "quality_ge_7": 6,
+            "quality_le_5": 48
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "2/31",
+          "old_score": "15/31"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 19,
+            "quality_ge_7": 2,
+            "quality_le_5": 42
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "2/63",
+          "old_score": "1/3"
+        },
+        {
+          "count_total": 35,
+          "counts": {
+            "quality_eq_6": 9,
+            "quality_ge_7": 6,
+            "quality_le_5": 20
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "6/35",
+          "old_score": "3/7"
+        },
+        {
+          "count_total": 50,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 9,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "9/50",
+          "old_score": "16/25"
+        },
+        {
+          "count_total": 39,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 16,
+            "quality_le_5": 3
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "16/39",
+          "old_score": "12/13"
+        },
+        {
+          "count_total": 62,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 23,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "23/62",
+          "old_score": "55/62"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-12-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W12-K3"
+    },
+    {
+      "case_id": "R2-W13-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B13"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 3,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/24",
+          "old_score": "17/36"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 3,
+            "quality_le_5": 41
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "3/65",
+          "old_score": "24/65"
+        },
+        {
+          "count_total": 36,
+          "counts": {
+            "quality_eq_6": 18,
+            "quality_ge_7": 4,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/9",
+          "old_score": "11/18"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 9,
+            "quality_le_5": 15
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/5",
+          "old_score": "2/3"
+        },
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 21,
+            "quality_le_5": 12
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "21/67",
+          "old_score": "55/67"
+        },
+        {
+          "count_total": 70,
+          "counts": {
+            "quality_eq_6": 37,
+            "quality_ge_7": 26,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "13/35",
+          "old_score": "9/10"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-13-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W13-K2"
+    },
+    {
+      "case_id": "R2-W13-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B13"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 3,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/24",
+          "old_score": "17/36"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 3,
+            "quality_le_5": 41
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "3/65",
+          "old_score": "24/65"
+        },
+        {
+          "count_total": 36,
+          "counts": {
+            "quality_eq_6": 18,
+            "quality_ge_7": 4,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "1/9",
+          "old_score": "11/18"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 9,
+            "quality_le_5": 15
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "1/5",
+          "old_score": "2/3"
+        },
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 21,
+            "quality_le_5": 12
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "21/67",
+          "old_score": "55/67"
+        },
+        {
+          "count_total": 70,
+          "counts": {
+            "quality_eq_6": 37,
+            "quality_ge_7": 26,
+            "quality_le_5": 7
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "13/35",
+          "old_score": "9/10"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-13-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W13-K3"
+    },
+    {
+      "case_id": "R2-W14-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B14"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 4,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "4/67",
+          "old_score": "29/67"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 1,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/69",
+          "old_score": "32/69"
+        },
+        {
+          "count_total": 33,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 5,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/33",
+          "old_score": "7/11"
+        },
+        {
+          "count_total": 59,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 7,
+            "quality_le_5": 19
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/59",
+          "old_score": "40/59"
+        },
+        {
+          "count_total": 57,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 24,
+            "quality_le_5": 8
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "8/19",
+          "old_score": "49/57"
+        },
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 38,
+            "quality_le_5": 9
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "19/36",
+          "old_score": "7/8"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-14-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W14-K2"
+    },
+    {
+      "case_id": "R2-W14-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B14"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 4,
+            "quality_le_5": 38
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "4/67",
+          "old_score": "29/67"
+        },
+        {
+          "count_total": 69,
+          "counts": {
+            "quality_eq_6": 31,
+            "quality_ge_7": 1,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/69",
+          "old_score": "32/69"
+        },
+        {
+          "count_total": 33,
+          "counts": {
+            "quality_eq_6": 16,
+            "quality_ge_7": 5,
+            "quality_le_5": 12
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/33",
+          "old_score": "7/11"
+        },
+        {
+          "count_total": 59,
+          "counts": {
+            "quality_eq_6": 33,
+            "quality_ge_7": 7,
+            "quality_le_5": 19
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/59",
+          "old_score": "40/59"
+        },
+        {
+          "count_total": 57,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 24,
+            "quality_le_5": 8
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "8/19",
+          "old_score": "49/57"
+        },
+        {
+          "count_total": 72,
+          "counts": {
+            "quality_eq_6": 25,
+            "quality_ge_7": 38,
+            "quality_le_5": 9
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "19/36",
+          "old_score": "7/8"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-14-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W14-K3"
+    },
+    {
+      "case_id": "R2-W15-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B15"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 39,
+            "quality_ge_7": 5,
+            "quality_le_5": 45
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/89",
+          "old_score": "44/89"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 3,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/21",
+          "old_score": "26/63"
+        },
+        {
+          "count_total": 25,
+          "counts": {
+            "quality_eq_6": 7,
+            "quality_ge_7": 3,
+            "quality_le_5": 15
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/25",
+          "old_score": "2/5"
+        },
+        {
+          "count_total": 59,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 7,
+            "quality_le_5": 22
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/59",
+          "old_score": "37/59"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 21,
+            "quality_le_5": 13
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "7/22",
+          "old_score": "53/66"
+        },
+        {
+          "count_total": 78,
+          "counts": {
+            "quality_eq_6": 40,
+            "quality_ge_7": 28,
+            "quality_le_5": 10
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "14/39",
+          "old_score": "34/39"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-15-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W15-K2"
+    },
+    {
+      "case_id": "R2-W15-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B15"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 89,
+          "counts": {
+            "quality_eq_6": 39,
+            "quality_ge_7": 5,
+            "quality_le_5": 45
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/89",
+          "old_score": "44/89"
+        },
+        {
+          "count_total": 63,
+          "counts": {
+            "quality_eq_6": 23,
+            "quality_ge_7": 3,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/21",
+          "old_score": "26/63"
+        },
+        {
+          "count_total": 25,
+          "counts": {
+            "quality_eq_6": 7,
+            "quality_ge_7": 3,
+            "quality_le_5": 15
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/25",
+          "old_score": "2/5"
+        },
+        {
+          "count_total": 59,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 7,
+            "quality_le_5": 22
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "7/59",
+          "old_score": "37/59"
+        },
+        {
+          "count_total": 66,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 21,
+            "quality_le_5": 13
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "7/22",
+          "old_score": "53/66"
+        },
+        {
+          "count_total": 78,
+          "counts": {
+            "quality_eq_6": 40,
+            "quality_ge_7": 28,
+            "quality_le_5": 10
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "14/39",
+          "old_score": "34/39"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G03"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-15-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W15-K3"
+    },
+    {
+      "case_id": "R2-W16-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B16"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 91,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 10,
+            "quality_le_5": 51
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "10/91",
+          "old_score": "40/91"
+        },
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 3,
+            "quality_le_5": 40
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "3/67",
+          "old_score": "27/67"
+        },
+        {
+          "count_total": 43,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 18
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "4/43",
+          "old_score": "25/43"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 6,
+            "quality_le_5": 31
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "6/65",
+          "old_score": "34/65"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 20,
+            "quality_le_5": 3
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "4/9",
+          "old_score": "14/15"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 24,
+            "quality_le_5": 10
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "6/17",
+          "old_score": "29/34"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-16-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W16-K2"
+    },
+    {
+      "case_id": "R2-W16-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B16"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 91,
+          "counts": {
+            "quality_eq_6": 30,
+            "quality_ge_7": 10,
+            "quality_le_5": 51
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "10/91",
+          "old_score": "40/91"
+        },
+        {
+          "count_total": 67,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 3,
+            "quality_le_5": 40
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "3/67",
+          "old_score": "27/67"
+        },
+        {
+          "count_total": 43,
+          "counts": {
+            "quality_eq_6": 21,
+            "quality_ge_7": 4,
+            "quality_le_5": 18
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "4/43",
+          "old_score": "25/43"
+        },
+        {
+          "count_total": 65,
+          "counts": {
+            "quality_eq_6": 28,
+            "quality_ge_7": 6,
+            "quality_le_5": 31
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "6/65",
+          "old_score": "34/65"
+        },
+        {
+          "count_total": 45,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 20,
+            "quality_le_5": 3
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "4/9",
+          "old_score": "14/15"
+        },
+        {
+          "count_total": 68,
+          "counts": {
+            "quality_eq_6": 34,
+            "quality_ge_7": 24,
+            "quality_le_5": 10
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "6/17",
+          "old_score": "29/34"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G01"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G03"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-16-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W16-K3"
+    },
+    {
+      "case_id": "R2-W17-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B17"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 73,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 5,
+            "quality_le_5": 44
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/73",
+          "old_score": "29/73"
+        },
+        {
+          "count_total": 70,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 1,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/70",
+          "old_score": "33/70"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 6,
+            "quality_le_5": 18
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/23",
+          "old_score": "14/23"
+        },
+        {
+          "count_total": 62,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 12,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "6/31",
+          "old_score": "22/31"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 15,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "15/46",
+          "old_score": "39/46"
+        },
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 25,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "5/11",
+          "old_score": "51/55"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05"
+      ],
+      "old_order": [
+        "G06",
+        "G05"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-17-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W17-K2"
+    },
+    {
+      "case_id": "R2-W17-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B17"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 73,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 5,
+            "quality_le_5": 44
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "5/73",
+          "old_score": "29/73"
+        },
+        {
+          "count_total": 70,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 1,
+            "quality_le_5": 37
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/70",
+          "old_score": "33/70"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 22,
+            "quality_ge_7": 6,
+            "quality_le_5": 18
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "3/23",
+          "old_score": "14/23"
+        },
+        {
+          "count_total": 62,
+          "counts": {
+            "quality_eq_6": 32,
+            "quality_ge_7": 12,
+            "quality_le_5": 18
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "6/31",
+          "old_score": "22/31"
+        },
+        {
+          "count_total": 46,
+          "counts": {
+            "quality_eq_6": 24,
+            "quality_ge_7": 15,
+            "quality_le_5": 7
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "15/46",
+          "old_score": "39/46"
+        },
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 26,
+            "quality_ge_7": 25,
+            "quality_le_5": 4
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "5/11",
+          "old_score": "51/55"
+        }
+      ],
+      "new_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "old_order": [
+        "G06",
+        "G05",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-17-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W17-K3"
+    },
+    {
+      "case_id": "R2-W18-K2",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B18"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 2 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 88,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 8,
+            "quality_le_5": 51
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/11",
+          "old_score": "37/88"
+        },
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 5,
+            "quality_le_5": 33
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/11",
+          "old_score": "2/5"
+        },
+        {
+          "count_total": 39,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 5,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/39",
+          "old_score": "25/39"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 36,
+            "quality_ge_7": 13,
+            "quality_le_5": 15
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "13/64",
+          "old_score": "49/64"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 27,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "27/53",
+          "old_score": "47/53"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 24,
+            "quality_le_5": 9
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "24/53",
+          "old_score": "44/53"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06"
+      ],
+      "old_order": [
+        "G05",
+        "G06"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 2,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-18-k2",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W18-K2"
+    },
+    {
+      "case_id": "R2-W18-K3",
+      "context": {
+        "attribute": "record_partition",
+        "grouped_attributes": [
+          "alcohol_band",
+          "pH_band"
+        ],
+        "value": "B18"
+      },
+      "evidence": [
+        {
+          "detail": "UCI Wine Quality, DOI https://doi.org/10.24432/C56S3T; records assigned to one of 18 SHA-256 partitions before scoring. Wine properties and sensory labels are observed source variables; the review task is hypothetical.",
+          "id": "E1",
+          "title": "Source and supplied allocation"
+        },
+        {
+          "detail": "Old score is the proportion with sensory quality at least 6; new score is the proportion with quality at least 7. These are different research-defined estimands, not official policy versions or interchangeable definitions.",
+          "id": "E2",
+          "title": "Old and new coding profiles"
+        },
+        {
+          "detail": "Select 3 nonempty groups by decreasing exact score, breaking ties by ascending fixed group ID. Review concerns the supplied partition only.",
+          "id": "E3",
+          "title": "Decision rule and tie rule"
+        },
+        {
+          "detail": "Scores use exact count-weighted means of the displayed state weights. Groups use fixed alcohol cut points 10 and 11 and pH cut point 3.2, chosen before raw acquisition rather than optimised from outcomes.",
+          "id": "E4",
+          "title": "Group counts and exact scores"
+        },
+        {
+          "detail": "The two lists contain only the selected top-k group IDs in rule order. Preservation of count, membership and ordered selection are separate review requirements.",
+          "id": "E5",
+          "title": "Selected groups in priority order"
+        }
+      ],
+      "groups": [
+        {
+          "count_total": 88,
+          "counts": {
+            "quality_eq_6": 29,
+            "quality_ge_7": 8,
+            "quality_le_5": 51
+          },
+          "id": "G01",
+          "label": "alcohol<10|pH<3.2",
+          "new_score": "1/11",
+          "old_score": "37/88"
+        },
+        {
+          "count_total": 55,
+          "counts": {
+            "quality_eq_6": 17,
+            "quality_ge_7": 5,
+            "quality_le_5": 33
+          },
+          "id": "G02",
+          "label": "alcohol<10|pH>=3.2",
+          "new_score": "1/11",
+          "old_score": "2/5"
+        },
+        {
+          "count_total": 39,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 5,
+            "quality_le_5": 14
+          },
+          "id": "G03",
+          "label": "10<=alcohol<11|pH<3.2",
+          "new_score": "5/39",
+          "old_score": "25/39"
+        },
+        {
+          "count_total": 64,
+          "counts": {
+            "quality_eq_6": 36,
+            "quality_ge_7": 13,
+            "quality_le_5": 15
+          },
+          "id": "G04",
+          "label": "10<=alcohol<11|pH>=3.2",
+          "new_score": "13/64",
+          "old_score": "49/64"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 27,
+            "quality_le_5": 6
+          },
+          "id": "G05",
+          "label": "alcohol>=11|pH<3.2",
+          "new_score": "27/53",
+          "old_score": "47/53"
+        },
+        {
+          "count_total": 53,
+          "counts": {
+            "quality_eq_6": 20,
+            "quality_ge_7": 24,
+            "quality_le_5": 9
+          },
+          "id": "G06",
+          "label": "alcohol>=11|pH>=3.2",
+          "new_score": "24/53",
+          "old_score": "44/53"
+        }
+      ],
+      "new_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "old_order": [
+        "G05",
+        "G06",
+        "G04"
+      ],
+      "profiles": {
+        "new_label": "quality_at_least_7",
+        "new_weights": {
+          "quality_eq_6": "0",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        },
+        "old_label": "quality_at_least_6",
+        "old_weights": {
+          "quality_eq_6": "1",
+          "quality_ge_7": "1",
+          "quality_le_5": "0"
+        }
+      },
+      "provenance_note": "Observed source records are partitioned and grouped by prespecified research rules. The definition change and group-selection rule are hypothetical; this is not an observed organisational migration or wine-safety recommendation.",
+      "rule": {
+        "direction": "highest_first",
+        "k": 3,
+        "kind": "top_k",
+        "tie_break": "ascending fixed group ID (alcohol band then pH band)"
+      },
+      "scope": "current supplied allocation only",
+      "source_case_id": "WineQuality-partition-18-k3",
+      "source_kind": "observed physicochemical wine measurements and sensory quality labels",
+      "source_ref": "https://doi.org/10.24432/C56S3T",
+      "source_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "states": [
+        "quality_le_5",
+        "quality_eq_6",
+        "quality_ge_7"
+      ],
+      "tie_note": "No equal scores occur within either selected list. No score tie crosses either selection boundary. Apply the displayed deterministic tie convention; no tie-independent robustness is implied.",
+      "title": "Wine quality definition review R2-W18-K3"
+    }
+  ],
+  "schema_version": "PaperM-R2-transfer-casebank-v1",
+  "status": "preacquisition_specified_transfer_computation_not_human_study",
+  "targets": {
+    "CAPACITY": "equal selected count",
+    "MEMBERSHIP": "equal selected identities irrespective of order",
+    "PRIORITY": "equal selected sequence"
+  }
+}

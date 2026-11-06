@@ -1,0 +1,19 @@
+{
+  "baseline_validation": {
+    "original_candidate_matches": 36,
+    "original_case_group_payloads_match": 36
+  },
+  "candidate_records": 144,
+  "completed_utc": "2026-11-05T22:08:45.874197+00:00",
+  "plan_sha256": "07e1114322f57be40c7f5da397dd4a6d54324ac072080b840c5d17265e9b7d11",
+  "result_sha256": "63eb26c28536ad62861bb85f22138a82e9425ed5488370f03d5c3659e0008483",
+  "script_sha256": "dd20fb9e9f3e845b32641697ba8545e0b52b66adc96a3f3dd4c18e66163a9a0e",
+  "source_hashes_after": {
+    "winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+  },
+  "source_hashes_before": {
+    "winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+  }
+}

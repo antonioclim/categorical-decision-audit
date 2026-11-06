@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite this data and verification package and the source datasets listed in SOURCE_ATTRIBUTION.md when using the included materials."
+type: dataset
+title: "Data and verification files for Different Definitions, Same Decision? An Executable Audit for Categorical Decision Support"
+version: 1.0.0
+doi: "10.5281/zenodo.23971063"
+repository-code: "https://github.com/antonioclim/categorical-decision-audit"
+license-url: "https://github.com/antonioclim/categorical-decision-audit#licence-and-citation"
+authors:
+  - family-names: Clim
+    given-names: Antonio
+    orcid: "https://orcid.org/0000-0003-4745-0431"
+    affiliation: "Bucharest University of Economic Studies"
+abstract: "Selected study records, exact computational results and verification scripts for categorical decision support, including Car Evaluation and Wine Quality analyses."
+keywords:
+  - decision support systems
+  - categorical outcomes
+  - decision robustness
+  - common feasibility
+  - reproducibility
+  - verification
+  - Wine Quality
+  - duplicate-content sensitivity

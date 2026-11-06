@@ -1,0 +1,290 @@
+{
+  "generated_integrity_files": [
+    "MANIFEST.json",
+    "REVISION_PROVENANCE.json"
+  ],
+  "new_files": [
+    "LICENSES/BSD-3-Clause.md",
+    "LICENSES/CC-BY-4.0.md"
+  ],
+  "revised_files": {
+    "CHANGELOG.md": {
+      "current_sha256": "d73d69ac2a91b51479cccf1059e28ca85452697f8551743eca11c11a0d2be189",
+      "source_sha256": "14e1f611696b9bb25c6d2dfaf2fd404fa98dae954ddc781281783da839c76b23"
+    },
+    "CITATION.cff": {
+      "current_sha256": "9cb311cdcb683534dbac0da239ed0e0ef60769533098b1b76e5573c5e9b56416",
+      "source_sha256": "bd98b03d34dedb67e8ba7f5a52f3b3772d8dca8ae958beed81b9184279493e49"
+    },
+    "LICENSE.md": {
+      "current_sha256": "0dcafee3acd6e7009409ef5a3c994b70474757d7848a88038524314d75dc9c35",
+      "source_sha256": "ea46b18fac509aff3287e2f6c795d8487661b3a942c65bc1af9bcc601063578c"
+    },
+    "README.md": {
+      "current_sha256": "d441a089b0bf49c2e9aea594ba8c2fbf9b37d00027ac336c6adecbdbe90d4611",
+      "source_sha256": "f995e7729865b7e0a2ea46f22e2262b3c5e67de0d7ab5d970bb6cbd39be2e89e"
+    },
+    "SHA256SUMS": {
+      "current_sha256": "c36d6ebdb5c1d005126ae4b31acc042dc78ad54221df24dcf285a11f7cf07769",
+      "source_sha256": "e72df3cee329c68794aae454887d47928c6e4f964f4228f5b38e929091d4a1ef"
+    },
+    "verify_all.py": {
+      "current_sha256": "9c4d4e28e05a86f782e1347e56afba469c6791e0044f1f06c270f958b273698c",
+      "source_sha256": "3dc6a2c95fbde26f310317c169aa5606bcdb756eae6cb3d6fe6d971806f65240"
+    }
+  },
+  "scope": "Public-distribution licensing and citation edition. Scientific inputs, outcomes, acquisition records and historical freezes retain their original bytes. The original evaluated implementation is excluded.",
+  "source_archive": "PaperM_REPOSITORY_M13r1.zip",
+  "source_archive_sha256": "f89db180584585a265ab89b8090d690bb0cd39dca4e2afdc192993df5cc460cb",
+  "source_manifest_sha256": "c14ef4dd970e5f8c8b8519e828af84b31f4130db4857b50763ec051a5d6e4684",
+  "source_provenance_sha256": "3c30f832e8778fae3bf7b00736fd6d87f00895f31ddc3e63b52c512b4db76515",
+  "source_version": "M13-repository-r1",
+  "unchanged_files_sha256": {
+    ".gitattributes": "a68897a63950cfbb772d5dcd2352d88be8f0c9c29b7b894f4dd48fd43ab92aea",
+    "SOURCE_ATTRIBUTION.md": "fa8821cff28605e0080fd89be939f5fc75010c8536eb183c5b37d3cdcc3d7b86",
+    "data/b1_positive_control.json": "b490760ce6ea03d6dcb8ec1c76a6e50723dbdb2abb2693b771e27b99c8edb082",
+    "data/b1_run_projection.jsonl": "5933e0bafac077506bedddb8f4428e8251e63c272ba80b19c48aa08ab9c85d5d",
+    "data/b1_synthetic_models.json": "d91fe34b5ab8bf05edfef53c922d82b83f7de732bf0857222afc60ca1e893286",
+    "data/epa_aggregates.json": "d54d9b73c2ad51b448513400b629da02e44877d347b088700dd853e4baf7f577",
+    "data/epss_aggregate_readout.json": "6d1091cce712d2105dbd02428fe8c56477aad92f36fd7e92d5f7126071540027",
+    "data/historical_outcomes.json": "4fbf7006843847a8de9f4fc57c14e19821f9f506bd3938885e92de48d3ad62b5",
+    "data/origin_manifest.json": "b9ac2a5163174d444e5b4360a2f58fec630a01d3be8f5bc76f04dc197c34ef78",
+    "data/upstream_inputs.json": "5a824f013f1171c57a44976c656e2b489aed73df9143752003f429d68cab0aaf",
+    "data/worked_case_0145.json": "deb5b99191b4bcd2b32f71c24419b4c3fd6665eec537e9dd2097118eeac513e7",
+    "docs/RESULTS.md": "a00d38e6fc1edb04c92021cd503be929355fb558bb825375632a37021bc3430a",
+    "docs/VERIFICATION.md": "879af6eee8e81265c3a4c45b069a8e802e3e46252f58571e8dc82f5de149973e",
+    "h11/PROJECTION_MANIFEST.json": "53ada7a141cf7b8e256a20de064543565b65234526aa1d919e2679c9f2bcb14d",
+    "h11/SOURCE_ATTRIBUTION.json": "f5227b5d3c83608ee43dc68802638a66566276ad22ec60d7bb3080d7079f838e",
+    "h11/data/ACQUISITION_RECEIPT.json": "6486c027989235c57a01a3aff419f19f98329afa0f4e3ee96cb49863b014660e",
+    "h11/data/heldout/car.data": "b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83",
+    "h11/data/heldout/car_evaluation.zip": "1559d51dcf327f4f8c71b711ceed7fd95a382fc8d8e1998667f4f23b82860403",
+    "h11/results/heldout/case_bank.json": "087ce7fe2fab3b36b625e2f46538dbcd6485c25c98f5feb0df9952c30f98f080",
+    "h11/results/heldout/observations.json": "d40c84b325aa24a96da7077731eecb7faab7f3419965d43dbce9af04db87e295",
+    "h11/results/heldout/retained_engine_check.json": "1f270029e6b520de614e6c2ffd0a6ed0c1f75ab9c6294c261babbe7808a803c7",
+    "h11/results/heldout/selection_composition.json": "d06f6485201d2119703b1f84f26bc1c2ff01c3136cea876fc9c0454d12959d47",
+    "h11/results/heldout/summary.json": "080a716b5f3ef8d35977c1496abdec6409a5fe7e4d8bc10f6b78b5bf2837116f",
+    "h11/study/BASELINE_IDENTITY.json": "f52c9404c912075d2aaaaccaac29f10eacf7b94afe4da988d7bd9358c84a9f4f",
+    "h11/study/CASE_SELECTION.json": "6c2d869b9f41ff630f347c73a4b493eade3c5058b6736ebbda70c53328388a38",
+    "h11/study/FREEZE.json": "355dba2111421931093144b9a3343877555ce8552156bb6fe79ef99f0ae17ac4",
+    "h11/study/FREEZE.sha256": "b92664687e705f639fb30513392cbd6c63407115d6d5d5b258c90692b73b9f95",
+    "h11/study/IMPLEMENTATION_SPEC.md": "604f2194ac4ebb0b0ab0a3fd103e11b33601a48f8c382aa950bd2cfc396843df",
+    "h11/study/PROTOCOL.md": "a0611c461614775d6fe806e7a89973d40c8c2256c673701c31fcb4b386ae72c0",
+    "h11/study/REMEDIATION_FINAL.json": "4ccca2168b87e22992939a1fd5bb0e3c529079bc75c26abb6e0b257dd10293d3",
+    "h11/study/SOURCE_EXCLUSION_CHECK.json": "45bdf27e0fa1c9817883f4b181da0a4cfdbf50072a2d8b0ae7505a2e1d466fcd",
+    "h11/study/VENDORED_SOURCE.json": "2839d9a701c098b31a2aceb25085c3404df4bc2d4e4d56f69e97be78482f44fb",
+    "h11/verify_h11.py": "be528de92d34b375e174ecbf0a48d14c6d07a390976194e5ee0e61b8b7395260",
+    "verify.py": "304d2a563970aadb1deafed2ad67358b66d2134aeed7b5e76b87eb9359d8bbdd",
+    "wine/scripts/build_transfer_bank.py": "c3bf1764649e928a3fec9643e670bcaaae4c90f70e19df9ced64d05e4819d42c",
+    "wine/scripts/verify_transfer_bank.py": "8ab22c0add8826f33c425fc2033c950a57aee7519a725b192114cb8fd345534e",
+    "wine/transfer/ACQUISITION_ORDER_CHECK.json": "a41d3fd75be75e0241d9093771e06036568fd4eff14f304f8f9c3dd956f93a2b",
+    "wine/transfer/ACQUISITION_RECEIPT.json": "89db9460c18900d6885872ad97e56f3e7f31b432a875b638357fc2eb2bb1018a",
+    "wine/transfer/ALL_CANDIDATES.json": "d3e78e4e8fc1f9c2495df4b9430970f282a4f16704d2f1add4bdfe2482c09e9a",
+    "wine/transfer/DUPLICATE_ROW_CONTENT_AUDIT.json": "07e7f187d135863ec39cd3031179a7144539182eac1d101a955eeb982352cd87",
+    "wine/transfer/PREACQUISITION_PROTOCOL.json": "799e007b5f945c9ff33117e2c548ad59c65fbfcd8f3c24d4a22d91b177bb5435",
+    "wine/transfer/PREACQUISITION_PROTOCOL.sha256": "8df0e99f19f56b07b7b2dda8ac5c2063f2ae989736e3546743fa509c63b6715e",
+    "wine/transfer/PREACQUISITION_PROTOCOL_v1_BEFORE_STEERING.json": "ce2a753bc8f7013336b0840bb312a301cf36a00fa17eada7625316766cdcf7e2",
+    "wine/transfer/RECORD_PARTITION_MAP.json": "c81ff584fe2469a0523a245c4dfc10a31efa9ead31384b6f2798133786408c90",
+    "wine/transfer/SOURCE_AND_SCOPE_EN.md": "a89f7b21d8fb6ab3b8fbc89eb0421ec2e529c1cdbed5bb0d19f50a5ccff5ae4e",
+    "wine/transfer/TRANSFER_PROVENANCE.json": "286d2b4e383beee0c75da2ee4bb34460a3dcae282cc7cb2bb8f6d144a33e5971",
+    "wine/transfer/TRANSFER_SUMMARY.json": "a490ede87d1b21cdb087c41294513bc52e0e310941a7e47e2649f77961517ffb",
+    "wine/transfer/VERIFIED_SOURCE_METADATA.json": "a4822155c78e662ed8dd6299fab189aab25b7f2fc3e9b8258a41160aa4479373",
+    "wine/transfer/private_transfer_key.json": "bc43ef4e3338875b4f40701296c9dca7a8557ef05a873b342b9162aa833f096b",
+    "wine/transfer/public_transfer_cases.json": "8969df5a5ee750f2d19684302d016073e72ee1fbbfdbcf5e83fedfbe5d7289f4",
+    "wine/transfer/wine_quality_uci.zip": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+    "wine/transfer/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "wine/transfer/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "wine/transfer/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+    "wine_sensitivity/CANDIDATE_LEDGER.csv": "e869e5bb1b72a45983dba7c9be43e7a4b46d55ad2c71400716d0aacf0c105189",
+    "wine_sensitivity/CLEAN_EXTRACTION_QA.json": "8512ca6fa7b091ed0f8591f8b5c413687331c937f1acb6bf9c745af4061c4321",
+    "wine_sensitivity/COMPARE_RUN_LOG.json": "6d47448516cd66a9f4359997c364e08121cbc4536ad1c131a1d340af5891bafa",
+    "wine_sensitivity/DUPLICATE_IDENTITY_RECONCILIATION.json": "1b1a2624ad596eea62ec09f74dbe25e71f8c8b8e201464e64f0a6e421421c8eb",
+    "wine_sensitivity/EXECUTION_RECEIPT.json": "45b32c8a2f20b04c6639a5169381523fcbbbb21f3fbd66a56edb9fabd915a300",
+    "wine_sensitivity/EXPLORATORY_PLAN.json": "07e1114322f57be40c7f5da397dd4a6d54324ac072080b840c5d17265e9b7d11",
+    "wine_sensitivity/EXPLORATORY_PLAN.sha256": "4567906be10a253692e3743f0b9fbd3e2df92032c15d0c42e600badcfedf0d70",
+    "wine_sensitivity/GROUP_SCORE_LEDGER.csv": "afbfff4c3e7e13a6c8ad0b22bc786c3135ceb1bfd8fec8d26b8c84fc68a49690",
+    "wine_sensitivity/INDEPENDENT_COMPARISON_QA.json": "6d47448516cd66a9f4359997c364e08121cbc4536ad1c131a1d340af5891bafa",
+    "wine_sensitivity/README_REPLAY_EN.md": "482375351947be35c809b8c6c9e96efcf96c688cf8bb7ed04d1894c88744194d",
+    "wine_sensitivity/RECORD_ASSIGNMENTS.json": "bfa57cb11afc9dba9aa4340f2957421ef1b7f31f0dbab253dee98f504f39da03",
+    "wine_sensitivity/RUN_LOG.json": "8834bf2e9e9be161419f5405d28b249586cd27f90aa7e89c25cc69dcc62a811c",
+    "wine_sensitivity/SENSITIVITY_RESULTS.json": "63eb26c28536ad62861bb85f22138a82e9425ed5488370f03d5c3659e0008483",
+    "wine_sensitivity/SUMMARY.json": "7572aec1a39b78436ae28deafdbeabad806e37725ca7412760ddcb33776de09a",
+    "wine_sensitivity/VERIFY_SENSITIVITY_LOG.json": "ebf82840d925f7afca79c925107bd6ceb6ff74ca38a6b2408ac4b2932cdd7a8d",
+    "wine_sensitivity/WINE_SENSITIVITY_REPORT.md": "4625ba683395a7a76a895caa296431fb065f41b095f71da600c77386e72ab0fe",
+    "wine_sensitivity/independent/INDEPENDENT_CHECK.md": "74afaa6d1ac76eb1fc7da91e07bfa24ac62cdfc11dbd3e4bda97e0bee101b3d3",
+    "wine_sensitivity/independent/INDEPENDENT_RESULTS.json": "e8c349788494a4b56f27d9a52f392c242e6d84db5aad272bfa9ae0570775c5b4",
+    "wine_sensitivity/independent/INDEPENDENT_RESULTS.sha256": "ed0ddd21a8c8250ef2afe0d55fb99bf12151385f4c0c4f817cd4bf6b648eed16",
+    "wine_sensitivity/independent/reconstruct_independent.py": "3982e93a8e5ab4f47c31b41cabfd966334351907a7fb9d33b90700e476298f60",
+    "wine_sensitivity/inputs/ACQUISITION_RECEIPT.json": "89db9460c18900d6885872ad97e56f3e7f31b432a875b638357fc2eb2bb1018a",
+    "wine_sensitivity/inputs/ALL_CANDIDATES.json": "d3e78e4e8fc1f9c2495df4b9430970f282a4f16704d2f1add4bdfe2482c09e9a",
+    "wine_sensitivity/inputs/PREACQUISITION_PROTOCOL.json": "799e007b5f945c9ff33117e2c548ad59c65fbfcd8f3c24d4a22d91b177bb5435",
+    "wine_sensitivity/inputs/TRANSFER_SUMMARY.json": "a490ede87d1b21cdb087c41294513bc52e0e310941a7e47e2649f77961517ffb",
+    "wine_sensitivity/inputs/VERIFIED_SOURCE_METADATA.json": "a4822155c78e662ed8dd6299fab189aab25b7f2fc3e9b8258a41160aa4479373",
+    "wine_sensitivity/inputs/public_transfer_cases.json": "8969df5a5ee750f2d19684302d016073e72ee1fbbfdbcf5e83fedfbe5d7289f4",
+    "wine_sensitivity/inputs/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "wine_sensitivity/inputs/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "wine_sensitivity/inputs/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+    "wine_sensitivity/scripts/compare_reconstructions.py": "a06427f6c3b489866d1cfd0595e7a601d574cdab3b6b2620dbc0c91e31869ab3",
+    "wine_sensitivity/scripts/run_sensitivity.py": "ce0ff3348638df463bb76b2b691558e2f8c221c7d7ecc92a3dcaf27ed18e42f0",
+    "wine_sensitivity/verify_sensitivity.py": "09f2754f8d396a9548e367f867a65210104ee1ea5a1fdbfa83cdaa95fa1fb355"
+  },
+  "upstream_revision_provenance": {
+    "excluded_or_replaced_files_sha256": {
+      "00_START_M12.txt": "d6d793f6923a2b5f5a7dc0e74d47a86acbfd34de70d64e61590dbd1565559585",
+      "00_START_M13.txt": "f94125655a03ab9d7f0ed64a601865b2f9549c54591ebb4cf93c52e60281d2fa",
+      "LICENSE_M12_SCOPE.txt": "2a80e094a7a83ec4c0a8d589859bb94ce3e7f27065860f8d036d55e5a02902a1",
+      "LICENSE_M13_SCOPE.txt": "fdefd99d101c49c26eba8411ab7b58d977645becfe5581e329a652d3b088cdf6",
+      "LICENSE_SCOPE.txt": "e39c785097346b24471ffcdd7fce3b7a71c58652b7aaaa5a02d357141dd97d70",
+      "M12_MANIFEST.json": "9a5176568599fdd152fe41dc59af0a7a70f918b2ea1df01cffc7a73838ff94b4",
+      "M13_MANIFEST.json": "d2b9d06cac3bd67247b9141b8ac671be9f5ecea1b5e052636c85470f5b770e44",
+      "README_M12.md": "4690c768b472363326890c39013f2c6a6209841aca1464fc5d6dc022c96cfd5f",
+      "README_M13.md": "0566b06b5adc3181b00c0d687e2998f65e674532a9b25655c2177e1aa105c6b2",
+      "h11/study/IMPLEMENTATION_SPEC.txt": "d64997f08af5526b81b2594473133e184de854347ac196153931cb3b708d715d",
+      "h11/study/PROTOCOL_EN.txt": "fb88f4c4069f49205e7864907df3f71408c3bef88dad12a5939d5d300f6c0e02",
+      "verify_m12.py": "a3d7e396ccf69bd47a60649172f99bd4835fa8b3a9ac2c1b5b36c07abf000610",
+      "verify_m13.py": "72a5a3f1af519408a10b326923c9ee2eb8d4515c114f4e24dd912c91682be507",
+      "wine_sensitivity/WINE_SENSITIVITY_AUDIT_RO.md": "a979592590194915b7ef1868e3c2088d174c0bbcb4a2151c4a3a88ab12db4547",
+      "wine_sensitivity/independent/INDEPENDENT_CHECK_EN.txt": "a8d6d500cfdede0ba04616fb001d17ee6c4b0a049c05f5433ff96c96b7c815c4"
+    },
+    "generated_integrity_files": [
+      "MANIFEST.json",
+      "REVISION_PROVENANCE.json"
+    ],
+    "new_files": [
+      ".gitattributes",
+      "CHANGELOG.md",
+      "CITATION.cff",
+      "LICENSE.md",
+      "SOURCE_ATTRIBUTION.md",
+      "docs/RESULTS.md",
+      "docs/VERIFICATION.md",
+      "h11/study/IMPLEMENTATION_SPEC.md",
+      "h11/study/PROTOCOL.md",
+      "wine_sensitivity/WINE_SENSITIVITY_REPORT.md",
+      "wine_sensitivity/independent/INDEPENDENT_CHECK.md"
+    ],
+    "revised_files": {
+      "README.md": {
+        "current_sha256": "f995e7729865b7e0a2ea46f22e2262b3c5e67de0d7ab5d970bb6cbd39be2e89e",
+        "source_sha256": "fe78cf436062f18fa3a91232df9cb6e78fa59d4be953972504de1987654ff173"
+      },
+      "SHA256SUMS": {
+        "current_sha256": "e72df3cee329c68794aae454887d47928c6e4f964f4228f5b38e929091d4a1ef",
+        "source_sha256": "d8abc513e64a1ee7425609aa7aa65f4aa77380b3c7b618ab40fd4ca20e8a893c"
+      },
+      "h11/PROJECTION_MANIFEST.json": {
+        "current_sha256": "53ada7a141cf7b8e256a20de064543565b65234526aa1d919e2679c9f2bcb14d",
+        "source_sha256": "3f61535cbdc86d3878a92a8c32120ddcd883e0207605bf3a7b1b27a9aa0e5981"
+      },
+      "h11/verify_h11.py": {
+        "current_sha256": "be528de92d34b375e174ecbf0a48d14c6d07a390976194e5ee0e61b8b7395260",
+        "source_sha256": "a9b8c835ddce3157964a8759198e9b554588c520c638b10dd5a2c45293ae58cd"
+      },
+      "verify_all.py": {
+        "current_sha256": "3dc6a2c95fbde26f310317c169aa5606bcdb756eae6cb3d6fe6d971806f65240",
+        "source_sha256": "430e75a11590f9616b3800fde622fa8dbcc5eee74f7585e4d99bdcbc3c02d60e"
+      },
+      "wine/transfer/SOURCE_AND_SCOPE_EN.md": {
+        "current_sha256": "a89f7b21d8fb6ab3b8fbc89eb0421ec2e529c1cdbed5bb0d19f50a5ccff5ae4e",
+        "source_sha256": "170aa5b907b1bba6c14335458866b276de45b563b96140415421e602a7c3cd61"
+      },
+      "wine_sensitivity/README_REPLAY_EN.md": {
+        "current_sha256": "482375351947be35c809b8c6c9e96efcf96c688cf8bb7ed04d1894c88744194d",
+        "source_sha256": "fa7c276e907243714c5bf67df84402eb135b18e86b9718bd583a28bcab842ff5"
+      },
+      "wine_sensitivity/independent/reconstruct_independent.py": {
+        "current_sha256": "3982e93a8e5ab4f47c31b41cabfd966334351907a7fb9d33b90700e476298f60",
+        "source_sha256": "dfb015ec937eb614bf1529bdeac0eb2e8979b21bddeda26fe2f8ee23d9615dae"
+      },
+      "wine_sensitivity/scripts/compare_reconstructions.py": {
+        "current_sha256": "a06427f6c3b489866d1cfd0595e7a601d574cdab3b6b2620dbc0c91e31869ab3",
+        "source_sha256": "964233e1a7ef336c365c894e8a597959be16f22307a1a335699f9d8b574a07fd"
+      },
+      "wine_sensitivity/scripts/run_sensitivity.py": {
+        "current_sha256": "ce0ff3348638df463bb76b2b691558e2f8c221c7d7ecc92a3dcaf27ed18e42f0",
+        "source_sha256": "dd20fb9e9f3e845b32641697ba8545e0b52b66adc96a3f3dd4c18e66163a9a0e"
+      },
+      "wine_sensitivity/verify_sensitivity.py": {
+        "current_sha256": "09f2754f8d396a9548e367f867a65210104ee1ea5a1fdbfa83cdaa95fa1fb355",
+        "source_sha256": "0e250f8d4846930d827acd2e31f0f7b6b9555d7e4255ff37d566b61374ce3700"
+      }
+    },
+    "scope": "Documentation and verification-runner revision. Scientific inputs, outcomes, historical freeze and acquisition records retain their original bytes. Historical execution receipts refer to their original script digests.",
+    "source_archive": "PaperM_CANDIDAT_DATE_EXACT_M13.zip",
+    "source_archive_sha256": "6168f29b342b34f254ed4233a55c0172868ef30ba1f4591a3d4e337a06cc2cff",
+    "source_version": "M13-review",
+    "unchanged_files_sha256": {
+      "data/b1_positive_control.json": "b490760ce6ea03d6dcb8ec1c76a6e50723dbdb2abb2693b771e27b99c8edb082",
+      "data/b1_run_projection.jsonl": "5933e0bafac077506bedddb8f4428e8251e63c272ba80b19c48aa08ab9c85d5d",
+      "data/b1_synthetic_models.json": "d91fe34b5ab8bf05edfef53c922d82b83f7de732bf0857222afc60ca1e893286",
+      "data/epa_aggregates.json": "d54d9b73c2ad51b448513400b629da02e44877d347b088700dd853e4baf7f577",
+      "data/epss_aggregate_readout.json": "6d1091cce712d2105dbd02428fe8c56477aad92f36fd7e92d5f7126071540027",
+      "data/historical_outcomes.json": "4fbf7006843847a8de9f4fc57c14e19821f9f506bd3938885e92de48d3ad62b5",
+      "data/origin_manifest.json": "b9ac2a5163174d444e5b4360a2f58fec630a01d3be8f5bc76f04dc197c34ef78",
+      "data/upstream_inputs.json": "5a824f013f1171c57a44976c656e2b489aed73df9143752003f429d68cab0aaf",
+      "data/worked_case_0145.json": "deb5b99191b4bcd2b32f71c24419b4c3fd6665eec537e9dd2097118eeac513e7",
+      "h11/SOURCE_ATTRIBUTION.json": "f5227b5d3c83608ee43dc68802638a66566276ad22ec60d7bb3080d7079f838e",
+      "h11/data/ACQUISITION_RECEIPT.json": "6486c027989235c57a01a3aff419f19f98329afa0f4e3ee96cb49863b014660e",
+      "h11/data/heldout/car.data": "b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83",
+      "h11/data/heldout/car_evaluation.zip": "1559d51dcf327f4f8c71b711ceed7fd95a382fc8d8e1998667f4f23b82860403",
+      "h11/results/heldout/case_bank.json": "087ce7fe2fab3b36b625e2f46538dbcd6485c25c98f5feb0df9952c30f98f080",
+      "h11/results/heldout/observations.json": "d40c84b325aa24a96da7077731eecb7faab7f3419965d43dbce9af04db87e295",
+      "h11/results/heldout/retained_engine_check.json": "1f270029e6b520de614e6c2ffd0a6ed0c1f75ab9c6294c261babbe7808a803c7",
+      "h11/results/heldout/selection_composition.json": "d06f6485201d2119703b1f84f26bc1c2ff01c3136cea876fc9c0454d12959d47",
+      "h11/results/heldout/summary.json": "080a716b5f3ef8d35977c1496abdec6409a5fe7e4d8bc10f6b78b5bf2837116f",
+      "h11/study/BASELINE_IDENTITY.json": "f52c9404c912075d2aaaaccaac29f10eacf7b94afe4da988d7bd9358c84a9f4f",
+      "h11/study/CASE_SELECTION.json": "6c2d869b9f41ff630f347c73a4b493eade3c5058b6736ebbda70c53328388a38",
+      "h11/study/FREEZE.json": "355dba2111421931093144b9a3343877555ce8552156bb6fe79ef99f0ae17ac4",
+      "h11/study/FREEZE.sha256": "b92664687e705f639fb30513392cbd6c63407115d6d5d5b258c90692b73b9f95",
+      "h11/study/REMEDIATION_FINAL.json": "4ccca2168b87e22992939a1fd5bb0e3c529079bc75c26abb6e0b257dd10293d3",
+      "h11/study/SOURCE_EXCLUSION_CHECK.json": "45bdf27e0fa1c9817883f4b181da0a4cfdbf50072a2d8b0ae7505a2e1d466fcd",
+      "h11/study/VENDORED_SOURCE.json": "2839d9a701c098b31a2aceb25085c3404df4bc2d4e4d56f69e97be78482f44fb",
+      "verify.py": "304d2a563970aadb1deafed2ad67358b66d2134aeed7b5e76b87eb9359d8bbdd",
+      "wine/scripts/build_transfer_bank.py": "c3bf1764649e928a3fec9643e670bcaaae4c90f70e19df9ced64d05e4819d42c",
+      "wine/scripts/verify_transfer_bank.py": "8ab22c0add8826f33c425fc2033c950a57aee7519a725b192114cb8fd345534e",
+      "wine/transfer/ACQUISITION_ORDER_CHECK.json": "a41d3fd75be75e0241d9093771e06036568fd4eff14f304f8f9c3dd956f93a2b",
+      "wine/transfer/ACQUISITION_RECEIPT.json": "89db9460c18900d6885872ad97e56f3e7f31b432a875b638357fc2eb2bb1018a",
+      "wine/transfer/ALL_CANDIDATES.json": "d3e78e4e8fc1f9c2495df4b9430970f282a4f16704d2f1add4bdfe2482c09e9a",
+      "wine/transfer/DUPLICATE_ROW_CONTENT_AUDIT.json": "07e7f187d135863ec39cd3031179a7144539182eac1d101a955eeb982352cd87",
+      "wine/transfer/PREACQUISITION_PROTOCOL.json": "799e007b5f945c9ff33117e2c548ad59c65fbfcd8f3c24d4a22d91b177bb5435",
+      "wine/transfer/PREACQUISITION_PROTOCOL.sha256": "8df0e99f19f56b07b7b2dda8ac5c2063f2ae989736e3546743fa509c63b6715e",
+      "wine/transfer/PREACQUISITION_PROTOCOL_v1_BEFORE_STEERING.json": "ce2a753bc8f7013336b0840bb312a301cf36a00fa17eada7625316766cdcf7e2",
+      "wine/transfer/RECORD_PARTITION_MAP.json": "c81ff584fe2469a0523a245c4dfc10a31efa9ead31384b6f2798133786408c90",
+      "wine/transfer/TRANSFER_PROVENANCE.json": "286d2b4e383beee0c75da2ee4bb34460a3dcae282cc7cb2bb8f6d144a33e5971",
+      "wine/transfer/TRANSFER_SUMMARY.json": "a490ede87d1b21cdb087c41294513bc52e0e310941a7e47e2649f77961517ffb",
+      "wine/transfer/VERIFIED_SOURCE_METADATA.json": "a4822155c78e662ed8dd6299fab189aab25b7f2fc3e9b8258a41160aa4479373",
+      "wine/transfer/private_transfer_key.json": "bc43ef4e3338875b4f40701296c9dca7a8557ef05a873b342b9162aa833f096b",
+      "wine/transfer/public_transfer_cases.json": "8969df5a5ee750f2d19684302d016073e72ee1fbbfdbcf5e83fedfbe5d7289f4",
+      "wine/transfer/wine_quality_uci.zip": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+      "wine/transfer/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "wine/transfer/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+      "wine/transfer/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+      "wine_sensitivity/CANDIDATE_LEDGER.csv": "e869e5bb1b72a45983dba7c9be43e7a4b46d55ad2c71400716d0aacf0c105189",
+      "wine_sensitivity/CLEAN_EXTRACTION_QA.json": "8512ca6fa7b091ed0f8591f8b5c413687331c937f1acb6bf9c745af4061c4321",
+      "wine_sensitivity/COMPARE_RUN_LOG.json": "6d47448516cd66a9f4359997c364e08121cbc4536ad1c131a1d340af5891bafa",
+      "wine_sensitivity/DUPLICATE_IDENTITY_RECONCILIATION.json": "1b1a2624ad596eea62ec09f74dbe25e71f8c8b8e201464e64f0a6e421421c8eb",
+      "wine_sensitivity/EXECUTION_RECEIPT.json": "45b32c8a2f20b04c6639a5169381523fcbbbb21f3fbd66a56edb9fabd915a300",
+      "wine_sensitivity/EXPLORATORY_PLAN.json": "07e1114322f57be40c7f5da397dd4a6d54324ac072080b840c5d17265e9b7d11",
+      "wine_sensitivity/EXPLORATORY_PLAN.sha256": "4567906be10a253692e3743f0b9fbd3e2df92032c15d0c42e600badcfedf0d70",
+      "wine_sensitivity/GROUP_SCORE_LEDGER.csv": "afbfff4c3e7e13a6c8ad0b22bc786c3135ceb1bfd8fec8d26b8c84fc68a49690",
+      "wine_sensitivity/INDEPENDENT_COMPARISON_QA.json": "6d47448516cd66a9f4359997c364e08121cbc4536ad1c131a1d340af5891bafa",
+      "wine_sensitivity/RECORD_ASSIGNMENTS.json": "bfa57cb11afc9dba9aa4340f2957421ef1b7f31f0dbab253dee98f504f39da03",
+      "wine_sensitivity/RUN_LOG.json": "8834bf2e9e9be161419f5405d28b249586cd27f90aa7e89c25cc69dcc62a811c",
+      "wine_sensitivity/SENSITIVITY_RESULTS.json": "63eb26c28536ad62861bb85f22138a82e9425ed5488370f03d5c3659e0008483",
+      "wine_sensitivity/SUMMARY.json": "7572aec1a39b78436ae28deafdbeabad806e37725ca7412760ddcb33776de09a",
+      "wine_sensitivity/VERIFY_SENSITIVITY_LOG.json": "ebf82840d925f7afca79c925107bd6ceb6ff74ca38a6b2408ac4b2932cdd7a8d",
+      "wine_sensitivity/independent/INDEPENDENT_RESULTS.json": "e8c349788494a4b56f27d9a52f392c242e6d84db5aad272bfa9ae0570775c5b4",
+      "wine_sensitivity/independent/INDEPENDENT_RESULTS.sha256": "ed0ddd21a8c8250ef2afe0d55fb99bf12151385f4c0c4f817cd4bf6b648eed16",
+      "wine_sensitivity/inputs/ACQUISITION_RECEIPT.json": "89db9460c18900d6885872ad97e56f3e7f31b432a875b638357fc2eb2bb1018a",
+      "wine_sensitivity/inputs/ALL_CANDIDATES.json": "d3e78e4e8fc1f9c2495df4b9430970f282a4f16704d2f1add4bdfe2482c09e9a",
+      "wine_sensitivity/inputs/PREACQUISITION_PROTOCOL.json": "799e007b5f945c9ff33117e2c548ad59c65fbfcd8f3c24d4a22d91b177bb5435",
+      "wine_sensitivity/inputs/TRANSFER_SUMMARY.json": "a490ede87d1b21cdb087c41294513bc52e0e310941a7e47e2649f77961517ffb",
+      "wine_sensitivity/inputs/VERIFIED_SOURCE_METADATA.json": "a4822155c78e662ed8dd6299fab189aab25b7f2fc3e9b8258a41160aa4479373",
+      "wine_sensitivity/inputs/public_transfer_cases.json": "8969df5a5ee750f2d19684302d016073e72ee1fbbfdbcf5e83fedfbe5d7289f4",
+      "wine_sensitivity/inputs/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "wine_sensitivity/inputs/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+      "wine_sensitivity/inputs/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92"
+    },
+    "version": "M13-repository-r1"
+  },
+  "version": "1.0.0"
+}

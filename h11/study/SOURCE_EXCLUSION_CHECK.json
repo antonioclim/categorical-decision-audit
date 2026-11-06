@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "base": "h11/baseline",
+      "matches": [],
+      "text_files_scanned": 40
+    },
+    {
+      "base": "h11/f2",
+      "matches": [],
+      "text_files_scanned": 330
+    },
+    {
+      "base": "h11/m2",
+      "matches": [],
+      "text_files_scanned": 30
+    }
+  ],
+  "heldout_raw_rows_read": false,
+  "metadata_only_url": "https://archive.ics.uci.edu/dataset/19/car+evaluation",
+  "needles": [
+    "Car Evaluation",
+    "C5JP48",
+    "car.data",
+    "car+evaluation",
+    "car%2Bevaluation"
+  ],
+  "scope": "scanned recovered project text/code/data only, not all historic files or human knowledge"
+}

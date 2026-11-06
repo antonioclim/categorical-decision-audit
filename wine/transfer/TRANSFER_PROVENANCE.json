@@ -1,0 +1,37 @@
+{
+  "licence_scope": "CC BY 4.0 source and identified adaptations retain attribution; no claim of novel observed policy changes or human efficacy.",
+  "protocol_sha256": "799e007b5f945c9ff33117e2c548ad59c65fbfcd8f3c24d4a22d91b177bb5435",
+  "public_bank_sha256": "8969df5a5ee750f2d19684302d016073e72ee1fbbfdbcf5e83fedfbe5d7289f4",
+  "raw_inputs": {
+    "winequality-red.csv": {
+      "bytes": 84199,
+      "sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+    },
+    "winequality-white.csv": {
+      "bytes": 264426,
+      "sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    },
+    "winequality.names": {
+      "bytes": 3305,
+      "sha256": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92"
+    }
+  },
+  "source": {
+    "authors": [
+      "Paulo Cortez",
+      "A. Cerdeira",
+      "F. Almeida",
+      "T. Matos",
+      "J. Reis"
+    ],
+    "doi": "https://doi.org/10.24432/C56S3T",
+    "download_url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "metadata_url": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+    "name": "Wine Quality",
+    "repository": "UCI Machine Learning Repository",
+    "uci_id": 186,
+    "year": 2009
+  }
+}
