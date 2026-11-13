@@ -1,0 +1,1137 @@
+{
+  "direct_dl22": {
+    "cases": 76,
+    "matched_primary_and_strict_counts": 304,
+    "worlds": 144526582
+  },
+  "handoff": {
+    "blind_result_sha256": "f3f4c013b2e7733c4c74a303ca3973133c9b15568fc73498d3d33beb3fbe2185",
+    "clean_artifact_bytes": {
+      "bare": {
+        "max": 11,
+        "median": 9.0,
+        "min": 9
+      },
+      "bound": {
+        "max": 152,
+        "median": 148.0,
+        "min": 142
+      },
+      "evidence": {
+        "max": 537,
+        "median": 258.0,
+        "min": 159
+      },
+      "signed_bound": {
+        "max": 305,
+        "median": 301.0,
+        "min": 295
+      }
+    },
+    "evidence_only_eligible_statuses": {
+      "changed": 55,
+      "invariant": 76
+    },
+    "table": {
+      "case_swap_same": {
+        "evidence_reasons": {
+          "case_or_endpoint_binding_mismatch": 180
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 0,
+          "bound": 180,
+          "bound_resolve": 180,
+          "evidence": 180,
+          "signed_bound": 180,
+          "signed_bound_resolve": 180
+        },
+        "trials": 180,
+        "valid_signatures": 180
+      },
+      "clean": {
+        "evidence_reasons": {},
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 0,
+          "bound": 0,
+          "bound_resolve": 0,
+          "evidence": 0,
+          "signed_bound": 0,
+          "signed_bound_resolve": 0
+        },
+        "trials": 180,
+        "valid_signatures": 180
+      },
+      "endpoint_swap_different": {
+        "evidence_reasons": {
+          "case_or_endpoint_binding_mismatch": 28
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 28,
+          "bound": 28,
+          "bound_resolve": 28,
+          "evidence": 28,
+          "signed_bound": 28,
+          "signed_bound_resolve": 28
+        },
+        "trials": 28,
+        "valid_signatures": 28
+      },
+      "endpoint_swap_same": {
+        "evidence_reasons": {
+          "case_or_endpoint_binding_mismatch": 152
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 0,
+          "bound": 152,
+          "bound_resolve": 152,
+          "evidence": 152,
+          "signed_bound": 152,
+          "signed_bound_resolve": 152
+        },
+        "trials": 152,
+        "valid_signatures": 152
+      },
+      "evidence_only": {
+        "evidence_reasons": {
+          "leaf_does_not_establish_contradiction": 76,
+          "witness_does_not_change_requested_endpoint": 55
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 0,
+          "bound": 0,
+          "bound_resolve": 0,
+          "evidence": 131,
+          "signed_bound": 0,
+          "signed_bound_resolve": 0
+        },
+        "trials": 131,
+        "valid_signatures": 131
+      },
+      "issuer_wrong_verdict": {
+        "evidence_reasons": {
+          "leaf_does_not_establish_contradiction": 104,
+          "witness_does_not_change_requested_endpoint": 76
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 180,
+          "bound": 0,
+          "bound_resolve": 180,
+          "evidence": 180,
+          "signed_bound": 0,
+          "signed_bound_resolve": 180
+        },
+        "trials": 180,
+        "valid_signatures": 180
+      },
+      "transport_wrong_verdict": {
+        "evidence_reasons": {
+          "leaf_does_not_establish_contradiction": 104,
+          "witness_does_not_change_requested_endpoint": 76
+        },
+        "rejected": {
+          "bare": 0,
+          "bare_resolve": 180,
+          "bound": 0,
+          "bound_resolve": 180,
+          "evidence": 180,
+          "signed_bound": 180,
+          "signed_bound_resolve": 180
+        },
+        "trials": 180,
+        "valid_signatures": 0
+      }
+    }
+  },
+  "mutations": {
+    "mutation_checks": 74,
+    "mutation_checks_passed": 74,
+    "mutation_counts": {
+      "case_hash": 12,
+      "duplicate_status_key": 12,
+      "endpoint": 12,
+      "false_changed_with_feasible_grades": 6,
+      "false_invariant_with_complete_shape": 6,
+      "invalid_witness_grade_or_domain": 6,
+      "missing_grade_branch": 1,
+      "missing_scenario": 6,
+      "split_on_known_grade": 1,
+      "trusted_case_known_grade": 12
+    },
+    "originals_verified": 13
+  },
+  "portable": {
+    "dl19": {
+      "baseline_conflicts_or_unstable": [],
+      "coverage": {
+        "incidence_exact": {
+          "changed": 72,
+          "invariant": 68
+        },
+        "pair_margin_dp": {
+          "changed": 46,
+          "invariant": 24
+        },
+        "proof": {
+          "changed": 72,
+          "invariant": 68
+        },
+        "qflia": {
+          "changed": 72,
+          "invariant": 68
+        },
+        "structural_qflia": {
+          "changed": 72,
+          "invariant": 68
+        }
+      },
+      "false_acceptances": [],
+      "independently_adjudicated": {
+        "changed": 72,
+        "invariant": 68
+      },
+      "proof_coverage_losses": [],
+      "requests": 140,
+      "verifier_rejections": []
+    },
+    "dl20": {
+      "baseline_conflicts_or_unstable": [],
+      "coverage": {
+        "incidence_exact": {
+          "changed": 90,
+          "invariant": 86
+        },
+        "pair_margin_dp": {
+          "changed": 52,
+          "invariant": 36
+        },
+        "proof": {
+          "changed": 90,
+          "invariant": 86
+        },
+        "qflia": {
+          "changed": 90,
+          "invariant": 86
+        },
+        "structural_qflia": {
+          "changed": 90,
+          "invariant": 86
+        }
+      },
+      "false_acceptances": [],
+      "independently_adjudicated": {
+        "changed": 90,
+        "invariant": 86
+      },
+      "proof_coverage_losses": [],
+      "requests": 176,
+      "verifier_rejections": []
+    },
+    "dl21": {
+      "baseline_conflicts_or_unstable": [],
+      "coverage": {
+        "incidence_exact": {
+          "changed": 104,
+          "invariant": 76
+        },
+        "pair_margin_dp": {
+          "changed": 59,
+          "invariant": 31
+        },
+        "proof": {
+          "changed": 104,
+          "invariant": 76
+        },
+        "qflia": {
+          "changed": 104,
+          "invariant": 76
+        },
+        "structural_qflia": {
+          "changed": 104,
+          "invariant": 76
+        }
+      },
+      "false_acceptances": [],
+      "independently_adjudicated": {
+        "changed": 104,
+        "invariant": 76
+      },
+      "proof_coverage_losses": [],
+      "requests": 180,
+      "verifier_rejections": []
+    },
+    "dl22": {
+      "baseline_conflicts_or_unstable": [],
+      "coverage": {
+        "incidence_exact": {
+          "changed": 111,
+          "invariant": 41
+        },
+        "pair_margin_dp": {
+          "changed": 64,
+          "invariant": 12
+        },
+        "proof": {
+          "changed": 111,
+          "invariant": 41
+        },
+        "qflia": {
+          "changed": 111,
+          "invariant": 41
+        },
+        "structural_qflia": {
+          "changed": 111,
+          "invariant": 41
+        }
+      },
+      "false_acceptances": [],
+      "independently_adjudicated": {
+        "changed": 111,
+        "invariant": 41
+      },
+      "proof_coverage_losses": [],
+      "requests": 152,
+      "verifier_rejections": []
+    },
+    "stress": {
+      "baseline_conflicts_or_unstable": [],
+      "coverage": {
+        "incidence_exact": {
+          "changed": 131,
+          "invariant": 77
+        },
+        "pair_margin_dp": {
+          "changed": 80,
+          "invariant": 24
+        },
+        "proof": {
+          "changed": 131,
+          "invariant": 77
+        },
+        "qflia": {
+          "changed": 131,
+          "invariant": 77
+        },
+        "structural_qflia": {
+          "changed": 131,
+          "invariant": 77
+        }
+      },
+      "false_acceptances": [],
+      "independently_adjudicated": {
+        "changed": 131,
+        "invariant": 77
+      },
+      "proof_coverage_losses": [],
+      "requests": 208,
+      "verifier_rejections": []
+    }
+  },
+  "sat": {
+    "dl21": {
+      "empty_proofs": 63,
+      "encoding_assignments_checked": 7362,
+      "nonempty_proofs": 13,
+      "status_counts": {
+        "changed": 104,
+        "invariant": 76
+      }
+    },
+    "dl22": {
+      "empty_proofs": 36,
+      "encoding_assignments_checked": 72172,
+      "nonempty_proofs": 5,
+      "status_counts": {
+        "changed": 111,
+        "invariant": 41
+      }
+    }
+  },
+  "selection": {
+    "dl19": {
+      "masked": {
+        "1_prefix": {
+          "all_zero_change": 7,
+          "all_zero_misses": 8,
+          "always_change": 3,
+          "change": 15,
+          "marginal_equality_misses": 3,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 6,
+          "two_point_misses": 5
+        },
+        "1_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 8,
+          "always_change": 3,
+          "change": 15,
+          "marginal_equality_misses": 3,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 6,
+          "two_point_misses": 5
+        },
+        "2_prefix": {
+          "all_zero_change": 9,
+          "all_zero_misses": 12,
+          "always_change": 3,
+          "change": 21,
+          "marginal_equality_misses": 5,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 6,
+          "two_point_misses": 7
+        },
+        "2_set": {
+          "all_zero_change": 6,
+          "all_zero_misses": 14,
+          "always_change": 0,
+          "change": 20,
+          "marginal_equality_misses": 5,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 9,
+          "two_point_misses": 8
+        },
+        "3_prefix": {
+          "all_zero_change": 11,
+          "all_zero_misses": 11,
+          "always_change": 5,
+          "change": 22,
+          "marginal_equality_misses": 4,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 3,
+          "two_point_misses": 7
+        },
+        "3_set": {
+          "all_zero_change": 5,
+          "all_zero_misses": 11,
+          "always_change": 1,
+          "change": 16,
+          "marginal_equality_misses": 4,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 5,
+          "two_point_misses": 9
+        },
+        "cases": 27,
+        "exact": 27,
+        "max_compressed_states": 64,
+        "queries_with_shared": 27,
+        "shared_pairs": 81,
+        "worlds_exact": 1728
+      },
+      "natural": {
+        "1_prefix": {
+          "all_zero_change": 2,
+          "all_zero_misses": 11,
+          "always_change": 0,
+          "change": 13,
+          "marginal_equality_misses": 11,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 7,
+          "two_point_misses": 10
+        },
+        "1_set": {
+          "all_zero_change": 2,
+          "all_zero_misses": 11,
+          "always_change": 0,
+          "change": 13,
+          "marginal_equality_misses": 11,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 7,
+          "two_point_misses": 10
+        },
+        "2_prefix": {
+          "all_zero_change": 4,
+          "all_zero_misses": 9,
+          "always_change": 0,
+          "change": 13,
+          "marginal_equality_misses": 7,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 6,
+          "two_point_misses": 8
+        },
+        "2_set": {
+          "all_zero_change": 2,
+          "all_zero_misses": 7,
+          "always_change": 0,
+          "change": 9,
+          "marginal_equality_misses": 5,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 4,
+          "two_point_misses": 6
+        },
+        "3_prefix": {
+          "all_zero_change": 5,
+          "all_zero_misses": 9,
+          "always_change": 2,
+          "change": 14,
+          "marginal_equality_misses": 7,
+          "pivotal_shared_pairs": 5,
+          "queries_with_pivotal_shared": 4,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 5,
+          "two_point_misses": 8,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "3_set": {
+          "all_zero_change": 2,
+          "all_zero_misses": 7,
+          "always_change": 2,
+          "change": 9,
+          "marginal_equality_misses": 5,
+          "pivotal_shared_pairs": 4,
+          "queries_with_pivotal_shared": 3,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 4,
+          "two_point_misses": 6,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "cases": 16,
+        "exact": 16,
+        "max_compressed_states": 11025,
+        "queries_with_shared": 4,
+        "shared_pairs": 5,
+        "worlds_exact": 21070876
+      },
+      "observed": {
+        "1_prefix": {
+          "all_zero_change": 5,
+          "all_zero_misses": 0,
+          "always_change": 5,
+          "change": 5,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "1_set": {
+          "all_zero_change": 5,
+          "all_zero_misses": 0,
+          "always_change": 5,
+          "change": 5,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "2_prefix": {
+          "all_zero_change": 9,
+          "all_zero_misses": 0,
+          "always_change": 9,
+          "change": 9,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "2_set": {
+          "all_zero_change": 4,
+          "all_zero_misses": 0,
+          "always_change": 4,
+          "change": 4,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_prefix": {
+          "all_zero_change": 10,
+          "all_zero_misses": 0,
+          "always_change": 10,
+          "change": 10,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_set": {
+          "all_zero_change": 1,
+          "all_zero_misses": 0,
+          "always_change": 1,
+          "change": 1,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "cases": 27,
+        "exact": 27,
+        "max_compressed_states": 1,
+        "queries_with_shared": 0,
+        "shared_pairs": 0,
+        "worlds_exact": 27
+      }
+    },
+    "dl20": {
+      "masked": {
+        "1_prefix": {
+          "all_zero_change": 7,
+          "all_zero_misses": 12,
+          "always_change": 2,
+          "change": 19,
+          "marginal_equality_misses": 8,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 2,
+          "two_point_misses": 10
+        },
+        "1_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 12,
+          "always_change": 2,
+          "change": 19,
+          "marginal_equality_misses": 8,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 2,
+          "two_point_misses": 10
+        },
+        "2_prefix": {
+          "all_zero_change": 8,
+          "all_zero_misses": 15,
+          "always_change": 4,
+          "change": 23,
+          "marginal_equality_misses": 7,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 1,
+          "two_point_misses": 13
+        },
+        "2_set": {
+          "all_zero_change": 4,
+          "all_zero_misses": 16,
+          "always_change": 1,
+          "change": 20,
+          "marginal_equality_misses": 9,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 5,
+          "two_point_misses": 15
+        },
+        "3_prefix": {
+          "all_zero_change": 11,
+          "all_zero_misses": 14,
+          "always_change": 8,
+          "change": 25,
+          "marginal_equality_misses": 6,
+          "separate_completion_flags_without_common_change": 2,
+          "strict_change": 1,
+          "two_point_misses": 9
+        },
+        "3_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 14,
+          "always_change": 3,
+          "change": 21,
+          "marginal_equality_misses": 8,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 3,
+          "two_point_misses": 9
+        },
+        "cases": 34,
+        "exact": 34,
+        "max_compressed_states": 64,
+        "queries_with_shared": 34,
+        "shared_pairs": 102,
+        "worlds_exact": 2176
+      },
+      "natural": {
+        "1_prefix": {
+          "all_zero_change": 2,
+          "all_zero_misses": 8,
+          "always_change": 0,
+          "change": 10,
+          "marginal_equality_misses": 7,
+          "separate_completion_flags_without_common_change": 2,
+          "strict_change": 2,
+          "two_point_misses": 7
+        },
+        "1_set": {
+          "all_zero_change": 2,
+          "all_zero_misses": 8,
+          "always_change": 0,
+          "change": 10,
+          "marginal_equality_misses": 7,
+          "separate_completion_flags_without_common_change": 2,
+          "strict_change": 2,
+          "two_point_misses": 7
+        },
+        "2_prefix": {
+          "all_zero_change": 3,
+          "all_zero_misses": 8,
+          "always_change": 1,
+          "change": 11,
+          "marginal_equality_misses": 6,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 1,
+          "two_point_misses": 7
+        },
+        "2_set": {
+          "all_zero_change": 3,
+          "all_zero_misses": 4,
+          "always_change": 1,
+          "change": 7,
+          "marginal_equality_misses": 4,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 4
+        },
+        "3_prefix": {
+          "all_zero_change": 5,
+          "all_zero_misses": 9,
+          "always_change": 3,
+          "change": 14,
+          "marginal_equality_misses": 7,
+          "pivotal_shared_pairs": 3,
+          "queries_with_pivotal_shared": 2,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 1,
+          "two_point_misses": 8,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "3_set": {
+          "all_zero_change": 4,
+          "all_zero_misses": 6,
+          "always_change": 2,
+          "change": 10,
+          "marginal_equality_misses": 6,
+          "pivotal_shared_pairs": 3,
+          "queries_with_pivotal_shared": 2,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 4,
+          "two_point_misses": 6,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "cases": 20,
+        "exact": 20,
+        "max_compressed_states": 129600,
+        "queries_with_shared": 3,
+        "shared_pairs": 4,
+        "worlds_exact": 67111388
+      },
+      "observed": {
+        "1_prefix": {
+          "all_zero_change": 5,
+          "all_zero_misses": 0,
+          "always_change": 5,
+          "change": 5,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "1_set": {
+          "all_zero_change": 5,
+          "all_zero_misses": 0,
+          "always_change": 5,
+          "change": 5,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_prefix": {
+          "all_zero_change": 10,
+          "all_zero_misses": 0,
+          "always_change": 10,
+          "change": 10,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 0,
+          "always_change": 7,
+          "change": 7,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "3_prefix": {
+          "all_zero_change": 13,
+          "all_zero_misses": 0,
+          "always_change": 13,
+          "change": 13,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 0,
+          "always_change": 7,
+          "change": 7,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "cases": 34,
+        "exact": 34,
+        "max_compressed_states": 1,
+        "queries_with_shared": 0,
+        "shared_pairs": 0,
+        "worlds_exact": 34
+      }
+    },
+    "dl21": {
+      "masked": {
+        "1_prefix": {
+          "all_zero_change": 7,
+          "all_zero_misses": 15,
+          "always_change": 0,
+          "change": 22,
+          "marginal_equality_misses": 6,
+          "separate_completion_flags_without_common_change": 2,
+          "strict_change": 7,
+          "two_point_misses": 8
+        },
+        "1_set": {
+          "all_zero_change": 7,
+          "all_zero_misses": 15,
+          "always_change": 0,
+          "change": 22,
+          "marginal_equality_misses": 6,
+          "separate_completion_flags_without_common_change": 2,
+          "strict_change": 7,
+          "two_point_misses": 8
+        },
+        "2_prefix": {
+          "all_zero_change": 10,
+          "all_zero_misses": 19,
+          "always_change": 3,
+          "change": 29,
+          "marginal_equality_misses": 4,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 5,
+          "two_point_misses": 8
+        },
+        "2_set": {
+          "all_zero_change": 10,
+          "all_zero_misses": 17,
+          "always_change": 1,
+          "change": 27,
+          "marginal_equality_misses": 5,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 6,
+          "two_point_misses": 10
+        },
+        "3_prefix": {
+          "all_zero_change": 16,
+          "all_zero_misses": 14,
+          "always_change": 7,
+          "change": 30,
+          "marginal_equality_misses": 4,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 2,
+          "two_point_misses": 6
+        },
+        "3_set": {
+          "all_zero_change": 12,
+          "all_zero_misses": 11,
+          "always_change": 4,
+          "change": 23,
+          "marginal_equality_misses": 6,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 3,
+          "two_point_misses": 7
+        },
+        "cases": 37,
+        "exact": 37,
+        "max_compressed_states": 64,
+        "queries_with_shared": 37,
+        "shared_pairs": 111,
+        "worlds_exact": 2368
+      },
+      "natural": {
+        "1_prefix": {
+          "all_zero_change": 4,
+          "all_zero_misses": 2,
+          "always_change": 0,
+          "change": 6,
+          "marginal_equality_misses": 2,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 2,
+          "two_point_misses": 2
+        },
+        "1_set": {
+          "all_zero_change": 4,
+          "all_zero_misses": 2,
+          "always_change": 0,
+          "change": 6,
+          "marginal_equality_misses": 2,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 2,
+          "two_point_misses": 2
+        },
+        "2_prefix": {
+          "all_zero_change": 5,
+          "all_zero_misses": 4,
+          "always_change": 2,
+          "change": 9,
+          "marginal_equality_misses": 3,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 1,
+          "two_point_misses": 3
+        },
+        "2_set": {
+          "all_zero_change": 5,
+          "all_zero_misses": 3,
+          "always_change": 2,
+          "change": 8,
+          "marginal_equality_misses": 2,
+          "separate_completion_flags_without_common_change": 1,
+          "strict_change": 2,
+          "two_point_misses": 2
+        },
+        "3_prefix": {
+          "all_zero_change": 8,
+          "all_zero_misses": 3,
+          "always_change": 4,
+          "change": 11,
+          "marginal_equality_misses": 2,
+          "pivotal_shared_pairs": 0,
+          "queries_with_pivotal_shared": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 2,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "3_set": {
+          "all_zero_change": 6,
+          "all_zero_misses": 4,
+          "always_change": 4,
+          "change": 10,
+          "marginal_equality_misses": 3,
+          "pivotal_shared_pairs": 0,
+          "queries_with_pivotal_shared": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 4,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "cases": 16,
+        "exact": 16,
+        "max_compressed_states": 144,
+        "queries_with_shared": 0,
+        "shared_pairs": 0,
+        "worlds_exact": 1276
+      },
+      "observed": {
+        "1_prefix": {
+          "all_zero_change": 8,
+          "all_zero_misses": 0,
+          "always_change": 8,
+          "change": 8,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "1_set": {
+          "all_zero_change": 8,
+          "all_zero_misses": 0,
+          "always_change": 8,
+          "change": 8,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_prefix": {
+          "all_zero_change": 13,
+          "all_zero_misses": 0,
+          "always_change": 13,
+          "change": 13,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_set": {
+          "all_zero_change": 8,
+          "all_zero_misses": 0,
+          "always_change": 8,
+          "change": 8,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "3_prefix": {
+          "all_zero_change": 18,
+          "all_zero_misses": 0,
+          "always_change": 18,
+          "change": 18,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_set": {
+          "all_zero_change": 12,
+          "all_zero_misses": 0,
+          "always_change": 12,
+          "change": 12,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 1,
+          "two_point_misses": 0
+        },
+        "cases": 37,
+        "exact": 37,
+        "max_compressed_states": 1,
+        "queries_with_shared": 0,
+        "shared_pairs": 0,
+        "worlds_exact": 37
+      }
+    },
+    "dl22": {
+      "natural": {
+        "1_prefix": {
+          "all_zero_change": 15,
+          "all_zero_misses": 38,
+          "always_change": 1,
+          "change": 53,
+          "marginal_equality_misses": 29,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 35,
+          "two_point_misses": 31
+        },
+        "1_set": {
+          "all_zero_change": 15,
+          "all_zero_misses": 38,
+          "always_change": 1,
+          "change": 53,
+          "marginal_equality_misses": 29,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 35,
+          "two_point_misses": 31
+        },
+        "2_prefix": {
+          "all_zero_change": 25,
+          "all_zero_misses": 35,
+          "always_change": 5,
+          "change": 60,
+          "marginal_equality_misses": 19,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 30,
+          "two_point_misses": 25
+        },
+        "2_set": {
+          "all_zero_change": 16,
+          "all_zero_misses": 38,
+          "always_change": 4,
+          "change": 54,
+          "marginal_equality_misses": 26,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 32,
+          "two_point_misses": 30
+        },
+        "3_prefix": {
+          "all_zero_change": 34,
+          "all_zero_misses": 29,
+          "always_change": 9,
+          "change": 63,
+          "marginal_equality_misses": 15,
+          "pivotal_shared_pairs": 14,
+          "queries_with_pivotal_shared": 9,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 25,
+          "two_point_misses": 24,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "3_set": {
+          "all_zero_change": 15,
+          "all_zero_misses": 32,
+          "always_change": 2,
+          "change": 47,
+          "marginal_equality_misses": 24,
+          "pivotal_shared_pairs": 14,
+          "queries_with_pivotal_shared": 9,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 32,
+          "two_point_misses": 24,
+          "unresolved_shared_pivotality_queries": 0
+        },
+        "cases": 70,
+        "exact": 70,
+        "max_compressed_states": 26244,
+        "queries_with_shared": 11,
+        "shared_pairs": 17,
+        "worlds_exact": 144526576
+      },
+      "observed": {
+        "1_prefix": {
+          "all_zero_change": 1,
+          "all_zero_misses": 0,
+          "always_change": 1,
+          "change": 1,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "1_set": {
+          "all_zero_change": 1,
+          "all_zero_misses": 0,
+          "always_change": 1,
+          "change": 1,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_prefix": {
+          "all_zero_change": 1,
+          "all_zero_misses": 0,
+          "always_change": 1,
+          "change": 1,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "2_set": {
+          "all_zero_change": 0,
+          "all_zero_misses": 0,
+          "always_change": 0,
+          "change": 0,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_prefix": {
+          "all_zero_change": 1,
+          "all_zero_misses": 0,
+          "always_change": 1,
+          "change": 1,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "3_set": {
+          "all_zero_change": 0,
+          "all_zero_misses": 0,
+          "always_change": 0,
+          "change": 0,
+          "marginal_equality_misses": 0,
+          "separate_completion_flags_without_common_change": 0,
+          "strict_change": 0,
+          "two_point_misses": 0
+        },
+        "cases": 6,
+        "exact": 6,
+        "max_compressed_states": 1,
+        "queries_with_shared": 0,
+        "shared_pairs": 0,
+        "worlds_exact": 6
+      }
+    }
+  }
+}

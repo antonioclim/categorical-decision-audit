@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "component": "S1",
+      "archive_sha256": "282a9e4f56db609734da2ebb07d5682af4c5753ba087b47dab0ceea3c3b220a8",
+      "archive_bytes": 109189,
+      "file_count": 37,
+      "files_unchanged": true,
+      "folder": "components/S1"
+    },
+    {
+      "component": "S2",
+      "archive_sha256": "d3ff966a3bd990a8728b3b709dda53ef323d2e70bdf1d03c1e5f89fc8ba82770",
+      "archive_bytes": 1009220,
+      "file_count": 59,
+      "files_unchanged": true,
+      "folder": "components/S2",
+      "previous_archive_sha256": "e478f2dce631e0ee8c3dc5d73652f4453e83d2cc52c4971d2811989d2e6f62ed"
+    }
+  ],
+  "component_files_edited": false,
+  "new_repository_files": "Execution entry point, documentation, rights/status, citation and outer manifest",
+  "original_manuscript_revision": "R07",
+  "canonical_manuscript_sha256": "d3891e3ce8ba2e929160c458005207972128cd2e257acf60bead17fb368baf2b",
+  "editorial_revision": "R07-D2",
+  "component_files_edited_scope": "Extracted components match the current archived supplements; S2 has an editorial update from the previous R07 archive.",
+  "distribution_version": "2.0.0",
+  "target_repository_url": "https://github.com/antonioclim/categorical-decision-audit"
+}

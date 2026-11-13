@@ -1,0 +1,17 @@
+{
+  "distribution_version": "2.0.0",
+  "proposed_release_tag": "v2.0.0",
+  "research_version": "R07",
+  "editorial_revision": "R07-D2",
+  "prepared_date": "2026-11-12",
+  "publication_state_at_preparation": "prepared locally; not uploaded or published",
+  "doi_for_this_distribution_at_preparation": null,
+  "repository_url": "https://github.com/antonioclim/categorical-decision-audit",
+  "historical_release": "v1.0.0",
+  "historical_doi_declared_by_repository": "10.5281/zenodo.23971063",
+  "historical_zenodo_record_state_independently_verified": false,
+  "original_material_public_licence": "not designated, per recorded author instruction",
+  "third_party_licences": "retained for their identified components",
+  "workflow_files_included": false,
+  "data_policy": "No raw third-party runs/qrels, real passage-level cases or real witness assignments are bundled."
+}

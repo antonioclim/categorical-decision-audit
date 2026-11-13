@@ -1,0 +1,935 @@
+{
+  "completion_units": "case-metric completions, not independent observations",
+  "pointwise_scale_diagnostics": {
+    "dl21": {
+      "masked": {
+        "cases": 37,
+        "completions_checked": 2368,
+        "pairs": [
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              1000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              100000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              1000000,
+              100000000
+            ]
+          }
+        ]
+      },
+      "natural": {
+        "cases": 16,
+        "completions_checked": 1276,
+        "pairs": [
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              1000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              100000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              1000000,
+              100000000
+            ]
+          }
+        ]
+      },
+      "observed": {
+        "cases": 37,
+        "completions_checked": 37,
+        "pairs": [
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              1000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              100000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              1000000,
+              100000000
+            ]
+          }
+        ]
+      }
+    },
+    "dl22": {
+      "natural": {
+        "cases": 70,
+        "completions_checked": 144526576,
+        "pairs": [
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 683,
+              "set": 2777
+            },
+            "cases_with_any_full_order_change": 10,
+            "full_order_change_worlds": 7176,
+            "scales": [
+              10000,
+              1000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 752,
+              "set": 3185
+            },
+            "cases_with_any_full_order_change": 9,
+            "full_order_change_worlds": 7796,
+            "scales": [
+              10000,
+              100000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 71,
+              "set": 408
+            },
+            "cases_with_any_full_order_change": 4,
+            "full_order_change_worlds": 622,
+            "scales": [
+              1000000,
+              100000000
+            ]
+          }
+        ]
+      },
+      "observed": {
+        "cases": 6,
+        "completions_checked": 6,
+        "pairs": [
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              1000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              10000,
+              100000000
+            ]
+          },
+          {
+            "agreement_indicator_changed_worlds": {
+              "prefix": 0,
+              "set": 0
+            },
+            "cases_with_any_full_order_change": 0,
+            "full_order_change_worlds": 0,
+            "scales": [
+              1000000,
+              100000000
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "proof_reconciliation": {
+    "dl21": {
+      "counts": {
+        "changed": 380,
+        "exact_reference_agreements": 720,
+        "invariant": 340
+      },
+      "scope": "all four metrics and both endpoints matched full independent direct enumeration; no unresolved empirical reference cases",
+      "status": "passed"
+    },
+    "dl22": {
+      "counts": {
+        "changed": 462,
+        "exact_reference_agreements": 608,
+        "invariant": 146
+      },
+      "scope": "all four metrics and both endpoints matched full independent direct enumeration; no unresolved empirical reference cases",
+      "status": "passed"
+    }
+  },
+  "status": "passed",
+  "strict_witness_counts": {
+    "dl21": {
+      "margin_gt20_witnesses": 71,
+      "natural_membership_missed_by_zero_with_margin_gt20_witness": 1,
+      "strict_witnesses": 71
+    },
+    "dl22": {
+      "margin_gt20_witnesses": 109,
+      "natural_membership_missed_by_zero_with_margin_gt20_witness": 36,
+      "strict_witnesses": 109
+    }
+  },
+  "tables": [
+    {
+      "all_three_disagrees": 11,
+      "all_zero_disagrees": 12,
+      "always_change": 4,
+      "any_change": 23,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 6,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 20,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 7,
+      "missed_by_zero": 11,
+      "scale": 1,
+      "stratum": "masked",
+      "strict_change": 3
+    },
+    {
+      "all_three_disagrees": 20,
+      "all_zero_disagrees": 16,
+      "always_change": 7,
+      "any_change": 30,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 4,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 11,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 6,
+      "missed_by_zero": 14,
+      "scale": 1,
+      "stratum": "masked",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 4,
+      "all_zero_disagrees": 6,
+      "always_change": 4,
+      "any_change": 10,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 3,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 9,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 4,
+      "missed_by_zero": 4,
+      "scale": 1,
+      "stratum": "natural",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 5,
+      "all_zero_disagrees": 8,
+      "always_change": 4,
+      "any_change": 11,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 2,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 7,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 2,
+      "missed_by_zero": 3,
+      "scale": 1,
+      "stratum": "natural",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 12,
+      "all_zero_disagrees": 12,
+      "always_change": 12,
+      "any_change": 12,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 25,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1,
+      "stratum": "observed",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 18,
+      "all_zero_disagrees": 18,
+      "always_change": 18,
+      "any_change": 18,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 19,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1,
+      "stratum": "observed",
+      "strict_change": 0
+    },
+    {
+      "all_three_disagrees": 9,
+      "all_zero_disagrees": 6,
+      "always_change": 1,
+      "any_change": 25,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 8,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 20,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 19,
+      "scale": 10000,
+      "stratum": "masked",
+      "strict_change": 23
+    },
+    {
+      "all_three_disagrees": 17,
+      "all_zero_disagrees": 11,
+      "always_change": 2,
+      "any_change": 34,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 5,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 8,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 23,
+      "scale": 10000,
+      "stratum": "masked",
+      "strict_change": 32
+    },
+    {
+      "all_three_disagrees": 2,
+      "all_zero_disagrees": 4,
+      "always_change": 2,
+      "any_change": 6,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 11,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 2,
+      "missed_by_zero": 2,
+      "scale": 10000,
+      "stratum": "natural",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 7,
+      "all_zero_disagrees": 9,
+      "always_change": 5,
+      "any_change": 11,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 6,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 1,
+      "missed_by_zero": 2,
+      "scale": 10000,
+      "stratum": "natural",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 4,
+      "all_zero_disagrees": 4,
+      "always_change": 4,
+      "any_change": 4,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 33,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 10000,
+      "stratum": "observed",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 12,
+      "all_zero_disagrees": 12,
+      "always_change": 12,
+      "any_change": 12,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 25,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 10000,
+      "stratum": "observed",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 9,
+      "all_zero_disagrees": 6,
+      "always_change": 1,
+      "any_change": 25,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 8,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 20,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 19,
+      "scale": 1000000,
+      "stratum": "masked",
+      "strict_change": 23
+    },
+    {
+      "all_three_disagrees": 17,
+      "all_zero_disagrees": 11,
+      "always_change": 2,
+      "any_change": 34,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 5,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 8,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 23,
+      "scale": 1000000,
+      "stratum": "masked",
+      "strict_change": 32
+    },
+    {
+      "all_three_disagrees": 2,
+      "all_zero_disagrees": 4,
+      "always_change": 2,
+      "any_change": 6,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 11,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 2,
+      "missed_by_zero": 2,
+      "scale": 1000000,
+      "stratum": "natural",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 7,
+      "all_zero_disagrees": 9,
+      "always_change": 5,
+      "any_change": 11,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 6,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 1,
+      "missed_by_zero": 2,
+      "scale": 1000000,
+      "stratum": "natural",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 4,
+      "all_zero_disagrees": 4,
+      "always_change": 4,
+      "any_change": 4,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 33,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1000000,
+      "stratum": "observed",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 12,
+      "all_zero_disagrees": 12,
+      "always_change": 12,
+      "any_change": 12,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 25,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1000000,
+      "stratum": "observed",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 9,
+      "all_zero_disagrees": 6,
+      "always_change": 1,
+      "any_change": 25,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 8,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 20,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 19,
+      "scale": 100000000,
+      "stratum": "masked",
+      "strict_change": 23
+    },
+    {
+      "all_three_disagrees": 17,
+      "all_zero_disagrees": 11,
+      "always_change": 2,
+      "any_change": 34,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 5,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 8,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 14,
+      "missed_by_zero": 23,
+      "scale": 100000000,
+      "stratum": "masked",
+      "strict_change": 32
+    },
+    {
+      "all_three_disagrees": 2,
+      "all_zero_disagrees": 4,
+      "always_change": 2,
+      "any_change": 6,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 11,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 2,
+      "missed_by_zero": 2,
+      "scale": 100000000,
+      "stratum": "natural",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 7,
+      "all_zero_disagrees": 9,
+      "always_change": 5,
+      "any_change": 11,
+      "cases": 16,
+      "change_with_equal_marginal_sets": 1,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 6,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 1,
+      "missed_by_zero": 2,
+      "scale": 100000000,
+      "stratum": "natural",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 4,
+      "all_zero_disagrees": 4,
+      "always_change": 4,
+      "any_change": 4,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "set",
+      "equal_marginal_sets": 33,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 100000000,
+      "stratum": "observed",
+      "strict_change": 2
+    },
+    {
+      "all_three_disagrees": 12,
+      "all_zero_disagrees": 12,
+      "always_change": 12,
+      "any_change": 12,
+      "cases": 37,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl21",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 25,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 100000000,
+      "stratum": "observed",
+      "strict_change": 6
+    },
+    {
+      "all_three_disagrees": 12,
+      "all_zero_disagrees": 15,
+      "always_change": 2,
+      "any_change": 47,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 24,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 47,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 24,
+      "missed_by_zero": 32,
+      "scale": 1,
+      "stratum": "natural",
+      "strict_change": 32
+    },
+    {
+      "all_three_disagrees": 26,
+      "all_zero_disagrees": 34,
+      "always_change": 9,
+      "any_change": 63,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 15,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 22,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 24,
+      "missed_by_zero": 29,
+      "scale": 1,
+      "stratum": "natural",
+      "strict_change": 25
+    },
+    {
+      "all_three_disagrees": 0,
+      "all_zero_disagrees": 0,
+      "always_change": 0,
+      "any_change": 0,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 6,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1,
+      "stratum": "observed",
+      "strict_change": 0
+    },
+    {
+      "all_three_disagrees": 1,
+      "all_zero_disagrees": 1,
+      "always_change": 1,
+      "any_change": 1,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 5,
+      "metric": "flat_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1,
+      "stratum": "observed",
+      "strict_change": 0
+    },
+    {
+      "all_three_disagrees": 15,
+      "all_zero_disagrees": 12,
+      "always_change": 3,
+      "any_change": 48,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 23,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 45,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 24,
+      "missed_by_zero": 36,
+      "scale": 10000,
+      "stratum": "natural",
+      "strict_change": 47
+    },
+    {
+      "all_three_disagrees": 34,
+      "all_zero_disagrees": 35,
+      "always_change": 16,
+      "any_change": 65,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 13,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 18,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 16,
+      "missed_by_zero": 30,
+      "scale": 10000,
+      "stratum": "natural",
+      "strict_change": 58
+    },
+    {
+      "all_three_disagrees": 1,
+      "all_zero_disagrees": 1,
+      "always_change": 1,
+      "any_change": 1,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 5,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 10000,
+      "stratum": "observed",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 3,
+      "all_zero_disagrees": 3,
+      "always_change": 3,
+      "any_change": 3,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 3,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 10000,
+      "stratum": "observed",
+      "strict_change": 3
+    },
+    {
+      "all_three_disagrees": 15,
+      "all_zero_disagrees": 12,
+      "always_change": 3,
+      "any_change": 48,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 23,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 45,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 24,
+      "missed_by_zero": 36,
+      "scale": 1000000,
+      "stratum": "natural",
+      "strict_change": 47
+    },
+    {
+      "all_three_disagrees": 34,
+      "all_zero_disagrees": 35,
+      "always_change": 16,
+      "any_change": 65,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 13,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 18,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 16,
+      "missed_by_zero": 30,
+      "scale": 1000000,
+      "stratum": "natural",
+      "strict_change": 58
+    },
+    {
+      "all_three_disagrees": 1,
+      "all_zero_disagrees": 1,
+      "always_change": 1,
+      "any_change": 1,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 5,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1000000,
+      "stratum": "observed",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 3,
+      "all_zero_disagrees": 3,
+      "always_change": 3,
+      "any_change": 3,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 3,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 1000000,
+      "stratum": "observed",
+      "strict_change": 3
+    },
+    {
+      "all_three_disagrees": 15,
+      "all_zero_disagrees": 12,
+      "always_change": 3,
+      "any_change": 48,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 23,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 45,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 24,
+      "missed_by_zero": 36,
+      "scale": 100000000,
+      "stratum": "natural",
+      "strict_change": 47
+    },
+    {
+      "all_three_disagrees": 34,
+      "all_zero_disagrees": 35,
+      "always_change": 16,
+      "any_change": 65,
+      "cases": 70,
+      "change_with_equal_marginal_sets": 13,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 18,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 16,
+      "missed_by_zero": 30,
+      "scale": 100000000,
+      "stratum": "natural",
+      "strict_change": 58
+    },
+    {
+      "all_three_disagrees": 1,
+      "all_zero_disagrees": 1,
+      "always_change": 1,
+      "any_change": 1,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "set",
+      "equal_marginal_sets": 5,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 100000000,
+      "stratum": "observed",
+      "strict_change": 1
+    },
+    {
+      "all_three_disagrees": 3,
+      "all_zero_disagrees": 3,
+      "always_change": 3,
+      "any_change": 3,
+      "cases": 6,
+      "change_with_equal_marginal_sets": 0,
+      "cohort": "dl22",
+      "endpoint": "prefix",
+      "equal_marginal_sets": 3,
+      "metric": "quantised_log_discount_floor_gain_v1",
+      "missed_by_both_points": 0,
+      "missed_by_zero": 0,
+      "scale": 100000000,
+      "stratum": "observed",
+      "strict_change": 3
+    }
+  ],
+  "total_case_metric_completions": 578121052
+}

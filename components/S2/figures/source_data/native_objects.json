@@ -1,0 +1,2419 @@
+[
+  {
+    "file": "Figure_1_Shared_Completion.odg",
+    "page_width_cm": 17.8,
+    "page_height_cm": 10.700000000000001,
+    "native_objects": {
+      "frame": 24,
+      "rect": 11
+    },
+    "objects": [
+      {
+        "name": "text_001",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "0.2500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "DL22 query 2017299 \u00b7 flat scores \u00b7 six unknown grades \u00b7 4,096 completions"
+      },
+      {
+        "name": "text_002",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "4.7000cm",
+          "svg:y": "0.9000cm",
+          "svg:width": "11.3000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "Run omitted by linear graded coding"
+      },
+      {
+        "name": "text_003",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "1.3000cm",
+          "svg:width": "3.8000cm",
+          "svg:height": "0.8000cm"
+        },
+        "text": "Run omitted by\nbinary coding"
+      },
+      {
+        "name": "text_004",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.0500cm",
+          "svg:y": "1.4500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "monoT5"
+      },
+      {
+        "name": "text_005",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "2.7300cm",
+          "svg:width": "4.1500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "monoT5"
+      },
+      {
+        "name": "joint_count_cell_001",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.0500cm",
+          "svg:y": "2.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_006",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.0500cm",
+          "svg:y": "2.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "896"
+      },
+      {
+        "name": "joint_count_cell_002",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "8.8000cm",
+          "svg:y": "2.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_007",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8000cm",
+          "svg:y": "2.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "joint_count_cell_003",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "12.5500cm",
+          "svg:y": "2.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_008",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.5500cm",
+          "svg:y": "2.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "text_009",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8000cm",
+          "svg:y": "1.4500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "Rank1"
+      },
+      {
+        "name": "text_010",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "4.4800cm",
+          "svg:width": "4.1500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Rank1"
+      },
+      {
+        "name": "joint_count_cell_004",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.0500cm",
+          "svg:y": "3.9000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_011",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.0500cm",
+          "svg:y": "4.4000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "96"
+      },
+      {
+        "name": "joint_count_cell_005",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "8.8000cm",
+          "svg:y": "3.9000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_012",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8000cm",
+          "svg:y": "4.4000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "156"
+      },
+      {
+        "name": "constant_point_annotation_013",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8000cm",
+          "svg:y": "5.1100cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.3500cm"
+        },
+        "text": "All-zero point"
+      },
+      {
+        "name": "joint_count_cell_006",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "12.5500cm",
+          "svg:y": "3.9000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_014",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.5500cm",
+          "svg:y": "4.4000cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "4"
+      },
+      {
+        "name": "text_015",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.5500cm",
+          "svg:y": "1.4500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "SPLADE"
+      },
+      {
+        "name": "text_016",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "6.2300cm",
+          "svg:width": "4.1500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "SPLADE"
+      },
+      {
+        "name": "joint_count_cell_007",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.0500cm",
+          "svg:y": "5.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_017",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.0500cm",
+          "svg:y": "6.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "1,344"
+      },
+      {
+        "name": "joint_count_cell_008",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "8.8000cm",
+          "svg:y": "5.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_018",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8000cm",
+          "svg:y": "6.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "152"
+      },
+      {
+        "name": "joint_count_cell_009",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "12.5500cm",
+          "svg:y": "5.6500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "1.7500cm"
+        }
+      },
+      {
+        "name": "joint_count_019",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.5500cm",
+          "svg:y": "6.1500cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.6200cm"
+        },
+        "text": "1,448"
+      },
+      {
+        "name": "constant_point_annotation_020",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.5500cm",
+          "svg:y": "6.8600cm",
+          "svg:width": "3.7500cm",
+          "svg:height": "0.3500cm"
+        },
+        "text": "All-three point"
+      },
+      {
+        "name": "agreement_key_010",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x": "0.4500cm",
+          "svg:y": "7.9500cm",
+          "svg:width": "0.3200cm",
+          "svg:height": "0.3200cm"
+        }
+      },
+      {
+        "name": "text_021",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.9200cm",
+          "svg:y": "7.8900cm",
+          "svg:width": "7.1000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "Agreement: 2,500 completions"
+      },
+      {
+        "name": "disagreement_key_011",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x": "8.3500cm",
+          "svg:y": "7.9500cm",
+          "svg:width": "0.3200cm",
+          "svg:height": "0.3200cm"
+        }
+      },
+      {
+        "name": "text_022",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.8200cm",
+          "svg:y": "7.8900cm",
+          "svg:width": "8.4000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "Disagreement: 1,596 completions"
+      },
+      {
+        "name": "text_023",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "8.7300cm",
+          "svg:width": "16.8000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "The omitted run identifies the top-three membership set; RankLLaMA is always included."
+      },
+      {
+        "name": "text_024",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "9.4200cm",
+          "svg:width": "16.8000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "Counts describe completions, not probabilities. Both constant point checks lie on the diagonal."
+      }
+    ]
+  },
+  {
+    "file": "Figure_2_Discounted_Sensitivity.odg",
+    "page_width_cm": 17.8,
+    "page_height_cm": 12.5,
+    "native_objects": {
+      "frame": 42,
+      "rect": 14,
+      "line": 34
+    },
+    "objects": [
+      {
+        "name": "text_001",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "0.2200cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "DL22 naturally incomplete stratum: 70 cases \u00b7 primary discount scale \u03bb = 10\u2076"
+      },
+      {
+        "name": "flat_legend_001",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "8.0000cm",
+          "svg:y": "0.8500cm",
+          "svg:width": "0.4500cm",
+          "svg:height": "0.2500cm"
+        }
+      },
+      {
+        "name": "text_002",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.6200cm",
+          "svg:y": "0.7400cm",
+          "svg:width": "2.0000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Flat"
+      },
+      {
+        "name": "discount_legend_002",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "10.7000cm",
+          "svg:y": "0.8500cm",
+          "svg:width": "0.4500cm",
+          "svg:height": "0.2500cm"
+        }
+      },
+      {
+        "name": "text_003",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "11.3200cm",
+          "svg:y": "0.7400cm",
+          "svg:width": "5.0000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Logarithmic discount"
+      },
+      {
+        "name": "text_004",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "1.4000cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "A  Top-three membership"
+      },
+      {
+        "name": "gridline_001",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_002",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_003",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_004",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_005",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_006",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_007",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "gridline_008",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "2.2000cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.7500cm"
+        }
+      },
+      {
+        "name": "text_005",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "2.3800cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Possible change"
+      },
+      {
+        "name": "set_any_change_Flat_bar_003",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "2.2500cm",
+          "svg:width": "7.7886cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_006",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "13.0586cm",
+          "svg:y": "2.1500cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "47"
+      },
+      {
+        "name": "set_any_change_Discount_bar_004",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "2.5700cm",
+          "svg:width": "7.9543cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_007",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "13.2243cm",
+          "svg:y": "2.4700cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "48"
+      },
+      {
+        "name": "text_008",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "3.2600cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Strict change"
+      },
+      {
+        "name": "set_strict_change_Flat_bar_005",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "3.1300cm",
+          "svg:width": "5.3029cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_009",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "10.5729cm",
+          "svg:y": "3.0300cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "32"
+      },
+      {
+        "name": "set_strict_change_Discount_bar_006",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "3.4500cm",
+          "svg:width": "7.7886cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_010",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "13.0586cm",
+          "svg:y": "3.3500cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "47"
+      },
+      {
+        "name": "text_011",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "4.1400cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Detected at all-zero"
+      },
+      {
+        "name": "set_all_zero_disagrees_Flat_bar_007",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "4.0100cm",
+          "svg:width": "2.4857cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_012",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.7557cm",
+          "svg:y": "3.9100cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "15"
+      },
+      {
+        "name": "set_all_zero_disagrees_Discount_bar_008",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "4.3300cm",
+          "svg:width": "1.9886cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_013",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.2586cm",
+          "svg:y": "4.2300cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "12"
+      },
+      {
+        "name": "editable_axis_009",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.8500cm"
+        }
+      },
+      {
+        "name": "axis_tick_010",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_014",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "4.4500cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "axis_tick_011",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_015",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "6.1071cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "10"
+      },
+      {
+        "name": "axis_tick_012",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_016",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.7643cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "20"
+      },
+      {
+        "name": "axis_tick_013",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_017",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "9.4214cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "30"
+      },
+      {
+        "name": "axis_tick_014",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_018",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "11.0786cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "40"
+      },
+      {
+        "name": "axis_tick_015",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_019",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.7357cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "50"
+      },
+      {
+        "name": "axis_tick_016",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_020",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.3929cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "60"
+      },
+      {
+        "name": "axis_tick_017",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "4.8500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.9700cm"
+        }
+      },
+      {
+        "name": "axis_label_021",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "16.0500cm",
+          "svg:y": "5.0300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "70"
+      },
+      {
+        "name": "axis_title_022",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.1500cm",
+          "svg:y": "5.5300cm",
+          "svg:width": "11.6000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Cases (out of 70)"
+      },
+      {
+        "name": "text_023",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "6.5500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "B  Ordered top-three prefix"
+      },
+      {
+        "name": "gridline_018",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_019",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_020",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_021",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_022",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_023",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_024",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "gridline_025",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "7.3500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "9.9000cm"
+        }
+      },
+      {
+        "name": "text_024",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "7.5300cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Possible change"
+      },
+      {
+        "name": "prefix_any_change_Flat_bar_009",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "7.4000cm",
+          "svg:width": "10.4400cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_025",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "15.7100cm",
+          "svg:y": "7.3000cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "63"
+      },
+      {
+        "name": "prefix_any_change_Discount_bar_010",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "7.7200cm",
+          "svg:width": "10.7714cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_026",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "16.0414cm",
+          "svg:y": "7.6200cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "65"
+      },
+      {
+        "name": "text_027",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "8.4100cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Strict change"
+      },
+      {
+        "name": "prefix_strict_change_Flat_bar_011",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "8.2800cm",
+          "svg:width": "4.1429cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_028",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "9.4129cm",
+          "svg:y": "8.1800cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "25"
+      },
+      {
+        "name": "prefix_strict_change_Discount_bar_012",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "8.6000cm",
+          "svg:width": "9.6114cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_029",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.8814cm",
+          "svg:y": "8.5000cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "58"
+      },
+      {
+        "name": "text_030",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "9.2900cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Detected at all-zero"
+      },
+      {
+        "name": "prefix_all_zero_disagrees_Flat_bar_013",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x": "5.1500cm",
+          "svg:y": "9.1600cm",
+          "svg:width": "5.6343cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_031",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "10.9043cm",
+          "svg:y": "9.0600cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "34"
+      },
+      {
+        "name": "prefix_all_zero_disagrees_Discount_bar_014",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "9.4800cm",
+          "svg:width": "5.8000cm",
+          "svg:height": "0.2400cm"
+        }
+      },
+      {
+        "name": "value_label_032",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "11.0700cm",
+          "svg:y": "9.3800cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.4300cm"
+        },
+        "text": "35"
+      },
+      {
+        "name": "editable_axis_026",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "10.0000cm"
+        }
+      },
+      {
+        "name": "axis_tick_027",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_033",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "4.4500cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "axis_tick_028",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_034",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "6.1071cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "10"
+      },
+      {
+        "name": "axis_tick_029",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_035",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.7643cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "20"
+      },
+      {
+        "name": "axis_tick_030",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_036",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "9.4214cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "30"
+      },
+      {
+        "name": "axis_tick_031",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_037",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "11.0786cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "40"
+      },
+      {
+        "name": "axis_tick_032",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_038",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.7357cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "50"
+      },
+      {
+        "name": "axis_tick_033",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_039",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.3929cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "60"
+      },
+      {
+        "name": "axis_tick_034",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "10.0000cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "10.1200cm"
+        }
+      },
+      {
+        "name": "axis_label_040",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "16.0500cm",
+          "svg:y": "10.1800cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "70"
+      },
+      {
+        "name": "axis_title_041",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.1500cm",
+          "svg:y": "10.6800cm",
+          "svg:width": "11.6000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Cases (out of 70)"
+      },
+      {
+        "name": "text_042",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "11.7500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4200cm"
+        },
+        "text": "Properties overlap; the bars are not additive. Strict changes have positive required score margins."
+      }
+    ]
+  },
+  {
+    "file": "Figure_3_Scale_Sensitivity.odg",
+    "page_width_cm": 17.8,
+    "page_height_cm": 13.200000000000001,
+    "native_objects": {
+      "frame": 39,
+      "line": 32,
+      "rect": 11
+    },
+    "objects": [
+      {
+        "name": "text_001",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "0.2200cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "DL22 naturally incomplete stratum: the same completion is compared across scales"
+      },
+      {
+        "name": "text_002",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "0.9500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "A  Cases with at least one full-order difference in either profile"
+      },
+      {
+        "name": "case_grid_001",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_002",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "7.0833cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "7.0833cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_003",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "9.0167cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "9.0167cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_004",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "10.9500cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "10.9500cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_005",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "12.8833cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "12.8833cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_006",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "14.8167cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "14.8167cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "case_grid_007",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "1.8000cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.1000cm"
+        }
+      },
+      {
+        "name": "text_003",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "1.8100cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2074 vs 10\u2076"
+      },
+      {
+        "name": "affected_cases_bar_001",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "1.8500cm",
+          "svg:width": "9.6667cm",
+          "svg:height": "0.3200cm"
+        }
+      },
+      {
+        "name": "affected_cases_value_004",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.9367cm",
+          "svg:y": "1.7600cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10"
+      },
+      {
+        "name": "text_005",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "2.5900cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2074 vs 10\u2078"
+      },
+      {
+        "name": "affected_cases_bar_002",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "2.6300cm",
+          "svg:width": "8.7000cm",
+          "svg:height": "0.3200cm"
+        }
+      },
+      {
+        "name": "affected_cases_value_006",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "13.9700cm",
+          "svg:y": "2.5400cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "9"
+      },
+      {
+        "name": "text_007",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "3.3700cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2076 vs 10\u2078"
+      },
+      {
+        "name": "affected_cases_bar_003",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "3.4100cm",
+          "svg:width": "3.8667cm",
+          "svg:height": "0.3200cm"
+        }
+      },
+      {
+        "name": "affected_cases_value_008",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "9.1367cm",
+          "svg:y": "3.3200cm",
+          "svg:width": "0.8000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "4"
+      },
+      {
+        "name": "editable_axis_008",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.2500cm"
+        }
+      },
+      {
+        "name": "axis_tick_009",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_009",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "4.4500cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "axis_tick_010",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "7.0833cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "7.0833cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_010",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "6.3833cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "2"
+      },
+      {
+        "name": "axis_tick_011",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "9.0167cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "9.0167cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_011",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.3167cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "4"
+      },
+      {
+        "name": "axis_tick_012",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "10.9500cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "10.9500cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_012",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "10.2500cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "6"
+      },
+      {
+        "name": "axis_tick_013",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "12.8833cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "12.8833cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_013",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.1833cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "8"
+      },
+      {
+        "name": "axis_tick_014",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "14.8167cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "14.8167cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_014",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.1167cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "10"
+      },
+      {
+        "name": "axis_tick_015",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "4.2500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "4.3700cm"
+        }
+      },
+      {
+        "name": "axis_label_015",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "16.0500cm",
+          "svg:y": "4.4300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "12"
+      },
+      {
+        "name": "axis_title_016",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.1500cm",
+          "svg:y": "4.9300cm",
+          "svg:width": "11.6000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Cases (out of 70)"
+      },
+      {
+        "name": "text_017",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "5.8500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "B  Completions where the between-profile disagreement indicator changes"
+      },
+      {
+        "name": "membership_legend_004",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "7.8000cm",
+          "svg:y": "6.4800cm",
+          "svg:width": "0.4500cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "text_018",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "8.4000cm",
+          "svg:y": "6.3500cm",
+          "svg:width": "3.7000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Membership"
+      },
+      {
+        "name": "prefix_legend_005",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x": "12.1500cm",
+          "svg:y": "6.4800cm",
+          "svg:width": "0.4500cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "text_019",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.7500cm",
+          "svg:y": "6.3500cm",
+          "svg:width": "3.8000cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "Ordered prefix"
+      },
+      {
+        "name": "completion_grid_016",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_017",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_018",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_019",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_020",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_021",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_022",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "completion_grid_023",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g2",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "7.2500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "9.9500cm"
+        }
+      },
+      {
+        "name": "text_020",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "7.3800cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2074 vs 10\u2076"
+      },
+      {
+        "name": "set_indicator_bar_006",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "7.3000cm",
+          "svg:width": "9.2038cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_021",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.4738cm",
+          "svg:y": "7.1900cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "2,777"
+      },
+      {
+        "name": "prefix_indicator_bar_007",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x": "5.1500cm",
+          "svg:y": "7.6100cm",
+          "svg:width": "2.2637cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_022",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.5337cm",
+          "svg:y": "7.5000cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "683"
+      },
+      {
+        "name": "text_023",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "8.3000cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2074 vs 10\u2078"
+      },
+      {
+        "name": "set_indicator_bar_008",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "8.2200cm",
+          "svg:width": "10.5560cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_024",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "15.8260cm",
+          "svg:y": "8.1100cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "3,185"
+      },
+      {
+        "name": "prefix_indicator_bar_009",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x": "5.1500cm",
+          "svg:y": "8.5300cm",
+          "svg:width": "2.4923cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_025",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.7623cm",
+          "svg:y": "8.4200cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "752"
+      },
+      {
+        "name": "text_026",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "9.2200cm",
+          "svg:width": "4.4500cm",
+          "svg:height": "0.5000cm"
+        },
+        "text": "10\u2076 vs 10\u2078"
+      },
+      {
+        "name": "set_indicator_bar_010",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g3",
+          "svg:x": "5.1500cm",
+          "svg:y": "9.1400cm",
+          "svg:width": "1.3522cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_027",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "6.6222cm",
+          "svg:y": "9.0300cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "408"
+      },
+      {
+        "name": "prefix_indicator_bar_011",
+        "type": "rect",
+        "attributes": {
+          "draw:style-name": "g6",
+          "svg:x": "5.1500cm",
+          "svg:y": "9.4500cm",
+          "svg:width": "0.2353cm",
+          "svg:height": "0.2300cm"
+        }
+      },
+      {
+        "name": "indicator_value_028",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.5053cm",
+          "svg:y": "9.3400cm",
+          "svg:width": "1.0000cm",
+          "svg:height": "0.4500cm"
+        },
+        "text": "71"
+      },
+      {
+        "name": "editable_axis_024",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g4",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "10.1500cm"
+        }
+      },
+      {
+        "name": "axis_tick_025",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "5.1500cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "5.1500cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_029",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "4.4500cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "0"
+      },
+      {
+        "name": "axis_tick_026",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "6.8071cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "6.8071cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_030",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "6.1071cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "500"
+      },
+      {
+        "name": "axis_tick_027",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "8.4643cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "8.4643cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_031",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "7.7643cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "1,000"
+      },
+      {
+        "name": "axis_tick_028",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "10.1214cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "10.1214cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_032",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "9.4214cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "1,500"
+      },
+      {
+        "name": "axis_tick_029",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "11.7786cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "11.7786cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_033",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "11.0786cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "2,000"
+      },
+      {
+        "name": "axis_tick_030",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "13.4357cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "13.4357cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_034",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "12.7357cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "2,500"
+      },
+      {
+        "name": "axis_tick_031",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "15.0929cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "15.0929cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_035",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "14.3929cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "3,000"
+      },
+      {
+        "name": "axis_tick_032",
+        "type": "line",
+        "attributes": {
+          "draw:style-name": "g5",
+          "svg:x1": "16.7500cm",
+          "svg:y1": "10.1500cm",
+          "svg:x2": "16.7500cm",
+          "svg:y2": "10.2700cm"
+        }
+      },
+      {
+        "name": "axis_label_036",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "16.0500cm",
+          "svg:y": "10.3300cm",
+          "svg:width": "1.4000cm",
+          "svg:height": "0.3800cm"
+        },
+        "text": "3,500"
+      },
+      {
+        "name": "axis_title_037",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "5.1500cm",
+          "svg:y": "10.8300cm",
+          "svg:width": "11.6000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Completions (out of 144,526,576)"
+      },
+      {
+        "name": "text_038",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "11.7500cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Units differ between panels. Counts carry no probability model and do not establish real-DCG invariance."
+      },
+      {
+        "name": "text_039",
+        "type": "frame",
+        "attributes": {
+          "draw:style-name": "g1",
+          "svg:x": "0.4500cm",
+          "svg:y": "12.3200cm",
+          "svg:width": "16.9000cm",
+          "svg:height": "0.4000cm"
+        },
+        "text": "Case-level existence verdicts were unchanged at all three scales for both endpoints."
+      }
+    ]
+  }
+]

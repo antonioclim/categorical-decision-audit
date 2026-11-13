@@ -1,0 +1,184 @@
+{
+  "access": {
+    "castorini_run_redistribution_licence": "unknown, no explicit licence in source data repository metadata",
+    "nist_and_github_http_200_verified": true,
+    "reuse": "reference links and hashes unless permission is verified"
+  },
+  "base_runs": {
+    "BM25": {
+      "all_qrels_qids_have_distinct_top10": true,
+      "queries": 53,
+      "rows": 5300,
+      "source_rank_depth": 100
+    },
+    "BM25_RM3": {
+      "all_qrels_qids_have_distinct_top10": true,
+      "queries": 53,
+      "rows": 5300,
+      "source_rank_depth": 100
+    },
+    "SPLADE_P_P_ENSEMBLE_DISTIL": {
+      "all_qrels_qids_have_distinct_top10": true,
+      "queries": 53,
+      "rows": 5300,
+      "source_rank_depth": 100
+    }
+  },
+  "disjointness": {
+    "DL19": {
+      "judged_queries": 43,
+      "overlap": 0,
+      "qrels_sha256": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92"
+    },
+    "DL20": {
+      "judged_queries": 54,
+      "overlap": 0,
+      "qrels_sha256": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684"
+    }
+  },
+  "frozen_at_utc": "2026-11-10T15:18:47.662109+00:00",
+  "generated": {
+    "RRF_60_top10.json": {
+      "bytes": 128948,
+      "file": "RRF_60_top10.json",
+      "sha256": "5825c80f84a1761cea31dbaf5984d0dd92c9859e5a233ad6539aadd343379adb"
+    },
+    "cases.json": {
+      "bytes": 248411,
+      "file": "cases.json",
+      "sha256": "20cc22dcc68041622b507078d449ceb39b9bfcab2fdc727d31bab3fbcdca732b"
+    },
+    "masked_truth_oracle_only.json": {
+      "bytes": 5242,
+      "file": "masked_truth_oracle_only.json",
+      "sha256": "d33c9a4674c2d9a28eff9ca86186892afc0e191398639cb2564790168e36f1df"
+    },
+    "run_aliases.json": {
+      "bytes": 275,
+      "file": "run_aliases.json",
+      "sha256": "a1a5756073d05ef32f93d9fdfe26ee072726a615e97edfc3c820fd2c10f7051f"
+    }
+  },
+  "inputs": {
+    "2021.qrels.pass.final.txt": {
+      "bytes": 433887,
+      "etag": "W/\"69edf-5d80f89a71173-gzip\"",
+      "http_status": 200,
+      "last_modified": "Tue, 15 Feb 2022 14:42:09 GMT",
+      "received_utc": "2026-11-10T15:14:27.127450+00:00",
+      "resolved_url": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+      "sha256": "15d1c6e8b13fd665dd043c43213e331452213ddc70f70b8522600bcce64db427",
+      "url": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt"
+    },
+    "BM25.txt": {
+      "bytes": 347951,
+      "etag": "\"cf663b7cbd83ee4bdb8e7e865968f9f9d10675caf75a6b049216d224036cc7f0\"",
+      "http_status": 200,
+      "last_modified": null,
+      "received_utc": "2026-11-10T15:14:35.063322+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl21_top100.txt",
+      "sha256": "e916d3e65cc6ae930e9e9a2cf9245f5f09f44733c042c52fa353b968a72f0b98",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl21_top100.txt"
+    },
+    "BM25_RM3.txt": {
+      "bytes": 347048,
+      "etag": "\"fb15b981c1a426aad36ca2c877a92db69f6d93c2f630d2ee7a42a02d38139acc\"",
+      "http_status": 200,
+      "last_modified": null,
+      "received_utc": "2026-11-10T15:14:35.070868+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl21_top100.txt",
+      "sha256": "4baffac8719d54c2c2fa9fa9476c447d05ba3e22c098c45e6523e65feea8dfb6",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl21_top100.txt"
+    },
+    "SPLADE_P_P_ENSEMBLE_DISTIL.txt": {
+      "bytes": 312606,
+      "etag": "\"715136e5a7c3791d0b630a40145d9366df38a2d1c6c8e9526b3127e4d9fce2f4\"",
+      "http_status": 200,
+      "last_modified": null,
+      "received_utc": "2026-11-10T15:14:35.078855+00:00",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl21_top100.txt",
+      "sha256": "872095edf0397568f3bcbf0aa70b990750fe8d93f18c28a66f8d3cad4ace5787",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl21_top100.txt"
+    },
+    "nist_dl21.html": {
+      "bytes": 4588,
+      "etag": null,
+      "http_status": 200,
+      "last_modified": "Fri, 17 Jun 2022 13:14:29 GMT",
+      "received_utc": "2026-11-10T15:14:27.056144+00:00",
+      "resolved_url": "https://trec.nist.gov/data/deep2021.html",
+      "sha256": "e09587ae63854138c0d6b0e1096181cebfc7ae6e3944a61303619044f92ea4b9",
+      "url": "https://trec.nist.gov/data/deep2021.html"
+    }
+  },
+  "masking": {
+    "casewise_processing_required": true,
+    "salt": "DL21-IPM-v1",
+    "selection": "up to 3 shared judged passages per fully judged query, ascending SHA-256 of UTF-8 literal salt|qid|pid",
+    "truth_file": "masked_truth_oracle_only.json"
+  },
+  "preparation_code": {
+    "bytes": 12688,
+    "file": "build_dl21_cases.py",
+    "sha256": "8992145829e3c6c1442b8741a9fdd09d333fcb02e672325f72940d29ce211633"
+  },
+  "qrels": {
+    "grade_counts": {
+      "0": 4338,
+      "1": 3063,
+      "2": 2341,
+      "3": 1086
+    },
+    "judged_queries": 53,
+    "judgements": 10828
+  },
+  "repo_commit": "5051b8d7225d257ce0f892e1069a2e5ac45d8496",
+  "rrf_60": {
+    "dependent_on": [
+      "BM25",
+      "BM25_RM3",
+      "SPLADE_P_P_ENSEMBLE_DISTIL"
+    ],
+    "derived_top_depth": 10,
+    "qrels_used_for_fusion": false,
+    "rank_only": true,
+    "score": "exact sum 1/(60+source rank) over containing runs",
+    "tie": "ascending numeric shard, then numeric offset, then literal source identifier"
+  },
+  "scope": "Constructed cases and rank-only RRF. No relevance scoring, shortlist comparison or solver outcomes evaluated.",
+  "selection_basis": "structural availability and eligibility before any relevance outcomes",
+  "structural_eligibility": {
+    "complete_queries_shared_judged_candidate_histogram": {
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 14,
+      "11": 9,
+      "12": 3,
+      "13": 3,
+      "14": 1
+    },
+    "each_configuration_distinct_somewhere": true,
+    "masked_unknown_count_histogram": {
+      "3": 37
+    },
+    "natural_unknown_count_histogram_including_complete": {
+      "0": 37,
+      "1": 7,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "natural_unknown_query_passage_pairs_by_multiplicity": {
+      "1": 30
+    },
+    "queries_with_four_distinct_ordered_top10s": 53,
+    "stratum_counts": {
+      "masked": 37,
+      "natural": 16,
+      "observed": 37
+    }
+  },
+  "test_depth": 10,
+  "track": "TREC 2021 Deep Learning Track, Passage Ranking, official final graded qrels"
+}

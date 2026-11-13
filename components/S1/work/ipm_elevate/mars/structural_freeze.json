@@ -1,0 +1,255 @@
+{
+  "candidate_structure": {
+    "A": {
+      "counts": {
+        "four_distinct_top10_sets": 76,
+        "natural": 46,
+        "natural_shared_effective_queries": 0,
+        "natural_shared_queries": 0,
+        "observed": 30
+      },
+      "coverage_complete": true,
+      "excluded_judged_queries": [],
+      "missing_count_histogram": {
+        "0": 30,
+        "1": 15,
+        "2": 11,
+        "3": 12,
+        "4": 4,
+        "5": 2,
+        "6": 1,
+        "7": 1
+      },
+      "query_count": 76,
+      "runs": [
+        "BM25",
+        "COLBERT_UGA",
+        "MONOT5_3B_BM25",
+        "SPLADE_PP_ED"
+      ],
+      "unjudged_pairs_by_multiplicity": {
+        "1": 112
+      }
+    },
+    "B": {
+      "counts": {
+        "four_distinct_top10_sets": 75,
+        "natural": 54,
+        "natural_shared_effective_queries": 6,
+        "natural_shared_queries": 6,
+        "observed": 22
+      },
+      "coverage_complete": true,
+      "excluded_judged_queries": [],
+      "missing_count_histogram": {
+        "0": 22,
+        "1": 15,
+        "2": 16,
+        "3": 8,
+        "4": 5,
+        "5": 5,
+        "6": 1,
+        "7": 2,
+        "8": 2
+      },
+      "query_count": 76,
+      "runs": [
+        "COLBERT_UGA",
+        "MONOT5_3B_BM25",
+        "RANKLLAMA_13B_BM25",
+        "SPLADE_PP_ED"
+      ],
+      "unjudged_pairs_by_multiplicity": {
+        "1": 144,
+        "2": 8
+      }
+    },
+    "C": {
+      "counts": {
+        "four_distinct_top10_sets": 74,
+        "natural": 70,
+        "natural_shared_effective_queries": 11,
+        "natural_shared_queries": 11,
+        "observed": 6
+      },
+      "coverage_complete": true,
+      "excluded_judged_queries": [],
+      "missing_count_histogram": {
+        "0": 6,
+        "1": 8,
+        "2": 9,
+        "3": 9,
+        "4": 10,
+        "5": 4,
+        "6": 7,
+        "7": 11,
+        "8": 6,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "13": 2
+      },
+      "query_count": 76,
+      "runs": [
+        "MONOT5_3B_BM25",
+        "RANK1_14B_BM25",
+        "RANKLLAMA_13B_BM25",
+        "SPLADE_PP_ED"
+      ],
+      "unjudged_pairs_by_multiplicity": {
+        "1": 330,
+        "2": 15,
+        "3": 2
+      }
+    }
+  },
+  "cases": {
+    "count": 76,
+    "file": "cases.json",
+    "sha256": "7d1bf9def75a146a50383dc817e83e99520d96259f771db860beb06a89581a66"
+  },
+  "chosen": "C",
+  "cohort": "TREC DL22 Passage Ranking",
+  "depth": 10,
+  "k": 3,
+  "old_query_id_overlap": {
+    "DL19": {
+      "old_judged_queries": 43,
+      "old_qrels_sha256": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+      "overlap": 0
+    },
+    "DL20": {
+      "old_judged_queries": 54,
+      "old_qrels_sha256": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+      "overlap": 0
+    },
+    "DL21": {
+      "old_judged_queries": 53,
+      "old_qrels_sha256": "15d1c6e8b13fd665dd043c43213e331452213ddc70f70b8522600bcce64db427",
+      "overlap": 0
+    }
+  },
+  "prespecified_slates": {
+    "A": [
+      "BM25",
+      "COLBERT_UGA",
+      "MONOT5_3B_BM25",
+      "SPLADE_PP_ED"
+    ],
+    "B": [
+      "COLBERT_UGA",
+      "MONOT5_3B_BM25",
+      "RANKLLAMA_13B_BM25",
+      "SPLADE_PP_ED"
+    ],
+    "C": [
+      "MONOT5_3B_BM25",
+      "RANK1_14B_BM25",
+      "RANKLLAMA_13B_BM25",
+      "SPLADE_PP_ED"
+    ]
+  },
+  "qrels": {
+    "bytes": 15800539,
+    "exact_duplicate_rows": 0,
+    "file": "qrels22.txt",
+    "judged_queries": 76,
+    "lines": 386416,
+    "sha256": "6d03b5a1b0acc26925b8ba9967469a012ec0491fb55455cd36677c387366cf5f",
+    "url": "https://trec.nist.gov/data/deep/2022.qrels.pass.withDupes.txt"
+  },
+  "rank_source": "Explicit source rank, exactly 1..10; source score ignored",
+  "run_coverage": {
+    "BM25": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 76
+    },
+    "COLBERT_UGA": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 500
+    },
+    "MONOT5_3B_BM25": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 76
+    },
+    "RANK1_14B_BM25": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 76
+    },
+    "RANKLLAMA_13B_BM25": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 76
+    },
+    "SPLADE_PP_ED": {
+      "absent_judged_queries": [],
+      "eligible_judged_queries": 76,
+      "ineligible_judged_queries": {},
+      "source_query_count": 76
+    }
+  },
+  "selection_information": "Source lineage, rank and judgement presence; no score or outcome comparisons",
+  "selection_rule": "First complete-coverage slate in A,B,C with >=10 queries having an originally unjudged PID in exactly 2 or 3 top-10 lists",
+  "sources": {
+    "BM25": {
+      "bytes": 503425,
+      "file": "dl22_bm25.txt",
+      "sha256": "10824d70521ec14adf6e00233f3338a3426f57895283900b3e9d4c51863b0856",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl22_top100.txt"
+    },
+    "COLBERT_UGA": {
+      "bytes": 3023373,
+      "file": "candidates/uga_colbert.txt",
+      "sha256": "31dc792c6237c1891251f52ff31225de75890b753d6e158e7e70b10895d42f56",
+      "url": "https://raw.githubusercontent.com/galuscakova/trec-dl-2022/2d1b63de930ed5098e8309e6e3fafbc2f4de5198/test/colbert-test.txt"
+    },
+    "MONOT5_3B_BM25": {
+      "bytes": 5355932,
+      "file": "candidates/rj_dl22_monot5-3b-msmarco.txt",
+      "sha256": "09438f68d9eea56cba562d6178aac1c9800aea16d65c54e8e84aa3c43a415573",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--monot5-3b-msmarco.dl22-passage.txt"
+    },
+    "RANK1_14B_BM25": {
+      "bytes": 5444336,
+      "file": "candidates/rj_dl22_rank1-14b.txt",
+      "sha256": "6a1edb3b324789ba8e74e6bbe89ea1107a0cdcfe0af8ea05880c8a937f2a5c46",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--rank1-14b.dl22-passage.txt"
+    },
+    "RANKLLAMA_13B_BM25": {
+      "bytes": 4715319,
+      "file": "candidates/rj_dl22_rankllama-v1-13b-lora-passage.txt",
+      "sha256": "1eba74bf586f49ee54624a8028825fcad498719a5c604394b7723055175084df",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--rankllama-v1-13b-lora-passage.dl22-passage.txt"
+    },
+    "SPLADE_PP_ED": {
+      "bytes": 454452,
+      "file": "dl22_splade.txt",
+      "sha256": "36949b00ff34340f047e478774b6287ce444cfb8fbac3177897e1ee51fcce513",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl22_top100.txt"
+    }
+  },
+  "tie_rule": "Run ID lexicographically ascending after descending integer score",
+  "weights": {
+    "binary": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "graded": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "method": "Audit native ODG objects and test edits through LibreOffice save/reopen/export.\n\nEdits are made through ODF XML, not GUI automation. Each edited copy is then\nopened and saved as ODG by LibreOffice, reopened and exported to PDF. Clean\nresearch figures remain unchanged. This is a format/roundtrip test, not a\nclaim that all interactive editor operations have been exercised.\n",
+  "office_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "checks": [
+    {
+      "file": "Figure_1_Shared_Completion.odg",
+      "source_sha256": "39da19736bb26b3aa0366c20d057485872f32d7f9d7dc07e4b9eea6fbe0c9de1",
+      "object_counts": {
+        "frame": 24,
+        "rect": 11
+      },
+      "unique_native_objects": 35,
+      "raster_objects": 0,
+      "embedded_foreign_objects": 0,
+      "text_objects": 24,
+      "context_text_object": "text_001",
+      "axis_text_object": "text_003",
+      "geometry_object": "joint_count_cell_001",
+      "old_width_cm": 3.75,
+      "edited_width_cm": 3.95,
+      "axis_line_object": null,
+      "edited_axis_x2_cm": null,
+      "original_text_paragraphs": 25,
+      "native_save_reopen_export": "passed",
+      "saved_sha256": "83dcf863659d0141c69fc3fce5e1dd9def3022db7e960acfb0577f18fea93db1",
+      "pdf_sha256": "445779934d08505ee602f1df36aa6b366483db3de2b97e22b849dfc3220f4391",
+      "clean_source_unchanged": true
+    },
+    {
+      "file": "Figure_2_Discounted_Sensitivity.odg",
+      "source_sha256": "8da90a964e9b537ba6e75b1c51507773dbcf46b834c2d2e31c063661194d2b42",
+      "object_counts": {
+        "frame": 42,
+        "rect": 14,
+        "line": 34
+      },
+      "unique_native_objects": 90,
+      "raster_objects": 0,
+      "embedded_foreign_objects": 0,
+      "text_objects": 42,
+      "context_text_object": "text_001",
+      "axis_text_object": "axis_title_022",
+      "geometry_object": "set_any_change_Flat_bar_003",
+      "old_width_cm": 7.7886,
+      "edited_width_cm": 7.9886,
+      "axis_line_object": "editable_axis_009",
+      "edited_axis_x2_cm": 16.55,
+      "original_text_paragraphs": 42,
+      "native_save_reopen_export": "passed",
+      "saved_sha256": "0368853cd289804b18b0b3ac85c2970396cb68ca46ae90c2fa78195c505b039c",
+      "pdf_sha256": "e2fa7be1d3f7119e493e705ef96e6fc91a96bb5af648de95b576893f5c290a20",
+      "clean_source_unchanged": true
+    },
+    {
+      "file": "Figure_3_Scale_Sensitivity.odg",
+      "source_sha256": "a66ab6d62c552f9e70d0e987edf50c60ac518e64e325d66f46e3f4007377acd4",
+      "object_counts": {
+        "frame": 39,
+        "line": 32,
+        "rect": 11
+      },
+      "unique_native_objects": 82,
+      "raster_objects": 0,
+      "embedded_foreign_objects": 0,
+      "text_objects": 39,
+      "context_text_object": "text_001",
+      "axis_text_object": "axis_title_016",
+      "geometry_object": "affected_cases_bar_001",
+      "old_width_cm": 9.6667,
+      "edited_width_cm": 9.8667,
+      "axis_line_object": "editable_axis_008",
+      "edited_axis_x2_cm": 16.55,
+      "original_text_paragraphs": 39,
+      "native_save_reopen_export": "passed",
+      "saved_sha256": "060689fface16a3933ddc6d7ef4abbe98c94953d79163783cb9e3323b23b5aa9",
+      "pdf_sha256": "d4c45acbe64d5c5d2a075b4be928dc22ef14512354e8a6a0ca9d34f076e95789",
+      "clean_source_unchanged": true
+    }
+  ],
+  "native_conversion_logs": [
+    {
+      "filter": "odg:draw8",
+      "stdout": "convert qa/editability/edited_input/Figure_1_Shared_Completion.odg as a Draw document -> qa/editability/native_saved/Figure_1_Shared_Completion.odg using filter : draw8\nconvert qa/editability/edited_input/Figure_2_Discounted_Sensitivity.odg as a Draw document -> qa/editability/native_saved/Figure_2_Discounted_Sensitivity.odg using filter : draw8\nconvert qa/editability/edited_input/Figure_3_Scale_Sensitivity.odg as a Draw document -> qa/editability/native_saved/Figure_3_Scale_Sensitivity.odg using filter : draw8\n",
+      "stderr": "",
+      "exit_code": 0
+    },
+    {
+      "filter": "pdf:draw_pdf_Export",
+      "stdout": "convert qa/editability/native_saved/Figure_1_Shared_Completion.odg as a Draw document -> qa/editability/reopened_pdf/Figure_1_Shared_Completion.pdf using filter : draw_pdf_Export\nconvert qa/editability/native_saved/Figure_2_Discounted_Sensitivity.odg as a Draw document -> qa/editability/reopened_pdf/Figure_2_Discounted_Sensitivity.pdf using filter : draw_pdf_Export\nconvert qa/editability/native_saved/Figure_3_Scale_Sensitivity.odg as a Draw document -> qa/editability/reopened_pdf/Figure_3_Scale_Sensitivity.pdf using filter : draw_pdf_Export\n",
+      "stderr": "",
+      "exit_code": 0
+    }
+  ]
+}

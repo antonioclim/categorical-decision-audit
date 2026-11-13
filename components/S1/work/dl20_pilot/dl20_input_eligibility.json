@@ -1,0 +1,65 @@
+{
+  "repo_commit": "5051b8d7225d257ce0f892e1069a2e5ac45d8496",
+  "repo_tree": "a978fa358493ccf54eb5453e2defcefe1caf1fd2",
+  "commit_date": "2024-07-15T14:51:37Z",
+  "qrels": {
+    "url": "https://trec.nist.gov/data/deep/2020qrels-pass.txt",
+    "bytes": 218617,
+    "sha256": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "judged_queries": 54,
+    "judgements": 11386,
+    "grade_counts": {
+      "2": 1020,
+      "3": 646,
+      "0": 7780,
+      "1": 1940
+    }
+  },
+  "runs": {
+    "BM25": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl20_top100.txt",
+      "bytes": 240316,
+      "sha256": "fba5d55aa8335bd1c74f7860dee354e69986b627c640b34ba47e084e311c24d2",
+      "rows": 5400,
+      "run_queries": 54,
+      "judged_query_overlap": 54,
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "BM25_RM3": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl20_top100.txt",
+      "bytes": 241312,
+      "sha256": "7d21a75df074dcaf7dd9ac7c45fea29c17c5a13a72381a6c1ba6ec9eed49f156",
+      "rows": 5400,
+      "run_queries": 54,
+      "judged_query_overlap": 54,
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "D_BERT_KD_TASB": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/D_BERT_KD_TASB/trec_results_dl20_top100.txt",
+      "bytes": 240082,
+      "sha256": "cc4765e2c732caa704c8df0d5af06fe8e02992893e77c676f4f31b3d22d9b05f",
+      "rows": 5400,
+      "run_queries": 54,
+      "judged_query_overlap": 54,
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "SPLADE_P_P_ENSEMBLE_DISTIL": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl20_top100.txt",
+      "bytes": 186223,
+      "sha256": "24062fcd8b8dfdf9f2710907c786541c870e8463d5dadea6b9e903821694918e",
+      "rows": 5400,
+      "run_queries": 54,
+      "judged_query_overlap": 54,
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "top10_eligible_on_all_judged_queries": true
+    }
+  },
+  "note": "Checked input shape and eligibility only; no retrieval scoring, coding effects or ranking comparison. No licence was asserted for rank_llm_data outputs."
+}

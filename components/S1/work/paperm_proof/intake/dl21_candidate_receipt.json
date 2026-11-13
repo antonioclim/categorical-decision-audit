@@ -1,0 +1,125 @@
+{
+  "castorini_commit": "5051b8d7225d257ce0f892e1069a2e5ac45d8496",
+  "files": {
+    "nist_dl21.html": {
+      "url": "https://trec.nist.gov/data/deep2021.html",
+      "resolved_url": "https://trec.nist.gov/data/deep2021.html",
+      "http_status": 200,
+      "etag": null,
+      "last_modified": "Fri, 17 Jun 2022 13:14:29 GMT",
+      "bytes": 4588,
+      "sha256": "e09587ae63854138c0d6b0e1096181cebfc7ae6e3944a61303619044f92ea4b9",
+      "received_utc": "2026-11-10T15:14:27.056144+00:00"
+    },
+    "2021.qrels.pass.final.txt": {
+      "url": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+      "resolved_url": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+      "http_status": 200,
+      "etag": "W/\"69edf-5d80f89a71173-gzip\"",
+      "last_modified": "Tue, 15 Feb 2022 14:42:09 GMT",
+      "bytes": 433887,
+      "sha256": "15d1c6e8b13fd665dd043c43213e331452213ddc70f70b8522600bcce64db427",
+      "received_utc": "2026-11-10T15:14:27.127450+00:00"
+    },
+    "hf_search_dl21.json": {
+      "url": "https://huggingface.co/api/datasets?search=dl21&limit=40",
+      "resolved_url": "https://huggingface.co/api/datasets?search=dl21&limit=40",
+      "http_status": 200,
+      "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"",
+      "last_modified": null,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "received_utc": "2026-11-10T15:14:27.021459+00:00"
+    },
+    "hf_search_dl2021.json": {
+      "url": "https://huggingface.co/api/datasets?search=dl2021&limit=25",
+      "resolved_url": "https://huggingface.co/api/datasets?search=dl2021&limit=25",
+      "http_status": 200,
+      "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"",
+      "last_modified": null,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "received_utc": "2026-11-10T15:14:27.021269+00:00"
+    },
+    "github_search_dl21.json": {
+      "url": "https://api.github.com/search/repositories?q=dl21%20passage%20in%3Areadme&per_page=15",
+      "resolved_url": "https://api.github.com/search/repositories?q=dl21%20passage%20in%3Areadme&per_page=15",
+      "http_status": 200,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 81337,
+      "sha256": "ad298dedbde0300e7116b6845d779ec905960a6758599bcc0f06490036de541a",
+      "received_utc": "2026-11-10T15:14:28.336405+00:00"
+    },
+    "github_search_trec21.json": {
+      "url": "https://api.github.com/search/repositories?q=trec%202021%20passage%20retrieval%20runs%20in%3Areadme&per_page=12",
+      "resolved_url": "https://api.github.com/search/repositories?q=trec%202021%20passage%20retrieval%20runs%20in%3Areadme&per_page=12",
+      "http_status": 200,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 63133,
+      "sha256": "e0118e59cc59cf4b31447962bab85eece348074abc566430137caa2fd69048d6",
+      "received_utc": "2026-11-10T15:14:27.698767+00:00"
+    },
+    "nist_covid.html": {
+      "url": "https://ir.nist.gov/covidSubmit/data.html",
+      "resolved_url": "https://ir.nist.gov/covidSubmit/data.html",
+      "http_status": 200,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 14354,
+      "sha256": "145cfe307c4aae03bce7dd65522f3e4c3e4a562ff30b23a04d4d5f90784d234c",
+      "received_utc": "2026-11-10T15:14:28.418995+00:00"
+    },
+    "ielab_tree.json": {
+      "url": "https://api.github.com/repos/ielab/llm-rankers/git/trees/main?recursive=1",
+      "resolved_url": "https://api.github.com/repos/ielab/llm-rankers/git/trees/main?recursive=1",
+      "http_status": 200,
+      "etag": "W/\"f3bb1ca6065dfed2bdbfca34fbf0a3229da4c06ba6c2a2258573f217f5854bf2\"",
+      "last_modified": "Thu, 08 Oct 2026 21:27:29 GMT",
+      "bytes": 25459,
+      "sha256": "f3bb1ca6065dfed2bdbfca34fbf0a3229da4c06ba6c2a2258573f217f5854bf2",
+      "received_utc": "2026-11-10T15:14:27.442745+00:00"
+    },
+    "rankllm_hf_info.json": {
+      "url": "https://huggingface.co/api/datasets/castorini/rank_llm_data",
+      "resolved_url": "https://huggingface.co/api/datasets/castorini/rank_llm_data",
+      "http_status": 200,
+      "etag": "W/\"5719-BVl78qkapNgEyCx+fF9qEXm4918\"",
+      "last_modified": null,
+      "bytes": 22297,
+      "sha256": "dcc319faea21f6593a155976474ae761a724e0387333e7855dcbc6411223f278",
+      "received_utc": "2026-11-10T15:14:27.230957+00:00"
+    },
+    "BM25.txt": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl21_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl21_top100.txt",
+      "http_status": 200,
+      "etag": "\"cf663b7cbd83ee4bdb8e7e865968f9f9d10675caf75a6b049216d224036cc7f0\"",
+      "last_modified": null,
+      "bytes": 347951,
+      "sha256": "e916d3e65cc6ae930e9e9a2cf9245f5f09f44733c042c52fa353b968a72f0b98",
+      "received_utc": "2026-11-10T15:14:35.063322+00:00"
+    },
+    "BM25_RM3.txt": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl21_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl21_top100.txt",
+      "http_status": 200,
+      "etag": "\"fb15b981c1a426aad36ca2c877a92db69f6d93c2f630d2ee7a42a02d38139acc\"",
+      "last_modified": null,
+      "bytes": 347048,
+      "sha256": "4baffac8719d54c2c2fa9fa9476c447d05ba3e22c098c45e6523e65feea8dfb6",
+      "received_utc": "2026-11-10T15:14:35.070868+00:00"
+    },
+    "SPLADE_P_P_ENSEMBLE_DISTIL.txt": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl21_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl21_top100.txt",
+      "http_status": 200,
+      "etag": "\"715136e5a7c3791d0b630a40145d9366df38a2d1c6c8e9526b3127e4d9fce2f4\"",
+      "last_modified": null,
+      "bytes": 312606,
+      "sha256": "872095edf0397568f3bcbf0aa70b990750fe8d93f18c28a66f8d3cad4ace5787",
+      "received_utc": "2026-11-10T15:14:35.078855+00:00"
+    }
+  }
+}

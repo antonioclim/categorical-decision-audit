@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "protocol_created_at_utc": "2026-11-05T14:22:10.570751+00:00",
-  "acquired_at_utc": "2026-11-05T14:22:39.507076+00:00",
-  "protocol_precedes_acquisition": true,
-  "limits": "Internal host-clock/local record; not independent timestamping, public preregistration or exclusion from model training."
-}

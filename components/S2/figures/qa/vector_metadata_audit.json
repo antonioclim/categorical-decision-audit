@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "figures": [
+    {
+      "odg": "Figure_1_Shared_Completion.odg",
+      "odg_sha256": "bff29852893f28c239b43a47dff3947a4cf31a119c8b915c990fc8247f3bdc1b",
+      "pdf": "Figure_1_Shared_Completion.pdf",
+      "pdf_sha256": "26a353b710db0928a1c0e7d214c6a7b28582199e13b353ca6dc94687499b4be7",
+      "png": "Figure_1_Shared_Completion.png",
+      "png_sha256": "e4be638ccb6eac88ee21920f0147af29f6309b65e9022aa12cd55bb2b865b6d5",
+      "pdf_pages": 1,
+      "pdf_embedded_images": 0,
+      "pdf_all_fonts_embedded": true,
+      "font_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes     69  0\nCAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes     84  0\nDAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes     79  0\nEAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes     74  0\n",
+      "pdf_metadata": {
+        "/Title": "Shared completion outcomes for query 2017299",
+        "/Creator": "Draw",
+        "/Producer": "LibreOfficeDev 26.8.0.0.alpha0 (X86_64)",
+        "/CreationDate": "D:20261112144022+02'00'"
+      },
+      "native_text_paragraphs": 25,
+      "clean_research_figure": true
+    },
+    {
+      "odg": "Figure_2_Discounted_Sensitivity.odg",
+      "odg_sha256": "b2e941fc8bf37f644876d5813a6a438836b434d1c46d0a4a3a885eb78c4a0bf9",
+      "pdf": "Figure_2_Discounted_Sensitivity.pdf",
+      "pdf_sha256": "76787e49f91df0c40e54b163f1a2f8092be8622cfee7090a8f282353a035e033",
+      "png": "Figure_2_Discounted_Sensitivity.png",
+      "png_sha256": "0a620ccb660e47b4a260a0aa1ef4136e49347abee938f7b4c1f621df12527d9f",
+      "pdf_pages": 1,
+      "pdf_embedded_images": 0,
+      "pdf_all_fonts_embedded": true,
+      "font_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes    141  0\nCAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    151  0\nDAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    156  0\nEAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes    146  0\n",
+      "pdf_metadata": {
+        "/Title": "Point screening under flat and discounted scoring",
+        "/Creator": "Draw",
+        "/Producer": "LibreOfficeDev 26.8.0.0.alpha0 (X86_64)",
+        "/CreationDate": "D:20261112144022+02'00'"
+      },
+      "native_text_paragraphs": 42,
+      "clean_research_figure": true
+    },
+    {
+      "odg": "Figure_3_Scale_Sensitivity.odg",
+      "odg_sha256": "0c5545c85d1ecac58c3a2298a52abef6a81fc33c3d0658b3e6f1a120ef9214e9",
+      "pdf": "Figure_3_Scale_Sensitivity.pdf",
+      "pdf_sha256": "b9ab5e08da67eb8c46780b25d23c4d467a1e8f303b3bb4c8d55b9b770e6c3713",
+      "png": "Figure_3_Scale_Sensitivity.png",
+      "png_sha256": "4f1b60a1c19927055ccc4a1cee81874539da3352f0114a1e30e10ec9a8083ae8",
+      "pdf_pages": 1,
+      "pdf_embedded_images": 0,
+      "pdf_all_fonts_embedded": true,
+      "font_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes    130  0\nCAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    140  0\nDAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes    135  0\nEAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    150  0\nFAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    145  0\n",
+      "pdf_metadata": {
+        "/Title": "Pointwise sensitivity to the quantisation scale",
+        "/Creator": "Draw",
+        "/Producer": "LibreOfficeDev 26.8.0.0.alpha0 (X86_64)",
+        "/CreationDate": "D:20261112144022+02'00'"
+      },
+      "native_text_paragraphs": 39,
+      "clean_research_figure": true
+    }
+  ],
+  "scope": "Current ODG metadata identities; unchanged PDF and PNG exports retain the previous native export, font and visual checks. No new native export or visual inspection was necessary for byte-identical exports."
+}

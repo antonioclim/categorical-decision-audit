@@ -1,0 +1,10 @@
+binary_omitted,graded_omitted,completion_count
+monoT5,monoT5,896
+monoT5,Rank1,0
+monoT5,SPLADE,0
+Rank1,monoT5,96
+Rank1,Rank1,156
+Rank1,SPLADE,4
+SPLADE,monoT5,1344
+SPLADE,Rank1,152
+SPLADE,SPLADE,1448

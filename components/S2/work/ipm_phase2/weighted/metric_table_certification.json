@@ -1,0 +1,1065 @@
+{
+  "status": "certified",
+  "metric": "quantised_log_discount_floor_gain_v1",
+  "table_file_sha256": "b19c450ecb9d0ae55225bfc8c773763714da2396d1e7212cd957176cc0508bab",
+  "nonzero_entries": 90,
+  "scope": "Exact integer quantisation; not exact real-valued DCG or nDCG",
+  "entries": [
+    {
+      "scale": 10000,
+      "rank": 1,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 1,
+      "gain": 1,
+      "value": 10000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 10000,
+      "rank": 1,
+      "gain": 2,
+      "value": 20000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 10000,
+      "rank": 1,
+      "gain": 3,
+      "value": 30000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 10000,
+      "rank": 2,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 2,
+      "gain": 1,
+      "value": 6309,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 6309,
+      "floor_upper": 6309
+    },
+    {
+      "scale": 10000,
+      "rank": 2,
+      "gain": 2,
+      "value": 12618,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 12618,
+      "floor_upper": 12618
+    },
+    {
+      "scale": 10000,
+      "rank": 2,
+      "gain": 3,
+      "value": 18927,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 18927,
+      "floor_upper": 18927
+    },
+    {
+      "scale": 10000,
+      "rank": 3,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 3,
+      "gain": 1,
+      "value": 5000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 10000,
+      "rank": 3,
+      "gain": 2,
+      "value": 10000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 10000,
+      "rank": 3,
+      "gain": 3,
+      "value": 15000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 10000,
+      "rank": 4,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 4,
+      "gain": 1,
+      "value": 4306,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 4306,
+      "floor_upper": 4306
+    },
+    {
+      "scale": 10000,
+      "rank": 4,
+      "gain": 2,
+      "value": 8613,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 8613,
+      "floor_upper": 8613
+    },
+    {
+      "scale": 10000,
+      "rank": 4,
+      "gain": 3,
+      "value": 12920,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 12920,
+      "floor_upper": 12920
+    },
+    {
+      "scale": 10000,
+      "rank": 5,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 5,
+      "gain": 1,
+      "value": 3868,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 3868,
+      "floor_upper": 3868
+    },
+    {
+      "scale": 10000,
+      "rank": 5,
+      "gain": 2,
+      "value": 7737,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 7737,
+      "floor_upper": 7737
+    },
+    {
+      "scale": 10000,
+      "rank": 5,
+      "gain": 3,
+      "value": 11605,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 11605,
+      "floor_upper": 11605
+    },
+    {
+      "scale": 10000,
+      "rank": 6,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 6,
+      "gain": 1,
+      "value": 3562,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 3562,
+      "floor_upper": 3562
+    },
+    {
+      "scale": 10000,
+      "rank": 6,
+      "gain": 2,
+      "value": 7124,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 7124,
+      "floor_upper": 7124
+    },
+    {
+      "scale": 10000,
+      "rank": 6,
+      "gain": 3,
+      "value": 10686,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 10686,
+      "floor_upper": 10686
+    },
+    {
+      "scale": 10000,
+      "rank": 7,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 7,
+      "gain": 1,
+      "value": 3333,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 10000,
+      "rank": 7,
+      "gain": 2,
+      "value": 6666,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 10000,
+      "rank": 7,
+      "gain": 3,
+      "value": 10000,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 10000,
+      "rank": 8,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 8,
+      "gain": 1,
+      "value": 3154,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 3154,
+      "floor_upper": 3154
+    },
+    {
+      "scale": 10000,
+      "rank": 8,
+      "gain": 2,
+      "value": 6309,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 6309,
+      "floor_upper": 6309
+    },
+    {
+      "scale": 10000,
+      "rank": 8,
+      "gain": 3,
+      "value": 9463,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 9463,
+      "floor_upper": 9463
+    },
+    {
+      "scale": 10000,
+      "rank": 9,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 9,
+      "gain": 1,
+      "value": 3010,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 3010,
+      "floor_upper": 3010
+    },
+    {
+      "scale": 10000,
+      "rank": 9,
+      "gain": 2,
+      "value": 6020,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 6020,
+      "floor_upper": 6020
+    },
+    {
+      "scale": 10000,
+      "rank": 9,
+      "gain": 3,
+      "value": 9030,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 9030,
+      "floor_upper": 9030
+    },
+    {
+      "scale": 10000,
+      "rank": 10,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 10000,
+      "rank": 10,
+      "gain": 1,
+      "value": 2890,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 2890,
+      "floor_upper": 2890
+    },
+    {
+      "scale": 10000,
+      "rank": 10,
+      "gain": 2,
+      "value": 5781,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 5781,
+      "floor_upper": 5781
+    },
+    {
+      "scale": 10000,
+      "rank": 10,
+      "gain": 3,
+      "value": 8671,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 8671,
+      "floor_upper": 8671
+    },
+    {
+      "scale": 1000000,
+      "rank": 1,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 1,
+      "gain": 1,
+      "value": 1000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 1000000,
+      "rank": 1,
+      "gain": 2,
+      "value": 2000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 1000000,
+      "rank": 1,
+      "gain": 3,
+      "value": 3000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 1000000,
+      "rank": 2,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 2,
+      "gain": 1,
+      "value": 630929,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 630929,
+      "floor_upper": 630929
+    },
+    {
+      "scale": 1000000,
+      "rank": 2,
+      "gain": 2,
+      "value": 1261859,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 1261859,
+      "floor_upper": 1261859
+    },
+    {
+      "scale": 1000000,
+      "rank": 2,
+      "gain": 3,
+      "value": 1892789,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 1892789,
+      "floor_upper": 1892789
+    },
+    {
+      "scale": 1000000,
+      "rank": 3,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 3,
+      "gain": 1,
+      "value": 500000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 1000000,
+      "rank": 3,
+      "gain": 2,
+      "value": 1000000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 1000000,
+      "rank": 3,
+      "gain": 3,
+      "value": 1500000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 1000000,
+      "rank": 4,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 4,
+      "gain": 1,
+      "value": 430676,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 430676,
+      "floor_upper": 430676
+    },
+    {
+      "scale": 1000000,
+      "rank": 4,
+      "gain": 2,
+      "value": 861353,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 861353,
+      "floor_upper": 861353
+    },
+    {
+      "scale": 1000000,
+      "rank": 4,
+      "gain": 3,
+      "value": 1292029,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 1292029,
+      "floor_upper": 1292029
+    },
+    {
+      "scale": 1000000,
+      "rank": 5,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 5,
+      "gain": 1,
+      "value": 386852,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 386852,
+      "floor_upper": 386852
+    },
+    {
+      "scale": 1000000,
+      "rank": 5,
+      "gain": 2,
+      "value": 773705,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 773705,
+      "floor_upper": 773705
+    },
+    {
+      "scale": 1000000,
+      "rank": 5,
+      "gain": 3,
+      "value": 1160558,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 1160558,
+      "floor_upper": 1160558
+    },
+    {
+      "scale": 1000000,
+      "rank": 6,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 6,
+      "gain": 1,
+      "value": 356207,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 356207,
+      "floor_upper": 356207
+    },
+    {
+      "scale": 1000000,
+      "rank": 6,
+      "gain": 2,
+      "value": 712414,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 712414,
+      "floor_upper": 712414
+    },
+    {
+      "scale": 1000000,
+      "rank": 6,
+      "gain": 3,
+      "value": 1068621,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 1068621,
+      "floor_upper": 1068621
+    },
+    {
+      "scale": 1000000,
+      "rank": 7,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 7,
+      "gain": 1,
+      "value": 333333,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 1000000,
+      "rank": 7,
+      "gain": 2,
+      "value": 666666,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 1000000,
+      "rank": 7,
+      "gain": 3,
+      "value": 1000000,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 1000000,
+      "rank": 8,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 8,
+      "gain": 1,
+      "value": 315464,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 315464,
+      "floor_upper": 315464
+    },
+    {
+      "scale": 1000000,
+      "rank": 8,
+      "gain": 2,
+      "value": 630929,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 630929,
+      "floor_upper": 630929
+    },
+    {
+      "scale": 1000000,
+      "rank": 8,
+      "gain": 3,
+      "value": 946394,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 946394,
+      "floor_upper": 946394
+    },
+    {
+      "scale": 1000000,
+      "rank": 9,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 9,
+      "gain": 1,
+      "value": 301029,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 301029,
+      "floor_upper": 301029
+    },
+    {
+      "scale": 1000000,
+      "rank": 9,
+      "gain": 2,
+      "value": 602059,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 602059,
+      "floor_upper": 602059
+    },
+    {
+      "scale": 1000000,
+      "rank": 9,
+      "gain": 3,
+      "value": 903089,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 903089,
+      "floor_upper": 903089
+    },
+    {
+      "scale": 1000000,
+      "rank": 10,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 1000000,
+      "rank": 10,
+      "gain": 1,
+      "value": 289064,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 289064,
+      "floor_upper": 289064
+    },
+    {
+      "scale": 1000000,
+      "rank": 10,
+      "gain": 2,
+      "value": 578129,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 578129,
+      "floor_upper": 578129
+    },
+    {
+      "scale": 1000000,
+      "rank": 10,
+      "gain": 3,
+      "value": 867194,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 867194,
+      "floor_upper": 867194
+    },
+    {
+      "scale": 100000000,
+      "rank": 1,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 1,
+      "gain": 1,
+      "value": 100000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 100000000,
+      "rank": 1,
+      "gain": 2,
+      "value": 200000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 100000000,
+      "rank": 1,
+      "gain": 3,
+      "value": 300000000,
+      "method": "exact power of two",
+      "log2": 1
+    },
+    {
+      "scale": 100000000,
+      "rank": 2,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 2,
+      "gain": 1,
+      "value": 63092975,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 63092975,
+      "floor_upper": 63092975
+    },
+    {
+      "scale": 100000000,
+      "rank": 2,
+      "gain": 2,
+      "value": 126185950,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 126185950,
+      "floor_upper": 126185950
+    },
+    {
+      "scale": 100000000,
+      "rank": 2,
+      "gain": 3,
+      "value": 189278926,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 189278926,
+      "floor_upper": 189278926
+    },
+    {
+      "scale": 100000000,
+      "rank": 3,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 3,
+      "gain": 1,
+      "value": 50000000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 100000000,
+      "rank": 3,
+      "gain": 2,
+      "value": 100000000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 100000000,
+      "rank": 3,
+      "gain": 3,
+      "value": 150000000,
+      "method": "exact power of two",
+      "log2": 2
+    },
+    {
+      "scale": 100000000,
+      "rank": 4,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 4,
+      "gain": 1,
+      "value": 43067655,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 43067655,
+      "floor_upper": 43067655
+    },
+    {
+      "scale": 100000000,
+      "rank": 4,
+      "gain": 2,
+      "value": 86135311,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 86135311,
+      "floor_upper": 86135311
+    },
+    {
+      "scale": 100000000,
+      "rank": 4,
+      "gain": 3,
+      "value": 129202967,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 129202967,
+      "floor_upper": 129202967
+    },
+    {
+      "scale": 100000000,
+      "rank": 5,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 5,
+      "gain": 1,
+      "value": 38685280,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 38685280,
+      "floor_upper": 38685280
+    },
+    {
+      "scale": 100000000,
+      "rank": 5,
+      "gain": 2,
+      "value": 77370561,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 77370561,
+      "floor_upper": 77370561
+    },
+    {
+      "scale": 100000000,
+      "rank": 5,
+      "gain": 3,
+      "value": 116055842,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 116055842,
+      "floor_upper": 116055842
+    },
+    {
+      "scale": 100000000,
+      "rank": 6,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 6,
+      "gain": 1,
+      "value": 35620718,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 35620718,
+      "floor_upper": 35620718
+    },
+    {
+      "scale": 100000000,
+      "rank": 6,
+      "gain": 2,
+      "value": 71241437,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 71241437,
+      "floor_upper": 71241437
+    },
+    {
+      "scale": 100000000,
+      "rank": 6,
+      "gain": 3,
+      "value": 106862156,
+      "method": "rational logarithm enclosure",
+      "terms": 32,
+      "floor_lower": 106862156,
+      "floor_upper": 106862156
+    },
+    {
+      "scale": 100000000,
+      "rank": 7,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 7,
+      "gain": 1,
+      "value": 33333333,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 100000000,
+      "rank": 7,
+      "gain": 2,
+      "value": 66666666,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 100000000,
+      "rank": 7,
+      "gain": 3,
+      "value": 100000000,
+      "method": "exact power of two",
+      "log2": 3
+    },
+    {
+      "scale": 100000000,
+      "rank": 8,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 8,
+      "gain": 1,
+      "value": 31546487,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 31546487,
+      "floor_upper": 31546487
+    },
+    {
+      "scale": 100000000,
+      "rank": 8,
+      "gain": 2,
+      "value": 63092975,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 63092975,
+      "floor_upper": 63092975
+    },
+    {
+      "scale": 100000000,
+      "rank": 8,
+      "gain": 3,
+      "value": 94639463,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 94639463,
+      "floor_upper": 94639463
+    },
+    {
+      "scale": 100000000,
+      "rank": 9,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 9,
+      "gain": 1,
+      "value": 30102999,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 30102999,
+      "floor_upper": 30102999
+    },
+    {
+      "scale": 100000000,
+      "rank": 9,
+      "gain": 2,
+      "value": 60205999,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 60205999,
+      "floor_upper": 60205999
+    },
+    {
+      "scale": 100000000,
+      "rank": 9,
+      "gain": 3,
+      "value": 90308998,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 90308998,
+      "floor_upper": 90308998
+    },
+    {
+      "scale": 100000000,
+      "rank": 10,
+      "gain": 0,
+      "value": 0,
+      "method": "zero gain"
+    },
+    {
+      "scale": 100000000,
+      "rank": 10,
+      "gain": 1,
+      "value": 28906482,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 28906482,
+      "floor_upper": 28906482
+    },
+    {
+      "scale": 100000000,
+      "rank": 10,
+      "gain": 2,
+      "value": 57812965,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 57812965,
+      "floor_upper": 57812965
+    },
+    {
+      "scale": 100000000,
+      "rank": 10,
+      "gain": 3,
+      "value": 86719447,
+      "method": "rational logarithm enclosure",
+      "terms": 64,
+      "floor_lower": 86719447,
+      "floor_upper": 86719447
+    }
+  ]
+}

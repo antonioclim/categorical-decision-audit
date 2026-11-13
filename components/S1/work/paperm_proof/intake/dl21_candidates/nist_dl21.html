@@ -1,0 +1,93 @@
+<HTML>
+<TITLE>Text REtrieval Conference (TREC) 2021 Deep Learning Track</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<CENTER> <TABLE WIDTH="640">
+<TR>
+        <TH ALIGN=CENTER><FONT FACE="arial,helvetica">
+        <H2><B>2021 Deep Learning Track</B></H2>
+        </FONT></TH>
+</TR>
+<TR>
+        <TD ALIGN=CENTER><FONT FACE="arial,helvetica">
+        <IMG HEIGHT=40 WIDTH=40 VALIGN=CENTER SRC="../images/2papers.jpg" ALT="Return to the TREC home page">
+        <A HREF="http://trec.nist.gov">TREC home</A>
+        <IMG HEIGHT=40 WIDTH=40 VALIGN=CENTER SRC="../images/2papers.jpg" ALT="Return to the TREC
+Data home page">
+        <A HREF="http://trec.nist.gov/data.html">Data home</A>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <A HREF="http://www.nist.gov"><IMG SRC="../images/nist_back.gif" ALT="National Institute of Standards and Technology Home Page" BORDER=0 HSPACE=2 VSPACE=2></A>                  
+
+ </FONT></TD>
+</TR>
+<TR><TD><HR></TD></TR>
+<TR>
+<TD ALIGN=left><FONT FACE="arial,helvetica">
+<DL>
+
+<DT><DL><DD> <B>TREC 2021</B><BR>
+
+
+<DD><FONT FACE="arial,helvetica">
+
+<a href="https://microsoft.github.io/msmarco/TREC-Deep-Learning">Deep Learning track web page</a><BR>
+(See track web page for links to test and training corpora.)
+<BR><BR>
+
+<a href="./deep/2021.qrels.docs.final.txt">NIST judgments for the Document Ranking task</a><BR>
+<a href="./deep/2021.qrels.pass.final.txt">NIST judgments for the Passage Ranking task</a><BR>
+<a href="./deep/2021.qrels.pass.final-no1.txt">Modified NIST judgments for the Passage Ranking task</a>. In this qrels file, all "1" judgments (Related) have been mapped to 0 because
+related passages are not relevant.  Use this qrels with trec-eval for all measures
+except NDCG variants. Use the full qrels with trec-eval for NDCG-related
+measures.
+<BR>
+<BR><BR>
+
+Note: Documents were judged on a four-point scale of Not Relevant (0), Relevant (1),
+Highly Relevant (2) and Perfect (3).  Levels 1--3 are considered to be relevant for
+measures that use binary relevance judgments.
+Passages were judged on a four-point scale of Not Relevant (0), Related (1),
+Highly Relevant (2), and Perfect (3), where 'Related' is actually <B>NOT</B>
+Relevant---it means that the passage was on the same general topic, but did not
+answer the question.  Thus, for Passage Ranking task runs (only), to
+compute evaluation measures that use binary relevance judgments using trec_eval,
+you either need to use trec_eval's -l option [trec_eval -l 2 qrelsfile runfile]
+or modify the qrels file to change all 1 judgments to 0.
+
+<BR><BR>
+<DT><DL><DD> <B>Expanded Judgment Sets</B><BR>
+
+After the conclusion of the TREC 2021 track, NIST made additional judgments for the
+TREC 2021 evaluation topics to explore the quality of the test collection built from
+the original track judgments.  The exploration is described in a SIGIR 2022 paper
+that is also posted <a href="https://cs.uwaterloo.ca/~jimmylin/publications/Voorhees_etal_SIGIR2022.pdf">here</a>.
+The following qrels are the union of the original track judgments and the judgments
+made for the exploration.  <B> Remember that it is methodologically invalid to compare
+scores computed using the original track judgments (such as the scores reported for
+track submissions) to scores computed using the expanded judgments.<B>
+<BR>
+<a href="./deep/2021.qrels.docs.expanded.txt">Expanded judgments for the Document Ranking task</a><BR>
+<a href="./deep/2021.qrels.pass.expanded.txt">Expanded judgments for the Passage Ranking task</a><BR>
+<a href="./deep/2021.qrels.pass.expanded-no1.txt">Modified expanded judgments for the Passage Ranking task</a>
+
+
+
+<BR><BR>
+<TR><TD><HR></TD></TR>
+ <BR><BR>
+        </TD>
+</TR>
+<TR>         
+
+ <TD ALIGN=CENTER><FONT FACE="arial,helvetica"><I>
+        Last updated: <!--#flastmod file="deep2021.html"--><BR>
+        Date created: February 15, 2022<BR>
+        <a href="/cdn-cgi/l/email-protection#85f1f7e0e6c5ebecf6f1abe2eaf3"><span class="__cf_email__" data-cfemail="4f3b3d2a2c0f21263c3b61282039">[email&#160;protected]</span></a>
+        </I></FONT></TD>
+</TR>
+
+</TABLE> </CENTER>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"9ef5b487afff42a68917b2d63593a474","spa":2}' crossorigin="anonymous"></script>
+</BODY>
+</HTML>    
+

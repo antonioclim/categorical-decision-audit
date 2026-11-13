@@ -1,0 +1,13 @@
+endpoint,metric,property,count,denominator
+set,Flat,any_change,47,70
+set,Flat,strict_change,32,70
+set,Flat,all_zero_disagrees,15,70
+set,Discount,any_change,48,70
+set,Discount,strict_change,47,70
+set,Discount,all_zero_disagrees,12,70
+prefix,Flat,any_change,63,70
+prefix,Flat,strict_change,25,70
+prefix,Flat,all_zero_disagrees,34,70
+prefix,Discount,any_change,65,70
+prefix,Discount,strict_change,58,70
+prefix,Discount,all_zero_disagrees,35,70

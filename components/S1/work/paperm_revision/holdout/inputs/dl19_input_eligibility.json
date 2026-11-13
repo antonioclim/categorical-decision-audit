@@ -1,0 +1,163 @@
+{
+  "repo_commit": "5051b8d7225d257ce0f892e1069a2e5ac45d8496",
+  "repo_tree": "a978fa358493ccf54eb5453e2defcefe1caf1fd2",
+  "commit_date": "2024-07-15T14:51:37Z",
+  "nist_source": {
+    "url": "https://trec.nist.gov/data/deep2019.html",
+    "resolved_url": "https://trec.nist.gov/data/deep2019.html",
+    "http_status": 200,
+    "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+    "last_modified": "Fri, 17 Jun 2022 12:35:04 GMT",
+    "etag": null,
+    "bytes": 3148,
+    "sha256": "4b2c87ce5532dbe98dfb48b758bf52af2812aa039c5bf835e833835c83e58fb8",
+    "received_utc": "2026-11-10T12:54:11.698038+00:00",
+    "links_to_passage_qrels": true
+  },
+  "qrels": {
+    "url": "https://trec.nist.gov/data/deep/2019qrels-pass.txt",
+    "resolved_url": "https://trec.nist.gov/data/deep/2019qrels-pass.txt",
+    "http_status": 200,
+    "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+    "last_modified": "Thu, 05 Sep 2019 19:58:44 GMT",
+    "etag": "W/\"2dad4-591d3bfb6124b-gzip\"",
+    "bytes": 187092,
+    "sha256": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "received_utc": "2026-11-10T12:54:11.779235+00:00",
+    "judged_queries": 43,
+    "judgements": 9260,
+    "grade_counts": {
+      "0": 5158,
+      "1": 1601,
+      "2": 1804,
+      "3": 697
+    }
+  },
+  "runs": {
+    "BM25": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl19_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl19_top100.txt",
+      "http_status": 200,
+      "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+      "last_modified": null,
+      "etag": "\"54aefbad3d426cf6a6b4f8a7e19cd2a3add05ac4893590fc4b9bebcccc11d9e2\"",
+      "bytes": 190529,
+      "sha256": "cbada2e4f710f8cafb8f1fd54e2289011b3273cdc044adb2380af21f63a6c861",
+      "received_utc": "2026-11-10T12:54:11.238683+00:00",
+      "rows": 4300,
+      "run_queries": 43,
+      "judged_query_overlap": 43,
+      "extra_query_ids": [],
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "not_full_top100": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "BM25_RM3": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl19_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl19_top100.txt",
+      "http_status": 200,
+      "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+      "last_modified": null,
+      "etag": "\"441f38f29aeb911c46d8a6ed1eac3dd4fc795228e9a8f39beeec7b72f221a779\"",
+      "bytes": 191863,
+      "sha256": "fd1b5b6358731eb82a42f240b27e2ec061b087a64dff8d61e9bc4f4e61175325",
+      "received_utc": "2026-11-10T12:54:11.210722+00:00",
+      "rows": 4300,
+      "run_queries": 43,
+      "judged_query_overlap": 43,
+      "extra_query_ids": [],
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "not_full_top100": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "D_BERT_KD_TASB": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/D_BERT_KD_TASB/trec_results_dl19_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/D_BERT_KD_TASB/trec_results_dl19_top100.txt",
+      "http_status": 200,
+      "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+      "last_modified": null,
+      "etag": "\"6663934438af13bfa5f2b5b0b9823702e292d2432d4b1ce18dee43736297cc9b\"",
+      "bytes": 190741,
+      "sha256": "194ac7678312edbbd9aeb322e5b00fac63ecf081fccc2dd88e4c0dd2d8fc255e",
+      "received_utc": "2026-11-10T12:54:11.222878+00:00",
+      "rows": 4300,
+      "run_queries": 43,
+      "judged_query_overlap": 43,
+      "extra_query_ids": [],
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "not_full_top100": [],
+      "top10_eligible_on_all_judged_queries": true
+    },
+    "SPLADE_P_P_ENSEMBLE_DISTIL": {
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl19_top100.txt",
+      "resolved_url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl19_top100.txt",
+      "http_status": 200,
+      "date_header": "Tue, 10 Nov 2026 12:54:11 GMT",
+      "last_modified": null,
+      "etag": "\"cf231dc6ff6f28a88187b254f7dce8cf6cd28434cbe5e7611cc359cb61a49d79\"",
+      "bytes": 147985,
+      "sha256": "5e09e4219740fd9b2a57637fccf6d00932c938c47a07b97ce0852c0b2596a4e1",
+      "received_utc": "2026-11-10T12:54:11.214697+00:00",
+      "rows": 4300,
+      "run_queries": 43,
+      "judged_query_overlap": 43,
+      "extra_query_ids": [],
+      "bad_rows": [],
+      "not_eligible_top10": [],
+      "not_full_top100": [],
+      "top10_eligible_on_all_judged_queries": true
+    }
+  },
+  "structure": {
+    "top_depth": 10,
+    "observed_complete_queries": 27,
+    "natural_incomplete_queries": 16,
+    "unique_unjudged_passages_per_query_histogram": {
+      "0": 27,
+      "1": 3,
+      "2": 1,
+      "3": 4,
+      "4": 3,
+      "7": 2,
+      "8": 1,
+      "11": 1,
+      "12": 1
+    },
+    "shared_unjudged_passages_per_query_histogram": {
+      "0": 39,
+      "1": 3,
+      "2": 1
+    },
+    "unjudged_query_passage_pairs_by_run_multiplicity": {
+      "1": 69,
+      "2": 5
+    },
+    "judged_query_passage_pairs_by_run_multiplicity": {
+      "1": 366,
+      "2": 380,
+      "3": 53,
+      "4": 89
+    },
+    "complete_queries_shared_judged_candidate_count_histogram": {
+      "9": 2,
+      "10": 1,
+      "11": 4,
+      "12": 8,
+      "13": 3,
+      "14": 4,
+      "15": 4,
+      "17": 1
+    },
+    "complete_queries_maskable_shared_pairs_at_cap3_histogram": {
+      "3": 27
+    },
+    "dl20_reference_qrels_sha256": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "dl20_reference_judged_queries": 54,
+    "dl19_dl20_judged_query_id_overlap": [],
+    "total_qrels_and_run_bytes": 908210
+  },
+  "note": "Structure only. No code evaluates relevance scores, effects of definitions, shortlist outcomes, or completion outcomes. Public readability verified; redistribution permissions for rank_llm_data outputs were not inferred."
+}

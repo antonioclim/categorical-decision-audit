@@ -1,0 +1,184 @@
+{
+  "inputs": [
+    {
+      "path": "work/paperm_proof/intake/dl21_candidates/2021.qrels.pass.final.txt",
+      "bytes": 433887,
+      "sha256": "15d1c6e8b13fd665dd043c43213e331452213ddc70f70b8522600bcce64db427",
+      "url": "https://trec.nist.gov/data/deep/2021.qrels.pass.final.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_proof/intake/dl21_candidates/BM25.txt",
+      "bytes": 347951,
+      "sha256": "e916d3e65cc6ae930e9e9a2cf9245f5f09f44733c042c52fa353b968a72f0b98",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl21_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_proof/intake/dl21_candidates/BM25_RM3.txt",
+      "bytes": 347048,
+      "sha256": "4baffac8719d54c2c2fa9fa9476c447d05ba3e22c098c45e6523e65feea8dfb6",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl21_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_proof/intake/dl21_candidates/SPLADE_P_P_ENSEMBLE_DISTIL.txt",
+      "bytes": 312606,
+      "sha256": "872095edf0397568f3bcbf0aa70b990750fe8d93f18c28a66f8d3cad4ace5787",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl21_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_proof/intake/dl21_candidates/nist_dl21.html",
+      "bytes": 4588,
+      "sha256": "e09587ae63854138c0d6b0e1096181cebfc7ae6e3944a61303619044f92ea4b9",
+      "url": "https://trec.nist.gov/data/deep2021.html",
+      "size_and_digest_match": true,
+      "origin": "frozen catalogue snapshot already supplied in S1"
+    },
+    {
+      "path": "work/paperm_revision/holdout/inputs/2019qrels-pass.txt",
+      "bytes": 187092,
+      "sha256": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+      "url": "https://trec.nist.gov/data/deep/2019qrels-pass.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_revision/holdout/inputs/BM25.txt",
+      "bytes": 190529,
+      "sha256": "cbada2e4f710f8cafb8f1fd54e2289011b3273cdc044adb2380af21f63a6c861",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl19_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_revision/holdout/inputs/BM25_RM3.txt",
+      "bytes": 191863,
+      "sha256": "fd1b5b6358731eb82a42f240b27e2ec061b087a64dff8d61e9bc4f4e61175325",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl19_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_revision/holdout/inputs/D_BERT_KD_TASB.txt",
+      "bytes": 190741,
+      "sha256": "194ac7678312edbbd9aeb322e5b00fac63ecf081fccc2dd88e4c0dd2d8fc255e",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/D_BERT_KD_TASB/trec_results_dl19_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/paperm_revision/holdout/inputs/SPLADE_P_P_ENSEMBLE_DISTIL.txt",
+      "bytes": 147985,
+      "sha256": "5e09e4219740fd9b2a57637fccf6d00932c938c47a07b97ce0852c0b2596a4e1",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl19_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm/literature/dl20_qrels.txt",
+      "bytes": 218617,
+      "sha256": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+      "url": "https://trec.nist.gov/data/deep/2020qrels-pass.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm/literature/dl20_BM25.txt",
+      "bytes": 240316,
+      "sha256": "fba5d55aa8335bd1c74f7860dee354e69986b627c640b34ba47e084e311c24d2",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl20_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm/literature/dl20_BM25_RM3.txt",
+      "bytes": 241312,
+      "sha256": "7d21a75df074dcaf7dd9ac7c45fea29c17c5a13a72381a6c1ba6ec9eed49f156",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25_RM3/trec_results_dl20_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm/literature/dl20_D_BERT_KD_TASB.txt",
+      "bytes": 240082,
+      "sha256": "cc4765e2c732caa704c8df0d5af06fe8e02992893e77c676f4f31b3d22d9b05f",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/D_BERT_KD_TASB/trec_results_dl20_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm/literature/dl20_SPLADE_P_P_ENSEMBLE_DISTIL.txt",
+      "bytes": 186223,
+      "sha256": "24062fcd8b8dfdf9f2710907c786541c870e8463d5dadea6b9e903821694918e",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl20_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/qrels22.txt",
+      "bytes": 15800539,
+      "sha256": "6d03b5a1b0acc26925b8ba9967469a012ec0491fb55455cd36677c387366cf5f",
+      "url": "https://trec.nist.gov/data/deep/2022.qrels.pass.withDupes.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/dl22_bm25.txt",
+      "bytes": 503425,
+      "sha256": "10824d70521ec14adf6e00233f3338a3426f57895283900b3e9d4c51863b0856",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/BM25/trec_results_dl22_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/candidates/uga_colbert.txt",
+      "bytes": 3023373,
+      "sha256": "31dc792c6237c1891251f52ff31225de75890b753d6e158e7e70b10895d42f56",
+      "url": "https://raw.githubusercontent.com/galuscakova/trec-dl-2022/2d1b63de930ed5098e8309e6e3fafbc2f4de5198/test/colbert-test.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/candidates/rj_dl22_monot5-3b-msmarco.txt",
+      "bytes": 5355932,
+      "sha256": "09438f68d9eea56cba562d6178aac1c9800aea16d65c54e8e84aa3c43a415573",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--monot5-3b-msmarco.dl22-passage.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/candidates/rj_dl22_rank1-14b.txt",
+      "bytes": 5444336,
+      "sha256": "6a1edb3b324789ba8e74e6bbe89ea1107a0cdcfe0af8ea05880c8a937f2a5c46",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--rank1-14b.dl22-passage.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/candidates/rj_dl22_rankllama-v1-13b-lora-passage.txt",
+      "bytes": 4715319,
+      "sha256": "1eba74bf586f49ee54624a8028825fcad498719a5c604394b7723055175084df",
+      "url": "https://raw.githubusercontent.com/ChuanMeng/reranker-as-judge/4b60970db4ca842fe97a3f43963821272fa36439/output/rq3/runs/runs.bm25-1000--reranker.dl22-passage/run.bm25-1000--rankllama-v1-13b-lora-passage.dl22-passage.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    },
+    {
+      "path": "work/ipm_elevate/mars/dl22_splade.txt",
+      "bytes": 454452,
+      "sha256": "36949b00ff34340f047e478774b6287ce444cfb8fbac3177897e1ee51fcce513",
+      "url": "https://raw.githubusercontent.com/castorini/rank_llm_data/5051b8d7225d257ce0f892e1069a2e5ac45d8496/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/trec_results_dl22_top100.txt",
+      "size_and_digest_match": true,
+      "origin": "downloaded from pinned provider URL in this phase"
+    }
+  ],
+  "count": 22,
+  "bytes": 38778216,
+  "new_network_downloads": 21,
+  "retained_frozen_catalogue_snapshots": 1
+}

@@ -1,0 +1,4 @@
+scale_a,scale_b,cases_order_changed,completions_order_changed,completions_membership_indicator_changed,completions_prefix_indicator_changed
+10000,1000000,10,7176,2777,683
+10000,100000000,9,7796,3185,752
+1000000,100000000,4,622,408,71

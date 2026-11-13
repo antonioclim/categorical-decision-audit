@@ -1,0 +1,190 @@
+{
+  "source_sha256": {
+    "dl22/flat_gain_v1_1.json": "1ffd31cf7a0db8acdb24ab856456d6235d1c93f4cef9149f36b4d4a403c7a81f",
+    "dl22/quantised_log_discount_floor_gain_v1_1000000.json": "0688b87892b1d028ab556ad8fda0369cfb705c0aef7fd98193e69ce8660c009f",
+    "dl22_scale_diagnostics.json": "7798ae7088837bddbe6283b6806b62c952d957c0a681d9accfc833ae0cbb3411"
+  },
+  "figure1": {
+    "query_id": "2017299",
+    "metric": "flat_gain_v1",
+    "missing_grades": 6,
+    "completion_count": 4096,
+    "omitted_labels": [
+      "monoT5",
+      "Rank1",
+      "SPLADE"
+    ],
+    "omitted_run_indices": [
+      0,
+      1,
+      3
+    ],
+    "row_profile": "binary",
+    "column_profile": "linear graded",
+    "matrix": [
+      [
+        896,
+        0,
+        0
+      ],
+      [
+        96,
+        156,
+        4
+      ],
+      [
+        1344,
+        152,
+        1448
+      ]
+    ],
+    "agreement_count": 2500,
+    "disagreement_count": 1596,
+    "strict_disagreement_count": 8,
+    "all_zero_cell": [
+      1,
+      1
+    ],
+    "all_three_cell": [
+      2,
+      2
+    ],
+    "always_included": "RankLLaMA"
+  },
+  "figure2": {
+    "cohort": "DL22",
+    "stratum": "natural",
+    "cases": 70,
+    "discount_scale": 1000000,
+    "rows": [
+      {
+        "endpoint": "set",
+        "metric": "Flat",
+        "property": "any_change",
+        "count": 47,
+        "denominator": 70
+      },
+      {
+        "endpoint": "set",
+        "metric": "Flat",
+        "property": "strict_change",
+        "count": 32,
+        "denominator": 70
+      },
+      {
+        "endpoint": "set",
+        "metric": "Flat",
+        "property": "all_zero_disagrees",
+        "count": 15,
+        "denominator": 70
+      },
+      {
+        "endpoint": "set",
+        "metric": "Discount",
+        "property": "any_change",
+        "count": 48,
+        "denominator": 70
+      },
+      {
+        "endpoint": "set",
+        "metric": "Discount",
+        "property": "strict_change",
+        "count": 47,
+        "denominator": 70
+      },
+      {
+        "endpoint": "set",
+        "metric": "Discount",
+        "property": "all_zero_disagrees",
+        "count": 12,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Flat",
+        "property": "any_change",
+        "count": 63,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Flat",
+        "property": "strict_change",
+        "count": 25,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Flat",
+        "property": "all_zero_disagrees",
+        "count": 34,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Discount",
+        "property": "any_change",
+        "count": 65,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Discount",
+        "property": "strict_change",
+        "count": 58,
+        "denominator": 70
+      },
+      {
+        "endpoint": "prefix",
+        "metric": "Discount",
+        "property": "all_zero_disagrees",
+        "count": 35,
+        "denominator": 70
+      }
+    ]
+  },
+  "figure3": {
+    "cohort": "DL22",
+    "stratum": "natural",
+    "cases": 70,
+    "completions": 144526576,
+    "pairs": [
+      {
+        "agreement_indicator_changed_worlds": {
+          "prefix": 683,
+          "set": 2777
+        },
+        "cases_with_any_full_order_change": 10,
+        "full_order_change_worlds": 7176,
+        "scales": [
+          10000,
+          1000000
+        ]
+      },
+      {
+        "agreement_indicator_changed_worlds": {
+          "prefix": 752,
+          "set": 3185
+        },
+        "cases_with_any_full_order_change": 9,
+        "full_order_change_worlds": 7796,
+        "scales": [
+          10000,
+          100000000
+        ]
+      },
+      {
+        "agreement_indicator_changed_worlds": {
+          "prefix": 71,
+          "set": 408
+        },
+        "cases_with_any_full_order_change": 4,
+        "full_order_change_worlds": 622,
+        "scales": [
+          1000000,
+          100000000
+        ]
+      }
+    ]
+  }
+}
