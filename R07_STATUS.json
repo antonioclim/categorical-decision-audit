@@ -13,5 +13,24 @@
   "original_material_public_licence": "not designated, per recorded author instruction",
   "third_party_licences": "retained for their identified components",
   "workflow_files_included": false,
-  "data_policy": "No raw third-party runs/qrels, real passage-level cases or real witness assignments are bundled."
+  "data_policy": "No raw third-party runs/qrels, real passage-level cases or real witness assignments are bundled.",
+  "doi_synchronisation_snapshot": {
+    "date": "2026-11-13",
+    "source": "author-supplied Zenodo draft export",
+    "source_json_sha256": "ec20e2e7513c0e25b7a7e96ab4c1e6675ccfb6a8b7a595c735ff149d0fe7d329",
+    "record_id": "24197522",
+    "version_doi": "10.5281/zenodo.24197522",
+    "doi_state_at_snapshot": "reserved; record unpublished in supplied export",
+    "is_draft_reported": true,
+    "is_published_reported": false,
+    "record_status_reported": "new_version_draft",
+    "version_index_reported": 2,
+    "parent_id": "23971062",
+    "concept_doi": "10.5281/zenodo.23971062",
+    "public_source_baseline_before_doi_sync": "0be1dd78b18064742a9ccc90498d3ef3fd2f10f0",
+    "local_doi_metadata_revision_published_to_github": false,
+    "github_v2_release_published_at_snapshot": false,
+    "zenodo_live_api_independently_checked": false,
+    "scope": "Citation and wrapper documentation only; all 96 scientific component files are unchanged."
+  }
 }

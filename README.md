@@ -10,6 +10,17 @@ At preparation, this distribution had not been uploaded or published and no
 new DOI had been confirmed. The historical v1.0.0 release remains a separate,
 unchanged snapshot; see `CHANGELOG.md` for the change of empirical scope.
 
+**DOI synchronisation, 13 November 2026:** the author-supplied Zenodo export
+identifies new-version draft 24197522 with reserved DOI
+[10.5281/zenodo.24197522](https://doi.org/10.5281/zenodo.24197522), within
+the existing concept family
+[10.5281/zenodo.23971062](https://doi.org/10.5281/zenodo.23971062).
+The export reports this version as unpublished. This packaging snapshot
+includes the reserved DOI; it does not assert that the DOI is registered or
+that the GitHub v2.0.0 release has been published. The earlier source candidate
+was made public on 13 November 2026. The state recorded here is the state at
+packaging, not a live publication-status service.
+
 No general public licence is designated for the author's original materials
 in this distribution. Identified third-party notices remain applicable;
 see `RIGHTS.md`. Preparation does not grant additional reuse permissions.
@@ -44,7 +55,7 @@ independent observations or probabilities.
 | `components/S2/` | Preserved discounted producer/checker, certified coefficients, independent reference, synthetic validation, aggregate expectations and figures |
 | `run_reproduction.py` | Unified entry point; all generated results go to a new directory outside this repository |
 | `requirements.txt`, `ENVIRONMENT.md` | Python packages and separate system dependencies for full reconstruction |
-| `CITATION.cff` | Software citation metadata with the confirmed author and version; verified repository URL; no unconfirmed DOI or release date |
+| `CITATION.cff` | Software citation metadata with the confirmed author and version, repository URL and reserved version DOI; no release date asserted |
 | `SOURCE_COMPONENTS.json` | Original archive identities and verification of each preserved component |
 | `RIGHTS.md`, `THIRD_PARTY_NOTICES.md` | Actual licensing state and retained third-party attribution |
 

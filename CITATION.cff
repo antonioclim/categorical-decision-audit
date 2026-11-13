@@ -4,6 +4,7 @@ message: Please cite this software version when using these reproducibility
 type: software
 title: 'When Relevance Coding Changes the Shortlist: reproducibility software'
 version: 2.0.0
+doi: 10.5281/zenodo.24197522
 repository-code: https://github.com/antonioclim/categorical-decision-audit
 authors:
 - family-names: Clim
